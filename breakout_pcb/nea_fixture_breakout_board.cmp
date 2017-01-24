@@ -1,0 +1,243 @@
+Cmp-Mod V01 Created by PcbNew   date = 1/24/2017 12:32:30 AM
+
+BeginCmp
+TimeStamp = 58871286
+Path = /5886DD69
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5886EF57
+Path = /5886E2E5
+Reference = U1;
+ValeurCmp = MS8607;
+IdModule  = Footprints:MS8607;
+EndCmp
+
+BeginCmp
+TimeStamp = 588709ED
+Path = /58874337
+Reference = D1;
+ValeurCmp = LED_SMT;
+IdModule  = Footprints:0603_diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 58870A0D
+Path = /588749CF
+Reference = D2;
+ValeurCmp = LED_SMT;
+IdModule  = Footprints:0603_diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 58870A2D
+Path = /5886C19D
+Reference = P1;
+ValeurCmp = CONN_02X13;
+IdModule  = Footprints:header_smt_2x13;
+EndCmp
+
+BeginCmp
+TimeStamp = 58870A6B
+Path = /5886C14C
+Reference = P2;
+ValeurCmp = CONN_02X15;
+IdModule  = Footprints:header_smt_2x15;
+EndCmp
+
+BeginCmp
+TimeStamp = 588711FB
+Path = /58831B10
+Reference = BP1;
+ValeurCmp = Die Bond Pads;
+IdModule  = Footprints:bondpads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887146C
+Path = /5887E2E5
+Reference = H2;
+ValeurCmp = dowel_holes;
+IdModule  = Footprints:dowel_holes;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871637
+Path = /5887E3FD
+Reference = H1;
+ValeurCmp = mount_holes;
+IdModule  = Footprints:mount_holes;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887122C
+Path = /5886D086
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887123B
+Path = /5886D49C
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887124A
+Path = /5886D8CD
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871259
+Path = /5886D8D3
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871268
+Path = /5886DD58
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871277
+Path = /5886DD5E
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871295
+Path = /5886DD6F
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712A4
+Path = /5886DE40
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712B3
+Path = /5886DE46
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712C2
+Path = /5886DE51
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712D1
+Path = /5886DE57
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712E0
+Path = /588709CF
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712EF
+Path = /588709D5
+Reference = R14;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 588712FE
+Path = /588709E1
+Reference = R15;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887130D
+Path = /588709E7
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887131C
+Path = /588709F0
+Reference = R17;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887132B
+Path = /588709F6
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5887133A
+Path = /588709FF
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871349
+Path = /58870A05
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871358
+Path = /58870A0E
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58871367
+Path = /58870A14
+Reference = R22;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+EndListe
