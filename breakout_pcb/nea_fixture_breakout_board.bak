@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nea_fixture_breakout_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -438,17 +439,6 @@ F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 1900 60  0001 C CNN "description"
 	1    7295 1900
 	0    1    1    0   
 $EndComp
-$Comp
-L Res1 R2
-U 1 1 5886D49C
-P 6925 2000
-F 0 "R2" V 6895 1825 40  0000 C CNN
-F 1 "10k" V 6885 2130 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2000 30  0001 C CNN
-F 3 "" H 6925 2000 30  0000 C CNN
-	1    6925 2000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 2000 7585 2000
 Wire Wire Line
@@ -461,140 +451,30 @@ Wire Wire Line
 	6250 2100 7170 2100
 Wire Wire Line
 	6250 2200 6800 2200
-$Comp
-L Res1 R3
-U 1 1 5886D8CD
-P 7295 2100
-F 0 "R3" V 7265 1925 40  0000 C CNN
-F 1 "10k" V 7255 2230 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2100 30  0001 C CNN
-F 3 "" H 7295 2100 30  0000 C CNN
-	1    7295 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R4
-U 1 1 5886D8D3
-P 6925 2200
-F 0 "R4" V 6895 2025 40  0000 C CNN
-F 1 "10k" V 6885 2330 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2200 30  0001 C CNN
-F 3 "" H 6925 2200 30  0000 C CNN
-	1    6925 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 2200 7585 2200
 Wire Wire Line
 	7395 2100 7585 2100
 Wire Wire Line
 	6250 2300 7170 2300
-$Comp
-L Res1 R5
-U 1 1 5886DD58
-P 7295 2300
-F 0 "R5" V 7265 2125 40  0000 C CNN
-F 1 "10k" V 7255 2430 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2300 30  0001 C CNN
-F 3 "" H 7295 2300 30  0000 C CNN
-	1    7295 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R6
-U 1 1 5886DD5E
-P 6925 2400
-F 0 "R6" V 6895 2225 40  0000 C CNN
-F 1 "10k" V 6885 2530 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2400 30  0001 C CNN
-F 3 "" H 6925 2400 30  0000 C CNN
-	1    6925 2400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 2400 7585 2400
 Wire Wire Line
 	7395 2300 7585 2300
 Wire Wire Line
 	6250 2500 7170 2500
-$Comp
-L Res1 R7
-U 1 1 5886DD69
-P 7295 2500
-F 0 "R7" V 7265 2325 40  0000 C CNN
-F 1 "10k" V 7255 2630 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2500 30  0001 C CNN
-F 3 "" H 7295 2500 30  0000 C CNN
-	1    7295 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R8
-U 1 1 5886DD6F
-P 6925 2600
-F 0 "R8" V 6895 2425 40  0000 C CNN
-F 1 "10k" V 6885 2730 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2600 30  0001 C CNN
-F 3 "" H 6925 2600 30  0000 C CNN
-	1    6925 2600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 2600 7585 2600
 Wire Wire Line
 	7395 2500 7585 2500
 Wire Wire Line
 	6250 2700 7170 2700
-$Comp
-L Res1 R9
-U 1 1 5886DE40
-P 7295 2700
-F 0 "R9" V 7265 2525 40  0000 C CNN
-F 1 "10k" V 7255 2830 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2700 30  0001 C CNN
-F 3 "" H 7295 2700 30  0000 C CNN
-	1    7295 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R10
-U 1 1 5886DE46
-P 6925 2800
-F 0 "R10" V 6895 2625 40  0000 C CNN
-F 1 "10k" V 6885 2930 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2800 30  0001 C CNN
-F 3 "" H 6925 2800 30  0000 C CNN
-	1    6925 2800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 2800 7585 2800
 Wire Wire Line
 	7395 2700 7585 2700
 Wire Wire Line
 	6250 2900 7170 2900
-$Comp
-L Res1 R11
-U 1 1 5886DE51
-P 7295 2900
-F 0 "R11" V 7265 2725 40  0000 C CNN
-F 1 "10k" V 7255 3030 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2900 30  0001 C CNN
-F 3 "" H 7295 2900 30  0000 C CNN
-	1    7295 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R12
-U 1 1 5886DE57
-P 6925 3700
-F 0 "R12" V 6895 3525 40  0000 C CNN
-F 1 "10k" V 6885 3830 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 3700 30  0001 C CNN
-F 3 "" H 6925 3700 30  0000 C CNN
-	1    6925 3700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 3700 7585 3700
 Wire Wire Line
@@ -629,28 +509,6 @@ Wire Wire Line
 	6250 4500 6800 4500
 Wire Wire Line
 	6250 4700 6800 4700
-$Comp
-L Res1 R13
-U 1 1 588709CF
-P 7295 3800
-F 0 "R13" V 7265 3625 40  0000 C CNN
-F 1 "10k" V 7255 3930 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 3800 30  0001 C CNN
-F 3 "" H 7295 3800 30  0000 C CNN
-	1    7295 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R14
-U 1 1 588709D5
-P 6925 3900
-F 0 "R14" V 6895 3725 40  0000 C CNN
-F 1 "10k" V 6885 4030 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 3900 30  0001 C CNN
-F 3 "" H 6925 3900 30  0000 C CNN
-	1    6925 3900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 3900 7585 3900
 Wire Wire Line
@@ -659,112 +517,24 @@ Wire Wire Line
 	6250 4000 7170 4000
 Wire Wire Line
 	6250 4100 6800 4100
-$Comp
-L Res1 R15
-U 1 1 588709E1
-P 7295 4000
-F 0 "R15" V 7265 3825 40  0000 C CNN
-F 1 "10k" V 7255 4130 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4000 30  0001 C CNN
-F 3 "" H 7295 4000 30  0000 C CNN
-	1    7295 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R16
-U 1 1 588709E7
-P 6925 4100
-F 0 "R16" V 6895 3925 40  0000 C CNN
-F 1 "10k" V 6885 4230 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4100 30  0001 C CNN
-F 3 "" H 6925 4100 30  0000 C CNN
-	1    6925 4100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 4100 7585 4100
 Wire Wire Line
 	7395 4000 7585 4000
 Wire Wire Line
 	6250 4200 7170 4200
-$Comp
-L Res1 R17
-U 1 1 588709F0
-P 7295 4200
-F 0 "R17" V 7265 4025 40  0000 C CNN
-F 1 "10k" V 7255 4330 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4200 30  0001 C CNN
-F 3 "" H 7295 4200 30  0000 C CNN
-	1    7295 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R18
-U 1 1 588709F6
-P 6925 4300
-F 0 "R18" V 6895 4125 40  0000 C CNN
-F 1 "10k" V 6885 4430 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4300 30  0001 C CNN
-F 3 "" H 6925 4300 30  0000 C CNN
-	1    6925 4300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 4300 7585 4300
 Wire Wire Line
 	7395 4200 7585 4200
 Wire Wire Line
 	6250 4400 7170 4400
-$Comp
-L Res1 R19
-U 1 1 588709FF
-P 7295 4400
-F 0 "R19" V 7265 4225 40  0000 C CNN
-F 1 "10k" V 7255 4530 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4400 30  0001 C CNN
-F 3 "" H 7295 4400 30  0000 C CNN
-	1    7295 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R20
-U 1 1 58870A05
-P 6925 4500
-F 0 "R20" V 6895 4325 40  0000 C CNN
-F 1 "10k" V 6885 4630 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4500 30  0001 C CNN
-F 3 "" H 6925 4500 30  0000 C CNN
-	1    6925 4500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 4500 7585 4500
 Wire Wire Line
 	7395 4400 7585 4400
 Wire Wire Line
 	6250 4600 7170 4600
-$Comp
-L Res1 R21
-U 1 1 58870A0E
-P 7295 4600
-F 0 "R21" V 7265 4425 40  0000 C CNN
-F 1 "10k" V 7255 4730 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4600 30  0001 C CNN
-F 3 "" H 7295 4600 30  0000 C CNN
-	1    7295 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Res1 R22
-U 1 1 58870A14
-P 6925 4700
-F 0 "R22" V 6895 4525 40  0000 C CNN
-F 1 "10k" V 6885 4830 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4700 30  0001 C CNN
-F 3 "" H 6925 4700 30  0000 C CNN
-	1    6925 4700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7025 4700 7585 4700
 Wire Wire Line
@@ -790,7 +560,7 @@ U1
 Text Label 7585 4700 0    60   ~ 0
 V1
 $Comp
-L MS8607 U1
+L MS8607-RESCUE-nea_fixture_breakout_board U1
 U 1 1 5886E2E5
 P 3000 5950
 F 0 "U1" H 3200 6350 60  0000 C CNN
@@ -806,8 +576,6 @@ F 7 "MS860702BA01-50 " H 3000 5950 60  0001 C CNN "manufacturer pn"
 $EndComp
 Wire Wire Line
 	6250 4800 7350 4800
-Wire Wire Line
-	6250 4900 7075 4900
 Wire Wire Line
 	6250 5000 6690 5000
 Wire Wire Line
@@ -825,10 +593,10 @@ NoConn ~ 3600 5950
 NoConn ~ 2800 5750
 NoConn ~ 2800 5950
 $Comp
-L GND #PWR01
+L GND #PWR4
 U 1 1 58872187
 P 2380 5930
-F 0 "#PWR01" H 2380 5680 50  0001 C CNN
+F 0 "#PWR4" H 2380 5680 50  0001 C CNN
 F 1 "GND" H 2380 5780 50  0000 C CNN
 F 2 "" H 2380 5930 50  0000 C CNN
 F 3 "" H 2380 5930 50  0000 C CNN
@@ -845,17 +613,17 @@ Text Label 5445 4800 0    60   ~ 0
 VDD
 Text Label 5435 5000 0    60   ~ 0
 SCL
-Text Label 5440 4900 0    60   ~ 0
+Text Label 6360 4900 0    60   ~ 0
 SDA
-Text Label 6365 4900 0    60   ~ 0
+Text Label 5435 4900 0    60   ~ 0
 LED1
 Text Label 6365 4800 0    60   ~ 0
 LED2
 $Comp
-L GND #PWR02
+L GND #PWR1
 U 1 1 5887396D
 P 6690 5085
-F 0 "#PWR02" H 6690 4835 50  0001 C CNN
+F 0 "#PWR1" H 6690 4835 50  0001 C CNN
 F 1 "GND" H 6690 4935 50  0000 C CNN
 F 2 "" H 6690 5085 50  0000 C CNN
 F 3 "" H 6690 5085 50  0000 C CNN
@@ -865,17 +633,17 @@ $EndComp
 $Comp
 L LED_SMT D1
 U 1 1 58874337
-P 7075 5375
-F 0 "D1" V 7075 5475 50  0000 C CNN
-F 1 "LED_SMT" H 7100 5225 50  0001 C CNN
-F 2 "Footprints:0603_diode" H 7125 5975 60  0001 C CNN
-F 3 "" H 7075 5375 60  0000 C CNN
-F 4 "LED 1.6X0.8MM 568NM GRN CLR SMD" H 7225 5675 50  0001 C CNN "description"
-F 5 "digikey" H 6850 5775 50  0001 C CNN "supplier"
-F 6 "754-1121-1-ND" H 7375 5775 50  0001 C CNN "supplier pn"
-F 7 "Kingbright" H 6825 5875 50  0001 C CNN "manufacturer"
-F 8 "APT1608SGC" H 7325 5875 50  0001 C CNN "manufacturer pn"
-	1    7075 5375
+P 4950 5315
+F 0 "D1" V 4950 5415 50  0000 C CNN
+F 1 "LED_SMT" H 4975 5165 50  0001 C CNN
+F 2 "Footprints:0603_diode" H 5000 5915 60  0001 C CNN
+F 3 "" H 4950 5315 60  0000 C CNN
+F 4 "LED 1.6X0.8MM 568NM GRN CLR SMD" H 5100 5615 50  0001 C CNN "description"
+F 5 "digikey" H 4725 5715 50  0001 C CNN "supplier"
+F 6 "754-1121-1-ND" H 5250 5715 50  0001 C CNN "supplier pn"
+F 7 "Kingbright" H 4700 5815 50  0001 C CNN "manufacturer"
+F 8 "APT1608SGC" H 5200 5815 50  0001 C CNN "manufacturer pn"
+	1    4950 5315
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -895,14 +663,12 @@ F 8 "APT1608SGC" H 7600 5880 50  0001 C CNN "manufacturer pn"
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7075 4900 7075 5225
-Wire Wire Line
 	7350 4800 7350 5230
 $Comp
-L GND #PWR03
+L GND #PWR3
 U 1 1 58875A11
 P 7350 5740
-F 0 "#PWR03" H 7350 5490 50  0001 C CNN
+F 0 "#PWR3" H 7350 5490 50  0001 C CNN
 F 1 "GND" H 7350 5590 50  0000 C CNN
 F 2 "" H 7350 5740 50  0000 C CNN
 F 3 "" H 7350 5740 50  0000 C CNN
@@ -911,11 +677,6 @@ F 3 "" H 7350 5740 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7350 5530 7350 5740
-Wire Wire Line
-	7075 5525 7075 5665
-Wire Wire Line
-	7075 5665 7350 5665
-Connection ~ 7350 5665
 Text Notes 7265 7005 0    118  ~ 0
 NEA Sensor Research Fixture \nBreakout PCB
 NoConn ~ 5750 3000
@@ -945,7 +706,360 @@ $EndComp
 Wire Wire Line
 	6690 5000 6690 5085
 Wire Wire Line
-	5750 4900 5330 4900
+	6670 4900 6250 4900
 Wire Wire Line
 	5750 4800 5330 4800
+$Comp
+L GND #PWR2
+U 1 1 5888F80B
+P 4950 5535
+F 0 "#PWR2" H 4950 5285 50  0001 C CNN
+F 1 "GND" H 4950 5385 50  0000 C CNN
+F 2 "" H 4950 5535 50  0000 C CNN
+F 3 "" H 4950 5535 50  0000 C CNN
+	1    4950 5535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5535 4950 5465
+Wire Wire Line
+	5750 4900 4950 4900
+Wire Wire Line
+	4950 4900 4950 5165
+$Comp
+L Res1 R2
+U 1 1 58881A29
+P 6925 2000
+F 0 "R2" V 6895 1825 40  0000 C CNN
+F 1 "1.5k" V 6885 2130 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2000 30  0001 C CNN
+F 3 "" H 6925 2000 30  0000 C CNN
+F 4 "digikey" V 6925 2000 60  0001 C CNN "supplier"
+F 5 "311-1.50KHRCT-ND" V 6925 2000 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 2000 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071K5L " V 6925 2000 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1.5K OHM 1% 1/10W 0603 " V 6925 2000 60  0001 C CNN "description"
+	1    6925 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R3
+U 1 1 58881C51
+P 7295 2100
+F 0 "R3" V 7265 1925 40  0000 C CNN
+F 1 "2k" V 7255 2230 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2100 30  0001 C CNN
+F 3 "" H 7295 2100 30  0000 C CNN
+F 4 "digikey" V 7295 2100 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 2100 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 2100 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 2100 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 2100 60  0001 C CNN "description"
+	1    7295 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R4
+U 1 1 58881D12
+P 6925 2200
+F 0 "R4" V 6895 2025 40  0000 C CNN
+F 1 "2.7k" V 6885 2330 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2200 30  0001 C CNN
+F 3 "" H 6925 2200 30  0000 C CNN
+F 4 "digikey" V 6925 2200 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 2200 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 2200 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 2200 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 2200 60  0001 C CNN "description"
+	1    6925 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R5
+U 1 1 58881DFE
+P 7295 2300
+F 0 "R5" V 7265 2125 40  0000 C CNN
+F 1 "3.3k" V 7255 2430 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2300 30  0001 C CNN
+F 3 "" H 7295 2300 30  0000 C CNN
+F 4 "digikey" V 7295 2300 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 2300 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 2300 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 2300 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 2300 60  0001 C CNN "description"
+	1    7295 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R6
+U 1 1 588823FB
+P 6925 2400
+F 0 "R6" V 6895 2225 40  0000 C CNN
+F 1 "3.9k" V 6885 2530 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2400 30  0001 C CNN
+F 3 "" H 6925 2400 30  0000 C CNN
+F 4 "digikey" V 6925 2400 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 2400 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 2400 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 2400 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 2400 60  0001 C CNN "description"
+	1    6925 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R7
+U 1 1 5888250B
+P 7295 2500
+F 0 "R7" V 7265 2325 40  0000 C CNN
+F 1 "4.7k" V 7255 2630 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2500 30  0001 C CNN
+F 3 "" H 7295 2500 30  0000 C CNN
+F 4 "digikey" V 7295 2500 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 2500 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 2500 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 2500 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 2500 60  0001 C CNN "description"
+	1    7295 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R8
+U 1 1 588825BA
+P 6925 2600
+F 0 "R8" V 6895 2425 40  0000 C CNN
+F 1 "5.6k" V 6885 2730 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2600 30  0001 C CNN
+F 3 "" H 6925 2600 30  0000 C CNN
+F 4 "digikey" V 6925 2600 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 2600 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 2600 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 2600 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 2600 60  0001 C CNN "description"
+	1    6925 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R9
+U 1 1 58882694
+P 7295 2700
+F 0 "R9" V 7265 2525 40  0000 C CNN
+F 1 "6.2k" V 7255 2830 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2700 30  0001 C CNN
+F 3 "" H 7295 2700 30  0000 C CNN
+F 4 "digikey" V 7295 2700 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 2700 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 2700 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 2700 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 2700 60  0001 C CNN "description"
+	1    7295 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R10
+U 1 1 58882741
+P 6925 2800
+F 0 "R10" V 6895 2625 40  0000 C CNN
+F 1 "6.81k" V 6885 2930 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 2800 30  0001 C CNN
+F 3 "" H 6925 2800 30  0000 C CNN
+F 4 "digikey" V 6925 2800 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 2800 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 2800 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 2800 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 2800 60  0001 C CNN "description"
+	1    6925 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R11
+U 1 1 58882817
+P 7295 2900
+F 0 "R11" V 7265 2725 40  0000 C CNN
+F 1 "7.5k" V 7255 3030 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 2900 30  0001 C CNN
+F 3 "" H 7295 2900 30  0000 C CNN
+F 4 "digikey" V 7295 2900 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 2900 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 2900 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 2900 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 2900 60  0001 C CNN "description"
+	1    7295 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R12
+U 1 1 58883681
+P 6925 3700
+F 0 "R12" V 6895 3525 40  0000 C CNN
+F 1 "8.2k" V 6885 3830 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 3700 30  0001 C CNN
+F 3 "" H 6925 3700 30  0000 C CNN
+F 4 "digikey" V 6925 3700 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 3700 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 3700 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 3700 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 3700 60  0001 C CNN "description"
+	1    6925 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R13
+U 1 1 588838AE
+P 7295 3800
+F 0 "R13" V 7265 3625 40  0000 C CNN
+F 1 "10k" V 7255 3930 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 3800 30  0001 C CNN
+F 3 "" H 7295 3800 30  0000 C CNN
+F 4 "digikey" V 7295 3800 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 3800 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 3800 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 3800 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 3800 60  0001 C CNN "description"
+	1    7295 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R14
+U 1 1 5888395E
+P 6925 3900
+F 0 "R14" V 6895 3725 40  0000 C CNN
+F 1 "11k" V 6885 4030 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 3900 30  0001 C CNN
+F 3 "" H 6925 3900 30  0000 C CNN
+F 4 "digikey" V 6925 3900 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 3900 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 3900 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 3900 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 3900 60  0001 C CNN "description"
+	1    6925 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R15
+U 1 1 58883A15
+P 7295 4000
+F 0 "R15" V 7265 3825 40  0000 C CNN
+F 1 "12k" V 7255 4130 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4000 30  0001 C CNN
+F 3 "" H 7295 4000 30  0000 C CNN
+F 4 "digikey" V 7295 4000 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 4000 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 4000 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 4000 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 4000 60  0001 C CNN "description"
+	1    7295 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R16
+U 1 1 58883AC1
+P 6925 4100
+F 0 "R16" V 6895 3925 40  0000 C CNN
+F 1 "13k" V 6885 4230 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4100 30  0001 C CNN
+F 3 "" H 6925 4100 30  0000 C CNN
+F 4 "digikey" V 6925 4100 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 4100 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 4100 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 4100 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 4100 60  0001 C CNN "description"
+	1    6925 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R17
+U 1 1 588840C3
+P 7295 4200
+F 0 "R17" V 7265 4025 40  0000 C CNN
+F 1 "14k" V 7255 4330 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4200 30  0001 C CNN
+F 3 "" H 7295 4200 30  0000 C CNN
+F 4 "digikey" V 7295 4200 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 4200 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 4200 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 4200 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 4200 60  0001 C CNN "description"
+	1    7295 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R18
+U 1 1 58884183
+P 6925 4300
+F 0 "R18" V 6895 4125 40  0000 C CNN
+F 1 "15k" V 6885 4430 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4300 30  0001 C CNN
+F 3 "" H 6925 4300 30  0000 C CNN
+F 4 "digikey" V 6925 4300 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 4300 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 4300 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 4300 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 4300 60  0001 C CNN "description"
+	1    6925 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R19
+U 1 1 58884264
+P 7295 4400
+F 0 "R19" V 7265 4225 40  0000 C CNN
+F 1 "16k" V 7255 4530 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4400 30  0001 C CNN
+F 3 "" H 7295 4400 30  0000 C CNN
+F 4 "digikey" V 7295 4400 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 4400 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 4400 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 4400 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 4400 60  0001 C CNN "description"
+	1    7295 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R20
+U 1 1 58884320
+P 6925 4500
+F 0 "R20" V 6895 4325 40  0000 C CNN
+F 1 "17.4k" V 6885 4630 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4500 30  0001 C CNN
+F 3 "" H 6925 4500 30  0000 C CNN
+F 4 "digikey" V 6925 4500 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 4500 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 4500 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 4500 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 4500 60  0001 C CNN "description"
+	1    6925 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R21
+U 1 1 588843E5
+P 7295 4600
+F 0 "R21" V 7265 4425 40  0000 C CNN
+F 1 "18k" V 7255 4730 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7225 4600 30  0001 C CNN
+F 3 "" H 7295 4600 30  0000 C CNN
+F 4 "digikey" V 7295 4600 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 7295 4600 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 7295 4600 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 7295 4600 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 7295 4600 60  0001 C CNN "description"
+	1    7295 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1 R22
+U 1 1 588844BF
+P 6925 4700
+F 0 "R22" V 6895 4525 40  0000 C CNN
+F 1 "20k" V 6885 4830 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6855 4700 30  0001 C CNN
+F 3 "" H 6925 4700 30  0000 C CNN
+F 4 "digikey" V 6925 4700 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 6925 4700 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 6925 4700 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 6925 4700 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 4700 60  0001 C CNN "description"
+	1    6925 4700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

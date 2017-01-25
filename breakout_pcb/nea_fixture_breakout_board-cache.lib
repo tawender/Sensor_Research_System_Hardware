@@ -305,11 +305,11 @@ X K 2 150 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MS8607
+# MS8607-RESCUE-nea_fixture_breakout_board
 #
-DEF MS8607 U 0 40 Y Y 1 F N
+DEF MS8607-RESCUE-nea_fixture_breakout_board U 0 40 Y Y 1 F N
 F0 "U" 200 400 60 H V C CNN
-F1 "MS8607" 200 -100 60 H V C CNN
+F1 "MS8607-RESCUE-nea_fixture_breakout_board" 200 -100 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

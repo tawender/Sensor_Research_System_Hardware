@@ -45,3 +45,49 @@ D11   --> D114
 D12   --> D115
 D13   --> D116
 -----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gbl' ----   Tue Jan 24 19:11:18 2017
+
+D11   --> D100
+D12   --> D101
+D13   --> D102
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gbo' ----   Tue Jan 24 19:11:18 2017
+
+D11   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gbs' ----   Tue Jan 24 19:11:18 2017
+
+D12   --> D104
+D13   --> D105
+D14   --> D106
+D15   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gko' ----   Tue Jan 24 19:11:18 2017
+
+D11   --> D108
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gtl' ----   Tue Jan 24 19:11:18 2017
+
+D11   --> D109
+D12   --> D110
+D13   --> D111
+D14   --> D112
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\rev2\breakout_pcb\project_outputs\nea_fixture_breakout_board-R1.gto' ----   Tue Jan 24 19:11:18 2017
+
+D11   --> D113
+D12   --> D114
+D13   --> D115
+-----------------------------------------------------------------
