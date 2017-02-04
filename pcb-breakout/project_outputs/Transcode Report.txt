@@ -91,3 +91,62 @@ D11   --> D113
 D12   --> D114
 D13   --> D115
 -----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gbo' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gbs' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gko' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gtl' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D108
+D12   --> D109
+D13   --> D110
+D14   --> D111
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gto' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D112
+D12   --> D113
+D13   --> D114
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gts' ----   Wed Feb 01 23:47:54 2017
+
+D11   --> D115
+D12   --> D116
+D13   --> D117
+D14   --> D118
+D15   --> D119
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\project_outputs\nea_fixture_breakout_board-R2.gtl' ----   Wed Feb 01 23:51:15 2017
+
+D11   --> D120
+D12   --> D121
+D13   --> D122
+D14   --> D123
+-----------------------------------------------------------------

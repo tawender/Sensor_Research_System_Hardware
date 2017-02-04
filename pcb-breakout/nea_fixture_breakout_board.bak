@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Breakout PCB Schematic"
-Date "2017-01-23"
+Date "2017-01-24"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -579,13 +579,13 @@ Wire Wire Line
 Wire Wire Line
 	6250 5000 6690 5000
 Wire Wire Line
-	2800 5650 2380 5650
+	2290 5650 2800 5650
 Wire Wire Line
 	2800 5850 2380 5850
 Wire Wire Line
 	4020 5650 3600 5650
 Wire Wire Line
-	4020 5750 3600 5750
+	3600 5750 4300 5750
 Text Label 2380 5650 0    60   ~ 0
 VDD
 NoConn ~ 3600 5850
@@ -1062,4 +1062,51 @@ F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 6925 4700 60  0001 C CNN "description"
 	1    6925 4700
 	0    1    1    0   
 $EndComp
+$Comp
+L Res1 R?
+U 1 1 5892A783
+P 4300 5390
+F 0 "R?" H 4420 5415 40  0000 C CNN
+F 1 "10k" H 4425 5340 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 4230 5390 30  0001 C CNN
+F 3 "" H 4300 5390 30  0000 C CNN
+F 4 "digikey" V 4300 5390 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 4300 5390 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 4300 5390 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 4300 5390 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 4300 5390 60  0001 C CNN "description"
+	1    4300 5390
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1 R?
+U 1 1 5892AEA4
+P 4020 5385
+F 0 "R?" H 4140 5405 40  0000 C CNN
+F 1 "10k" H 4140 5330 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3950 5385 30  0001 C CNN
+F 3 "" H 4020 5385 30  0000 C CNN
+F 4 "digikey" V 4020 5385 60  0001 C CNN "supplier"
+F 5 "311-1.00KHRCT-ND" V 4020 5385 60  0001 C CNN "supplier pn"
+F 6 "Yageo" V 4020 5385 60  0001 C CNN "manufacturer"
+F 7 " RC0603FR-071KL " V 4020 5385 60  0001 C CNN "manufacturer pn"
+F 8 " RES SMD 1K OHM 1% 1/10W 0603 " V 4020 5385 60  0001 C CNN "description"
+	1    4020 5385
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4020 5650 4020 5510
+Wire Wire Line
+	4300 5750 4300 5515
+Text Label 4020 5020 0    60   ~ 0
+VDD
+Wire Wire Line
+	4300 5290 4300 5190
+Wire Wire Line
+	4300 5190 4020 5190
+Wire Wire Line
+	4020 5020 4020 5190
+Wire Wire Line
+	4020 5190 4020 5285
+Connection ~ 4020 5190
 $EndSCHEMATC
