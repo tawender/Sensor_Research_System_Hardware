@@ -411,7 +411,7 @@ Text Label 1605 6850 0    60   ~ 0
 U2
 Text Label 1590 7050 0    60   ~ 0
 V2
-Text Label 1570 1235 0    60   ~ 0
+Text Label 1655 1075 0    60   ~ 0
 MID2
 Text Label 1660 4100 0    60   ~ 0
 L1
@@ -443,19 +443,19 @@ Text Label 1540 7130 0    60   ~ 0
 LED1
 Text Label 1520 7210 0    60   ~ 0
 LED2
-Text Label 1570 1155 0    60   ~ 0
+Text Label 1720 1155 0    60   ~ 0
 A1
 Wire Wire Line
 	1895 1155 1570 1155
-Text Label 1570 995  0    60   ~ 0
+Text Label 1710 1315 0    60   ~ 0
 B1
 Wire Wire Line
 	1895 1315 1570 1315
-Text Label 1570 1675 0    60   ~ 0
+Text Label 1710 1515 0    60   ~ 0
 C1
 Wire Wire Line
 	1895 1515 1570 1515
-Text Label 1570 1515 0    60   ~ 0
+Text Label 1710 1675 0    60   ~ 0
 D1
 Wire Wire Line
 	1895 1675 1570 1675
@@ -475,21 +475,21 @@ Text Label 1660 3780 0    60   ~ 0
 J1
 Text Label 1660 3940 0    60   ~ 0
 K1
-Text Label 1570 1315 0    60   ~ 0
+Text Label 1660 995  0    60   ~ 0
 MID1
 Wire Wire Line
 	1895 995  1570 995 
-Text Label 1570 1075 0    60   ~ 0
+Text Label 1715 1235 0    60   ~ 0
 A2
 Wire Wire Line
 	1570 1235 1895 1235
-Text Label 1570 1755 0    60   ~ 0
+Text Label 1710 1435 0    60   ~ 0
 B2
 Wire Wire Line
 	1570 1435 1895 1435
-Text Label 1570 1595 0    60   ~ 0
+Text Label 1705 1595 0    60   ~ 0
 C2
-Text Label 1570 1435 0    60   ~ 0
+Text Label 1710 1755 0    60   ~ 0
 D2
 Text Label 1680 2490 0    60   ~ 0
 E2
@@ -609,7 +609,7 @@ Text Label 2750 6850 0    60   ~ 0
 U2_SW
 Text Label 2735 7050 0    60   ~ 0
 V2_SW
-Text Label 2785 1235 0    60   ~ 0
+Text Label 2800 1075 0    60   ~ 0
 MID2_SW
 Text Label 2805 4100 0    60   ~ 0
 L1_SW
@@ -643,15 +643,15 @@ Text Label 2665 7210 0    60   ~ 0
 LED2_SW
 Wire Wire Line
 	3040 1155 2715 1155
-Text Label 2775 995  0    60   ~ 0
+Text Label 2855 1315 0    60   ~ 0
 B1_SW
 Wire Wire Line
 	3040 1315 2715 1315
-Text Label 2790 1675 0    60   ~ 0
+Text Label 2855 1515 0    60   ~ 0
 C1_SW
 Wire Wire Line
 	3040 1515 2715 1515
-Text Label 2785 1515 0    60   ~ 0
+Text Label 2855 1675 0    60   ~ 0
 D1_SW
 Wire Wire Line
 	3040 1675 2715 1675
@@ -671,19 +671,19 @@ Text Label 2805 3780 0    60   ~ 0
 J1_SW
 Text Label 2805 3940 0    60   ~ 0
 K1_SW
-Text Label 2790 1315 0    60   ~ 0
+Text Label 2805 995  0    60   ~ 0
 MID1_SW
 Wire Wire Line
 	3040 995  2715 995 
 Wire Wire Line
 	2715 1235 3040 1235
-Text Label 2795 1755 0    60   ~ 0
+Text Label 2855 1435 0    60   ~ 0
 B2_SW
 Wire Wire Line
 	2715 1435 3040 1435
-Text Label 2785 1595 0    60   ~ 0
+Text Label 2850 1595 0    60   ~ 0
 C2_SW
-Text Label 2790 1435 0    60   ~ 0
+Text Label 2855 1755 0    60   ~ 0
 D2_SW
 Text Label 2825 2490 0    60   ~ 0
 E2_SW
@@ -781,9 +781,9 @@ Wire Wire Line
 	2600 7130 2925 7130
 Wire Wire Line
 	2600 7290 2925 7290
-Text Label 2780 1155 0    60   ~ 0
+Text Label 2865 1155 0    60   ~ 0
 A1_SW
-Text Label 2775 1075 0    60   ~ 0
+Text Label 2860 1235 0    60   ~ 0
 A2_SW
 Wire Wire Line
 	1895 1075 1570 1075
