@@ -36,7 +36,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Schematic - NEA Research Fixture Switch PCB"
-Date "2017-02-06"
+Date "2017-02-09"
 Rev "1"
 Comp "Custom Silicon Solutions"
 Comment1 ""
@@ -50,7 +50,7 @@ U 1 1 588CBED8
 P 7105 1795
 F 0 "P1" H 7105 2595 50  0000 C CNN
 F 1 "CONN_02X15" H 7105 945 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x15_Pitch2.54mm" H 7105 645 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x15_Pitch2.54mm" H 7105 645 50  0001 C CNN
 F 3 "" H 7105 645 50  0000 C CNN
 F 4 "digikey" H 7105 1795 60  0001 C CNN "supplier"
 F 5 "A107235-ND " H 7105 1795 60  0001 C CNN "supplier pn"
@@ -66,7 +66,7 @@ U 1 1 588CBEDF
 P 5715 1900
 F 0 "P2" H 5715 2600 50  0000 C CNN
 F 1 "CONN_02X13" H 5715 1150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x13_Pitch2.54mm" H 5715 750 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x13_Pitch2.54mm" H 5715 750 50  0001 C CNN
 F 3 "" H 5715 750 50  0000 C CNN
 F 4 "digikey" H 5715 1900 60  0001 C CNN "supplier"
 F 5 "A26494-ND" H 5715 1900 60  0001 C CNN "supplier pn"
@@ -572,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	1780 6850 1455 6850
 Wire Wire Line
-	1780 7050 1455 7050
+	1455 7050 1780 7050
 Wire Wire Line
 	1780 7210 1455 7210
 Wire Wire Line
@@ -766,7 +766,7 @@ Wire Wire Line
 Wire Wire Line
 	2925 6850 2600 6850
 Wire Wire Line
-	2925 7050 2600 7050
+	2600 7050 3525 7050
 Wire Wire Line
 	2925 7210 2600 7210
 Wire Wire Line
@@ -778,7 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 6930 2925 6930
 Wire Wire Line
-	2600 7130 2925 7130
+	2600 7130 3790 7130
 Wire Wire Line
 	2600 7290 2925 7290
 Text Label 2780 1155 0    60   ~ 0
@@ -790,9 +790,9 @@ Wire Wire Line
 Wire Wire Line
 	3040 1075 2715 1075
 Wire Wire Line
-	925  7805 4425 7805
+	4545 7805 925  7805
 Wire Wire Line
-	925  895  925  7805
+	925  7805 925  895 
 Wire Wire Line
 	925  895  1895 895 
 Wire Wire Line
@@ -1182,30 +1182,385 @@ Wire Notes Line
 	5400 3045 5400 6660
 Wire Wire Line
 	5655 6315 5655 6450
-Wire Wire Line
-	4425 6215 6160 6215
-Text Label 5750 6215 0    60   ~ 0
+Text Label 4545 6100 0    60   ~ 0
 CTL
-Wire Wire Line
-	4425 7805 4425 6215
 Text Label 2795 895  0    60   ~ 0
 5V
 Wire Wire Line
-	3040 895  2715 895 
+	2715 895  3250 895 
 Text Label 2765 2310 0    60   ~ 0
 5V
 Wire Wire Line
-	3010 2310 2685 2310
+	2685 2310 3220 2310
 Text Label 2745 3680 0    60   ~ 0
 5V
 Wire Wire Line
-	2990 3680 2665 3680
+	2665 3680 3235 3680
 Text Label 2710 5120 0    60   ~ 0
 5V
 Wire Wire Line
-	2955 5120 2630 5120
+	2630 5120 3165 5120
 Text Label 2680 6510 0    60   ~ 0
 5V
 Wire Wire Line
-	2925 6510 2600 6510
+	2600 6510 3135 6510
+$Comp
+L CAP_NP C3
+U 1 1 589D1199
+P 3235 3900
+F 0 "C3" H 3265 4000 40  0000 L CNN
+F 1 "0.1uF" H 3275 3870 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 3273 3750 30  0001 C CNN
+F 3 "" H 3235 3900 60  0000 C CNN
+F 4 "digikey" H 3235 3900 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 3235 3900 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 3235 3900 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 3235 3900 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 3235 3900 60  0001 C CNN "description"
+	1    3235 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 589D14F4
+P 3235 4020
+F 0 "#PWR09" H 3235 3770 50  0001 C CNN
+F 1 "GND" H 3235 3870 50  0000 C CNN
+F 2 "" H 3235 4020 50  0000 C CNN
+F 3 "" H 3235 4020 50  0000 C CNN
+	1    3235 4020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3235 3950 3235 4020
+Wire Wire Line
+	3235 3680 3235 3750
+$Comp
+L CAP_NP C2
+U 1 1 589D1CFD
+P 3220 2540
+F 0 "C2" H 3250 2640 40  0000 L CNN
+F 1 "0.1uF" H 3260 2510 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 3258 2390 30  0001 C CNN
+F 3 "" H 3220 2540 60  0000 C CNN
+F 4 "digikey" H 3220 2540 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 3220 2540 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 3220 2540 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 3220 2540 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 3220 2540 60  0001 C CNN "description"
+	1    3220 2540
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 589D1D03
+P 3220 2660
+F 0 "#PWR010" H 3220 2410 50  0001 C CNN
+F 1 "GND" H 3220 2510 50  0000 C CNN
+F 2 "" H 3220 2660 50  0000 C CNN
+F 3 "" H 3220 2660 50  0000 C CNN
+	1    3220 2660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3220 2590 3220 2660
+Wire Wire Line
+	3220 2310 3220 2390
+$Comp
+L CAP_NP C1
+U 1 1 589D221C
+P 3250 1125
+F 0 "C1" H 3280 1225 40  0000 L CNN
+F 1 "0.1uF" H 3290 1095 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 3288 975 30  0001 C CNN
+F 3 "" H 3250 1125 60  0000 C CNN
+F 4 "digikey" H 3250 1125 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 3250 1125 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 3250 1125 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 3250 1125 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 3250 1125 60  0001 C CNN "description"
+	1    3250 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 589D2222
+P 3250 1245
+F 0 "#PWR011" H 3250 995 50  0001 C CNN
+F 1 "GND" H 3250 1095 50  0000 C CNN
+F 2 "" H 3250 1245 50  0000 C CNN
+F 3 "" H 3250 1245 50  0000 C CNN
+	1    3250 1245
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1175 3250 1245
+Wire Wire Line
+	3250 895  3250 975 
+$Comp
+L CAP_NP C4
+U 1 1 589D251F
+P 3165 5350
+F 0 "C4" H 3195 5450 40  0000 L CNN
+F 1 "0.1uF" H 3205 5320 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 3203 5200 30  0001 C CNN
+F 3 "" H 3165 5350 60  0000 C CNN
+F 4 "digikey" H 3165 5350 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 3165 5350 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 3165 5350 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 3165 5350 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 3165 5350 60  0001 C CNN "description"
+	1    3165 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 589D2525
+P 3165 5470
+F 0 "#PWR012" H 3165 5220 50  0001 C CNN
+F 1 "GND" H 3165 5320 50  0000 C CNN
+F 2 "" H 3165 5470 50  0000 C CNN
+F 3 "" H 3165 5470 50  0000 C CNN
+	1    3165 5470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3165 5400 3165 5470
+Wire Wire Line
+	3165 5120 3165 5200
+$Comp
+L CAP_NP C5
+U 1 1 589D26DA
+P 3135 6740
+F 0 "C5" H 3165 6840 40  0000 L CNN
+F 1 "0.1uF" H 3175 6710 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 3173 6590 30  0001 C CNN
+F 3 "" H 3135 6740 60  0000 C CNN
+F 4 "digikey" H 3135 6740 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 3135 6740 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 3135 6740 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 3135 6740 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 3135 6740 60  0001 C CNN "description"
+	1    3135 6740
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 589D26E0
+P 3135 6840
+F 0 "#PWR013" H 3135 6590 50  0001 C CNN
+F 1 "GND" H 3135 6690 50  0000 C CNN
+F 2 "" H 3135 6840 50  0000 C CNN
+F 3 "" H 3135 6840 50  0000 C CNN
+	1    3135 6840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3135 6790 3135 6840
+Wire Wire Line
+	3135 6510 3135 6590
+$Comp
+L header_pin TP1
+U 1 1 589D5088
+P 4370 4480
+F 0 "TP1" V 4470 4485 50  0000 C CNN
+F 1 "header_pin" V 4470 4480 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 4370 4480 60  0001 C CNN
+F 3 "" H 4370 4480 60  0000 C CNN
+	1    4370 4480
+	0    -1   -1   0   
+$EndComp
+$Comp
+L header_pin TP2
+U 1 1 589D5545
+P 4670 4485
+F 0 "TP2" V 4770 4490 50  0000 C CNN
+F 1 "header_pin" V 4770 4485 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 4670 4485 60  0001 C CNN
+F 3 "" H 4670 4485 60  0000 C CNN
+	1    4670 4485
+	0    -1   -1   0   
+$EndComp
+$Comp
+L header_pin TP7
+U 1 1 589D5EF1
+P 3525 6800
+F 0 "TP7" V 3620 6805 50  0000 C CNN
+F 1 "header_pin" V 3625 6800 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 3525 6800 60  0001 C CNN
+F 3 "" H 3525 6800 60  0000 C CNN
+	1    3525 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L header_pin TP8
+U 1 1 589D5EF7
+P 3790 6800
+F 0 "TP8" V 3890 6805 50  0000 C CNN
+F 1 "header_pin" V 3890 6800 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 3790 6800 60  0001 C CNN
+F 3 "" H 3790 6800 60  0000 C CNN
+	1    3790 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3525 7050 3525 7000
+Wire Wire Line
+	3790 7130 3790 7000
+$Comp
+L GND #PWR014
+U 1 1 589D88A3
+P 4535 4795
+F 0 "#PWR014" H 4535 4545 50  0001 C CNN
+F 1 "GND" H 4535 4645 50  0000 C CNN
+F 2 "" H 4535 4795 50  0000 C CNN
+F 3 "" H 4535 4795 50  0000 C CNN
+	1    4535 4795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4370 4680 4370 4730
+Wire Wire Line
+	4370 4730 4670 4730
+Wire Wire Line
+	4670 4730 4670 4685
+Wire Wire Line
+	4535 4795 4535 4730
+Connection ~ 4535 4730
+$Comp
+L header_pin TP3
+U 1 1 589D97B5
+P 4385 5690
+F 0 "TP3" V 4480 5695 50  0000 C CNN
+F 1 "header_pin" V 4485 5690 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 4385 5690 60  0001 C CNN
+F 3 "" H 4385 5690 60  0000 C CNN
+	1    4385 5690
+	0    -1   -1   0   
+$EndComp
+$Comp
+L header_pin TP4
+U 1 1 589D97BB
+P 4685 5695
+F 0 "TP4" V 4780 5700 50  0000 C CNN
+F 1 "header_pin" V 4785 5695 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Rnd" H 4685 5695 60  0001 C CNN
+F 3 "" H 4685 5695 60  0000 C CNN
+	1    4685 5695
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4385 5890 4385 5940
+Wire Wire Line
+	4385 5940 4685 5940
+Wire Wire Line
+	4685 5940 4685 5895
+NoConn ~ 6160 6215
+Wire Wire Line
+	4545 5940 4545 7805
+Connection ~ 4545 5940
+$Comp
+L CAP_NP C6
+U 1 1 589E41CB
+P 4185 6420
+F 0 "C6" H 4275 6505 40  0000 L CNN
+F 1 "0.1uF" H 4240 6405 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 4223 6270 30  0001 C CNN
+F 3 "" H 4185 6420 60  0000 C CNN
+F 4 "digikey" H 4185 6420 60  0001 C CNN "supplier"
+F 5 " 478-1126-1-ND " H 4185 6420 60  0001 C CNN "supplier pn"
+F 6 "AVX Corporation" H 4185 6420 60  0001 C CNN "manufacturer"
+F 7 "0402YD104KAT2A " H 4185 6420 60  0001 C CNN "manufacturer pn"
+F 8 "CAP CER 0.1UF 16V X5R 0402 " H 4185 6420 60  0001 C CNN "description"
+	1    4185 6420
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 589E460E
+P 4185 6545
+F 0 "#PWR015" H 4185 6295 50  0001 C CNN
+F 1 "GND" H 4185 6395 50  0000 C CNN
+F 2 "" H 4185 6545 50  0000 C CNN
+F 3 "" H 4185 6545 50  0000 C CNN
+	1    4185 6545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4185 6470 4185 6545
+Wire Wire Line
+	4185 6270 4185 6180
+Wire Wire Line
+	4185 6180 4545 6180
+Connection ~ 4545 6180
+$Comp
+L Res1_1 R1
+U 1 1 589E9FC0
+P 4880 6455
+F 0 "R1" H 5020 6485 40  0000 C CNN
+F 1 "10k" H 5020 6415 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 4935 6175 30  0001 C CNN
+F 3 "" H 4880 6455 30  0000 C CNN
+F 4 " RES SMD 10K OHM 1% 1/10W 0603 " H 5230 6085 60  0001 C CNN "description"
+F 5 "digikey" H 4670 5970 60  0001 C CNN "supplier"
+F 6 "311-10.0KHRCT-ND" H 5475 5955 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 4255 5845 60  0001 C CNN "manufacturer"
+F 8 "RC0603FR-0710KL " H 5355 5850 60  0001 C CNN "manufacturer pn"
+	1    4880 6455
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 6355 4880 6240
+Wire Wire Line
+	4880 6580 4880 6760
+Text Label 4880 6240 0    60   ~ 0
+5V
+$Comp
+L LED_SMT D1
+U 1 1 589EBF8D
+P 4810 7425
+F 0 "D1" H 4810 7525 50  0000 C CNN
+F 1 "LED_SMT" H 4835 7275 50  0001 C CNN
+F 2 "footprints:0603-D" H 4860 8025 60  0001 C CNN
+F 3 "" H 4810 7425 60  0000 C CNN
+F 4 "LED 1.6X0.8MM 568NM GRN CLR SMD" H 4960 7725 50  0001 C CNN "description"
+F 5 "digikey" H 4585 7825 50  0001 C CNN "supplier"
+F 6 "754-1121-1-ND" H 5110 7825 50  0001 C CNN "supplier pn"
+F 7 "Kingbright" H 4560 7925 50  0001 C CNN "manufacturer"
+F 8 "APT1608SGC" H 5060 7925 50  0001 C CNN "manufacturer pn"
+	1    4810 7425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Res1_1 R2
+U 1 1 589EC8D4
+P 5065 7155
+F 0 "R2" H 5205 7185 40  0000 C CNN
+F 1 "182" H 5205 7115 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 5120 6875 30  0001 C CNN
+F 3 "" H 5065 7155 30  0000 C CNN
+F 4 "RES SMD 182 OHM 1% 1/10W 0603 " H 5415 6785 60  0001 C CNN "description"
+F 5 "digikey" H 4855 6670 60  0001 C CNN "supplier"
+F 6 " 311-182HRCT-ND " H 5660 6655 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 4440 6545 60  0001 C CNN "manufacturer"
+F 8 "RC0603FR-07182RL " H 5540 6550 60  0001 C CNN "manufacturer pn"
+	1    5065 7155
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 6760 4545 6760
+Connection ~ 4545 6760
+Wire Wire Line
+	5065 7055 5065 6935
+Wire Wire Line
+	5065 7280 5065 7425
+Wire Wire Line
+	5065 7425 4960 7425
+Wire Wire Line
+	4660 7425 4545 7425
+Connection ~ 4545 7425
+Text Label 5065 6935 0    60   ~ 0
+5V
+Text Notes 4665 7640 0    60   ~ 0
+Select Indicator
 $EndSCHEMATC

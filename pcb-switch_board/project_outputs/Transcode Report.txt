@@ -1,0 +1,79 @@
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-B.Mask.gbs' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D100
+D12   --> D101
+D13   --> D102
+D14   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-B.SilkS.gbo' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D104
+D12   --> D105
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-Edge.Cuts.gm1' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D106
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-F.Cu.gtl' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D107
+D12   --> D108
+D13   --> D109
+D14   --> D110
+D15   --> D111
+D16   --> D112
+D17   --> D113
+D18   --> D114
+D19   --> D115
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-F.Mask.gts' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D116
+D12   --> D117
+D13   --> D118
+D14   --> D119
+D15   --> D120
+D16   --> D121
+D17   --> D122
+D18   --> D123
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-F.Paste.gtp' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D124
+D12   --> D125
+D13   --> D126
+D14   --> D127
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-F.SilkS.gto' ----   Thu Feb 09 22:24:52 2017
+
+D11   --> D128
+D12   --> D129
+D13   --> D130
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-In1.Cu.g2' ----   Thu Feb 09 22:24:52 2017
+
+D16   --> D131
+D17   --> D132
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-switch_board\project_outputs\nea_research_pcb_rev1_switch-In2.Cu.g3' ----   Thu Feb 09 22:24:54 2017
+
+D16   --> D133
+-----------------------------------------------------------------
