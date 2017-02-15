@@ -1,0 +1,2 @@
+These models were used to order the first go at this version 2 mechanical fixture to hold the nea sensor die.
+The base was made of aluminum. The top and bottom probe holding plates were made of teflon and had the alignment dowels pressed into them. 

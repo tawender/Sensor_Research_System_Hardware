@@ -1,4 +1,4 @@
-update=2/2/2017 12:06:06 AM
+update=2/10/2017 6:10:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,8 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=misc_parts
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -68,5 +70,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
