@@ -120,3 +120,10 @@ D14   --> D124
 D15   --> D125
 D16   --> D126
 -----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-breakout\rev2\project_outputs\nea_fixture_breakout_board_rev2-B.Paste.gbp' ----   Mon Feb 20 19:55:39 2017
+
+D11   --> D100
+D12   --> D101
+-----------------------------------------------------------------
