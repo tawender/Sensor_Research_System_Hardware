@@ -1,0 +1,2530 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:misc_parts
+LIBS:CSS118_rev6_CLCC-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 13000 9000
+encoding utf-8
+Sheet 1 1
+Title "Schematic - CSS118 Gas Sensor PCB"
+Date "2016-06-10"
+Rev "6"
+Comp "Custom Silicon Solutions"
+Comment1 "CLCC36 Bottom Side"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MSP430G2955 U5
+U 1 1 56185985
+P 4235 3540
+F 0 "U5" H 4110 4365 60  0000 C CNN
+F 1 "MSP430G2955" H 4210 2540 60  0000 C CNN
+F 2 "footprints_on_Cdrive:VQFN40" H 4310 1965 60  0001 C CNN
+F 3 "" H 4860 4140 60  0000 C CNN
+F 4 "IC MCU 16BIT 56KB FLASH 40VQFN" H 4185 2340 60  0001 C CNN "description"
+F 5 "digikey" H 3960 2215 60  0001 C CNN "supplier"
+F 6 "296-35703-1-ND" H 4610 2215 60  0001 C CNN "supplier pn"
+F 7 "Texas Instruments" H 3685 2090 60  0001 C CNN "manufacturer"
+F 8 "MSP430G2955IRHA40R" H 4685 2090 60  0001 C CNN "manufacturer pn"
+	1    4235 3540
+	1    0    0    -1  
+$EndComp
+$Comp
+L HTU21D U3
+U 1 1 562AD96B
+P 3890 1740
+F 0 "U3" H 4090 1865 60  0000 C CNN
+F 1 "HTU21D" H 4090 1415 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DFN6" H 4090 815 60  0001 C CNN
+F 3 "" H 3890 1740 60  0000 C CNN
+F 4 "IC SENSOR TEMP/HUM DGTL" H 4090 1240 60  0001 C CNN "description"
+F 5 "digikey" H 3790 1065 60  0001 C CNN "supplier"
+F 6 "223-1144-1-ND" H 4415 1065 60  0001 C CNN "supplier pn"
+F 7 "TE Connectivity" H 3590 940 60  0001 C CNN "manufacturer"
+F 8 "HPP845E031R4" H 4340 940 60  0001 C CNN "manufacturer pn"
+	1    3890 1740
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74CBTLV3257 U2
+U 1 1 562B17FB
+P 11865 1475
+F 0 "U2" H 11515 1975 60  0000 C CNN
+F 1 "74CBTLV3257" H 11520 805 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 11610 285 60  0001 C CNN
+F 3 "" H 13215 700 60  0000 C CNN
+F 4 "IC_MUX/DEMUX_DUAL_1OF4_DHVQFN16" H 11790 650 60  0001 C CNN "description"
+F 5 "digikey" H 11515 550 60  0001 C CNN "supplier"
+F 6 "568-5423-1-ND" H 12140 550 60  0001 C CNN "supplier pn"
+F 7 "NXP_Semiconductor" H 11240 425 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3257BQ,115" H 12190 425 60  0001 C CNN "manufacturer pn"
+	1    11865 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74CBTLV3257 U4
+U 1 1 562AD96F
+P 11865 2750
+F 0 "U4" H 11515 3250 60  0000 C CNN
+F 1 "74CBTLV3257" H 11520 2080 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 11610 1560 60  0001 C CNN
+F 3 "" H 13215 1975 60  0000 C CNN
+F 4 "IC_MUX/DEMUX_DUAL_1OF4_DHVQFN16" H 11790 1925 60  0001 C CNN "description"
+F 5 "digikey" H 11515 1825 60  0001 C CNN "supplier"
+F 6 "568-5423-1-ND" H 12140 1825 60  0001 C CNN "supplier pn"
+F 7 "NXP_Semiconductor" H 11240 1700 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3257BQ,115" H 12190 1700 60  0001 C CNN "manufacturer pn"
+	1    11865 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1_2 R11
+U 1 1 562B17D7
+P 1705 5825
+F 0 "R11" H 1855 5825 40  0000 C CNN
+F 1 "75ohm 1% 2W" H 1980 5750 40  0000 C CNN
+F 2 "footprints_on_Cdrive:2512" H 1760 5545 30  0001 C CNN
+F 3 "" H 1705 5825 30  0000 C CNN
+F 4 "RES SMD 75 OHM 1% 2W 2512" H 2055 5455 60  0001 C CNN "description"
+F 5 "digikey" H 1400 5335 60  0001 C CNN "supplier"
+F 6 "A116005CT-ND" H 2300 5325 60  0001 C CNN "supplier pn"
+F 7 "Bourns Inc." H 1340 5220 60  0001 C CNN "manufacturer"
+F 8 "2-2176070-2" H 2180 5220 60  0001 C CNN "manufacturer pn"
+F 9 "Heater" H 1955 5925 60  0000 C CNN "Value2"
+	1    1705 5825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Res1_1 R2
+U 1 1 562B17DA
+P 6700 1215
+F 0 "R2" H 6760 1110 40  0000 C CNN
+F 1 "10K" H 6780 1310 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 6755 935 30  0001 C CNN
+F 3 "" H 6700 1215 30  0000 C CNN
+F 4 "RES SMD 10K OHM 1% 1/16W 0402 " H 7050 845 60  0001 C CNN "description"
+F 5 "digikey" H 6490 730 60  0001 C CNN "supplier"
+F 6 " 311-10.0KLRCT-ND " H 7295 715 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 6075 605 60  0001 C CNN "manufacturer"
+F 8 "RC0402FR-0710KL " H 7175 610 60  0001 C CNN "manufacturer pn"
+	1    6700 1215
+	-1   0    0    1   
+$EndComp
+$Comp
+L DMN2300 Q1
+U 1 1 562B17FF
+P 1605 6300
+F 0 "Q1" H 1905 6350 50  0000 R CNN
+F 1 "DMN2300" H 2155 6250 50  0000 R CNN
+F 2 "footprints_on_Cdrive:X2-DFN1006-3" H 1725 6670 29  0001 C CNN
+F 3 "" H 1605 6300 60  0000 C CNN
+F 4 "MOSFET N-CH 20V 1.3A 3DFN" H 1870 5915 60  0001 C CNN "description"
+F 5 "digikey" H 1485 5750 60  0001 C CNN "supplier"
+F 6 "DMN2300UFB4-7BDICT-ND" H 2330 5740 60  0001 C CNN "supplier pn"
+F 7 "Diodes Inc." H 1390 5635 60  0001 C CNN "manufacturer"
+F 8 "DMN2300UFB4-7B" H 2130 5630 60  0001 C CNN "manufacturer pn"
+	1    1605 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 562B17DB
+P 1705 6650
+F 0 "#PWR01" H 1705 6400 50  0001 C CNN
+F 1 "GND" H 1705 6500 50  0000 C CNN
+F 2 "" H 1705 6650 60  0000 C CNN
+F 3 "" H 1705 6650 60  0000 C CNN
+	1    1705 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 562B1801
+P 825 2210
+F 0 "#PWR02" H 825 1960 50  0001 C CNN
+F 1 "GND" H 825 2060 50  0000 C CNN
+F 2 "" H 825 2210 60  0000 C CNN
+F 3 "" H 825 2210 60  0000 C CNN
+	1    825  2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 562AD97B
+P 1025 1985
+F 0 "#PWR03" H 1025 1735 50  0001 C CNN
+F 1 "GND" H 1025 1835 50  0000 C CNN
+F 2 "" H 1025 1985 60  0000 C CNN
+F 3 "" H 1025 1985 60  0000 C CNN
+	1    1025 1985
+	1    0    0    -1  
+$EndComp
+Text Label 850  1735 0    50   ~ 0
+3V3
+Text Label 1895 1735 0    50   ~ 0
+V2P5
+$Comp
+L GND #PWR04
+U 1 1 562AD97D
+P 1670 3010
+F 0 "#PWR04" H 1670 2760 50  0001 C CNN
+F 1 "GND" H 1670 2860 50  0000 C CNN
+F 2 "" H 1670 3010 60  0000 C CNN
+F 3 "" H 1670 3010 60  0000 C CNN
+	1    1670 3010
+	1    0    0    -1  
+$EndComp
+Text Label 1095 3610 0    50   ~ 0
+12V
+Text Label 1045 3410 0    50   ~ 0
+MSP_CLK
+Text Label 2460 3515 0    50   ~ 0
+MSP_CLK
+Text Label 5410 4115 0    50   ~ 0
+MSP_SOMI
+Text Label 5410 4190 0    50   ~ 0
+MSP_SIMO
+Text Label 1045 3310 0    50   ~ 0
+MSP_SOMI
+Text Label 1045 3210 0    50   ~ 0
+MSP_SIMO
+Text Label 5410 4265 0    50   ~ 0
+MSP_CS
+Text Label 1045 3110 0    50   ~ 0
+MSP_CS
+Text Label 2460 3590 0    50   ~ 0
+SIMO_SDA
+Text Label 3290 1740 0    50   ~ 0
+SIMO_SDA
+NoConn ~ 3690 1890
+NoConn ~ 3690 1965
+$Comp
+L GND #PWR05
+U 1 1 562AD97E
+P 12290 2050
+F 0 "#PWR05" H 12290 1800 50  0001 C CNN
+F 1 "GND" H 12290 1900 50  0000 C CNN
+F 2 "" H 12290 2050 60  0000 C CNN
+F 3 "" H 12290 2050 60  0000 C CNN
+	1    12290 2050
+	1    0    0    -1  
+$EndComp
+Text Label 10410 1850 0    50   ~ 0
+SELX
+Text Label 10410 1925 0    50   ~ 0
+SELY1
+Text Label 10410 3200 0    50   ~ 0
+SELY2
+Text Label 8195 1480 0    50   ~ 0
+SELR1
+$Comp
+L GND #PWR06
+U 1 1 562AD97F
+P 12290 3325
+F 0 "#PWR06" H 12290 3075 50  0001 C CNN
+F 1 "GND" H 12290 3175 50  0000 C CNN
+F 2 "" H 12290 3325 60  0000 C CNN
+F 3 "" H 12290 3325 60  0000 C CNN
+	1    12290 3325
+	1    0    0    -1  
+$EndComp
+Text Label 6450 830  0    50   ~ 0
+V2P5
+Text Label 11965 1125 0    50   ~ 0
+SENS_1A
+Text Label 11965 1200 0    50   ~ 0
+SENS_1B
+Text Label 11965 1325 0    50   ~ 0
+SENS_2A
+Text Label 11965 1400 0    50   ~ 0
+SENS_2B
+Text Label 11965 1525 0    50   ~ 0
+SENS_3A
+Text Label 11965 1600 0    50   ~ 0
+SENS_3B
+Text Label 11965 1725 0    50   ~ 0
+SENS_4A
+Text Label 11965 1800 0    50   ~ 0
+SENS_4B
+Text Label 11965 2400 0    50   ~ 0
+SENS_5A
+Text Label 11965 2475 0    50   ~ 0
+SENS_5B
+Text Label 11965 2600 0    50   ~ 0
+SENS_6A
+Text Label 11965 2675 0    50   ~ 0
+SENS_6B
+Text Label 11965 2800 0    50   ~ 0
+SENS_7A
+Text Label 11965 2875 0    50   ~ 0
+SENS_7B
+Text Label 11965 3000 0    50   ~ 0
+SENS_8A
+Text Label 11965 3075 0    50   ~ 0
+SENS_8B
+Text Label 4670 5705 0    50   ~ 0
+SENS_3B
+Text Label 4670 5780 0    50   ~ 0
+SENS_3A
+Text Label 4670 5855 0    50   ~ 0
+SENS_4B
+Text Label 4670 5930 0    50   ~ 0
+SENS_4A
+Text Label 3095 5705 0    50   ~ 0
+SENS_9A
+Text Label 3095 5630 0    50   ~ 0
+SENS_9B
+Text Label 3095 5555 0    50   ~ 0
+SENS_10A
+Text Label 3095 5480 0    50   ~ 0
+SENS_10B
+Text Label 3095 6005 0    50   ~ 0
+SENS_11B
+Text Label 3095 5930 0    50   ~ 0
+SENS_11A
+Text Label 3095 5855 0    50   ~ 0
+SENS_12B
+Text Label 3095 5780 0    50   ~ 0
+SENS_12A
+Text Label 3095 6680 0    50   ~ 0
+SENS_13A
+Text Label 3095 6605 0    50   ~ 0
+SENS_13B
+Text Label 3095 6530 0    50   ~ 0
+SENS_14A
+Text Label 3095 6455 0    50   ~ 0
+SENS_14B
+Text Label 4670 5555 0    50   ~ 0
+SENS_2A
+Text Label 4670 5480 0    50   ~ 0
+SENS_1B
+Text Label 4670 5405 0    50   ~ 0
+SENS_1A
+Text Label 4670 6305 0    50   ~ 0
+SENS_8A
+Text Label 4670 6230 0    50   ~ 0
+SENS_8B
+Text Label 4670 6155 0    50   ~ 0
+SENS_7A
+Text Label 4670 6080 0    50   ~ 0
+SENS_7B
+Text Label 4670 6605 0    50   ~ 0
+SENS_6B
+Text Label 4670 6530 0    50   ~ 0
+SENS_6A
+Text Label 4670 6455 0    50   ~ 0
+SENS_5B
+Text Label 4670 6380 0    50   ~ 0
+SENS_5A
+Text Label 3095 6155 0    50   ~ 0
+SENS_16A
+Text Label 3095 6230 0    50   ~ 0
+SENS_16B
+Text Label 3095 6305 0    50   ~ 0
+SENS_15A
+Text Label 3095 6380 0    50   ~ 0
+SENS_15B
+Text Label 4670 5630 0    50   ~ 0
+SENS_2B
+Text Label 1095 3510 0    50   ~ 0
+VIN
+$Comp
+L GND #PWR07
+U 1 1 561D91D4
+P 4590 1890
+F 0 "#PWR07" H 4590 1640 50  0001 C CNN
+F 1 "GND" H 4590 1740 50  0000 C CNN
+F 2 "" H 4590 1890 60  0000 C CNN
+F 3 "" H 4590 1890 60  0000 C CNN
+	1    4590 1890
+	1    0    0    -1  
+$EndComp
+Text Label 4590 1740 0    50   ~ 0
+3V3
+Text Notes 3640 1515 0    60   ~ 0
+Humidity/Temperature\n      Sensor
+Text Label 2485 3365 0    50   ~ 0
+SELB1
+Text Label 2485 3290 0    50   ~ 0
+SELB0
+Text Label 2485 2990 0    50   ~ 0
+SELY1
+Text Label 2485 3065 0    50   ~ 0
+SELY2
+Text Label 5410 4340 0    50   ~ 0
+SELY3
+Text Label 5410 3890 0    50   ~ 0
+SELY4
+Text Label 5410 3740 0    50   ~ 0
+SELX
+Text Label 2485 3890 0    50   ~ 0
+3V3
+Text Label 5435 2990 0    50   ~ 0
+3V3
+Text Label 5435 3065 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR08
+U 1 1 562B17DF
+P 2085 3915
+F 0 "#PWR08" H 2085 3665 50  0001 C CNN
+F 1 "GND" H 2085 3765 50  0000 C CNN
+F 2 "" H 2085 3915 60  0000 C CNN
+F 3 "" H 2085 3915 60  0000 C CNN
+	1    2085 3915
+	1    0    0    -1  
+$EndComp
+Text Label 12190 1925 0    50   ~ 0
+3V3
+Text Label 12190 3200 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR09
+U 1 1 561EAC7E
+P 5145 6855
+F 0 "#PWR09" H 5145 6605 50  0001 C CNN
+F 1 "GND" H 5145 6705 50  0000 C CNN
+F 2 "" H 5145 6855 60  0000 C CNN
+F 3 "" H 5145 6855 60  0000 C CNN
+	1    5145 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 562B17E2
+P 2995 6805
+F 0 "#PWR010" H 2995 6555 50  0001 C CNN
+F 1 "GND" H 2995 6655 50  0000 C CNN
+F 2 "" H 2995 6805 60  0000 C CNN
+F 3 "" H 2995 6805 60  0000 C CNN
+	1    2995 6805
+	1    0    0    -1  
+$EndComp
+Text Label 1705 5450 0    50   ~ 0
+12V
+Text Label 5385 3590 0    50   ~ 0
+HTR_DRV
+Text Label 1030 6300 0    50   ~ 0
+HTR_DRV
+$Comp
+L CONN_01X10 P1
+U 1 1 562B17E3
+P 770 3260
+F 0 "P1" H 750 3815 50  0000 C CNN
+F 1 "CONN_01X10" H 730 2670 50  0000 C CNN
+F 2 "footprints_on_Cdrive:WM6745-FPC" H 695 2485 60  0001 C CNN
+F 3 "" H 770 3260 60  0000 C CNN
+F 4 "CONN_FFC_FPC_10POS_0.50MM_R/A" H 770 2585 50  0001 C CNN "description"
+F 5 "digikey" H 370 2335 50  0001 C CNN "supplier"
+F 6 "WM6745CT-ND" H 845 2335 50  0001 C CNN "supplier pn"
+F 7 "Molex" H 395 2235 50  0001 C CNN "manufacturer"
+F 8 "0512811094" H 820 2235 50  0001 C CNN "manufacturer pn"
+	1    770  3260
+	-1   0    0    -1  
+$EndComp
+Text Label 5410 4040 0    50   ~ 0
+Vtherm
+$Comp
+L CAP_NP C4
+U 1 1 562AD98A
+P 5355 2335
+F 0 "C4" H 5385 2435 40  0000 L CNN
+F 1 "0.1uF" H 5395 2305 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 5393 2185 30  0001 C CNN
+F 3 "" H 5355 2335 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 5355 2335 60  0001 C CNN "description"
+F 5 "digikey" H 5355 2335 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 5355 2335 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 5355 2335 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 5355 2335 60  0001 C CNN "manufacturer pn"
+	1    5355 2335
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C5
+U 1 1 562AD98B
+P 5655 2335
+F 0 "C5" H 5685 2435 40  0000 L CNN
+F 1 "0.1uF" H 5695 2305 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 5693 2185 30  0001 C CNN
+F 3 "" H 5655 2335 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 5655 2335 60  0001 C CNN "description"
+F 5 "digikey" H 5655 2335 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 5655 2335 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 5655 2335 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 5655 2335 60  0001 C CNN "manufacturer pn"
+	1    5655 2335
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 562197F7
+P 5530 2460
+F 0 "#PWR011" H 5530 2210 50  0001 C CNN
+F 1 "GND" H 5530 2310 50  0000 C CNN
+F 2 "" H 5530 2460 60  0000 C CNN
+F 3 "" H 5530 2460 60  0000 C CNN
+	1    5530 2460
+	1    0    0    -1  
+$EndComp
+Text Label 5655 2010 0    50   ~ 0
+3V3
+Text Notes 5180 1910 0    50   ~ 0
+MSP430 bypass caps
+Text Notes 3350 675  0    90   ~ 0
+GAS SENSOR PCB - CLCC ON BOTTOM SIDE
+NoConn ~ 5335 3665
+$Comp
+L TP_SMT TP10
+U 1 1 562B17E9
+P 2410 4040
+F 0 "TP10" H 2535 4040 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3890 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 4040 90  0001 C CNN
+F 3 "" H 2410 4040 90  0000 C CNN
+	1    2410 4040
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5629C899
+P 5410 4490
+F 0 "#PWR012" H 5410 4240 50  0001 C CNN
+F 1 "GND" H 5410 4340 50  0000 C CNN
+F 2 "" H 5410 4490 60  0000 C CNN
+F 3 "" H 5410 4490 60  0000 C CNN
+	1    5410 4490
+	1    0    0    -1  
+$EndComp
+$Comp
+L GasSensor16x2-CLCC36 U11
+U 1 1 562B5EC2
+P 3970 6155
+F 0 "U11" H 3970 7030 60  0000 C CNN
+F 1 "GasSensor16x2-CLCC36" H 4095 5480 60  0000 C CNN
+F 2 "footprints_on_Cdrive:CLCC-36" H 4070 5180 60  0001 C CNN
+F 3 "" H 3745 6405 60  0000 C CNN
+	1    3970 6155
+	1    0    0    -1  
+$EndComp
+Text Label 2485 3215 0    50   ~ 0
+RSTB
+Text Label 5435 3140 0    50   ~ 0
+TEST
+Text Label 5435 3215 0    50   ~ 0
+TDO
+Text Label 5435 3290 0    50   ~ 0
+TDI
+Text Label 5435 3365 0    50   ~ 0
+TMS
+Text Label 5435 3440 0    50   ~ 0
+TCK
+Text Label 5435 3515 0    50   ~ 0
+P1.3
+Text Label 2485 4040 0    50   ~ 0
+LDAC
+Text Label 2485 4115 0    45   ~ 0
+DAC_CS
+$Comp
+L Res1_3 R10
+U 1 1 56397321
+P 2105 5800
+F 0 "R10" H 2230 5800 40  0000 C CNN
+F 1 "150K" H 2270 5720 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 2160 5520 30  0001 C CNN
+F 3 "" H 2105 5800 30  0000 C CNN
+F 4 "THERMISTOR 150K OHM NTC 0402 SMD" H 2455 5430 60  0001 C CNN "description"
+F 5 "digikey" H 1835 5300 60  0001 C CNN "supplier"
+F 6 "490-2405-1-ND" H 2540 5295 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 1740 5195 60  0001 C CNN "manufacturer"
+F 8 "NCP15WM154J03RC" H 2580 5195 60  0001 C CNN "manufacturer pn"
+F 9 "Thermistor" H 2430 5900 60  0000 C CNN "Value2"
+	1    2105 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1 R8
+U 1 1 5639732D
+P 2105 5250
+F 0 "R8" H 2215 5310 40  0000 C CNN
+F 1 "21.0K" H 2245 5210 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 2035 5250 30  0001 C CNN
+F 3 "" H 2105 5250 30  0001 C CNN
+F 4 " RES SMD 21K OHM 1% 1/16W 0402 " H 2105 5250 60  0001 C CNN "description"
+F 5 "digikey" H 2105 5250 60  0001 C CNN "supplier"
+F 6 " 311-21.0KLRCT-ND " H 2105 5250 60  0001 C CNN "supplier pn"
+F 7 "Vishay" H 2105 5250 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-0721KL " H 2105 5250 60  0001 C CNN "manufacturer pn"
+	1    2105 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 56397334
+P 2105 5975
+F 0 "#PWR013" H 2105 5725 50  0001 C CNN
+F 1 "GND" H 2105 5825 50  0000 C CNN
+F 2 "" H 2105 5975 60  0000 C CNN
+F 3 "" H 2105 5975 60  0000 C CNN
+	1    2105 5975
+	1    0    0    -1  
+$EndComp
+Text Label 2105 5050 0    50   ~ 0
+3V3
+Text Label 2155 5550 0    50   ~ 0
+Vtherm
+$Comp
+L TP_SMT_TnB TP1
+U 1 1 563AB599
+P 5760 3140
+F 0 "TP1" H 5885 3140 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 2915 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 2740 90  0001 C CNN
+F 3 "" H 5760 3140 90  0000 C CNN
+	1    5760 3140
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP3
+U 1 1 563AB5A0
+P 5760 3215
+F 0 "TP3" H 5885 3215 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 2990 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 2815 90  0001 C CNN
+F 3 "" H 5760 3215 90  0000 C CNN
+	1    5760 3215
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP4
+U 1 1 563AB5A7
+P 5760 3290
+F 0 "TP4" H 5885 3290 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 3065 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 2890 90  0001 C CNN
+F 3 "" H 5760 3290 90  0000 C CNN
+	1    5760 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP5
+U 1 1 563AB5AE
+P 5760 3365
+F 0 "TP5" H 5885 3365 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 3140 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 2965 90  0001 C CNN
+F 3 "" H 5760 3365 90  0000 C CNN
+	1    5760 3365
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP6
+U 1 1 563AB5B5
+P 5760 3440
+F 0 "TP6" H 5885 3440 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 3215 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 3040 90  0001 C CNN
+F 3 "" H 5760 3440 90  0000 C CNN
+	1    5760 3440
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP7
+U 1 1 563AB5BC
+P 5760 3515
+F 0 "TP7" H 5885 3515 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 3290 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 3115 90  0001 C CNN
+F 3 "" H 5760 3515 90  0000 C CNN
+	1    5760 3515
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP8
+U 1 1 563AB5C3
+P 5760 3590
+F 0 "TP8" H 5885 3590 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5785 3365 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5965 3190 90  0001 C CNN
+F 3 "" H 5760 3590 90  0000 C CNN
+	1    5760 3590
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP2
+U 1 1 563AB8BE
+P 2325 3215
+F 0 "TP2" H 2450 3215 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 2350 2990 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 2530 2815 90  0001 C CNN
+F 3 "" H 2325 3215 90  0000 C CNN
+	1    2325 3215
+	-1   0    0    1   
+$EndComp
+$Comp
+L TP_SMT_TnB TP14
+U 1 1 563AF8CF
+P 5605 5000
+F 0 "TP14" H 5730 5000 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5630 4775 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5810 4600 90  0001 C CNN
+F 3 "" H 5605 5000 90  0000 C CNN
+	1    5605 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L TP_SMT_TnB TP15
+U 1 1 563AF953
+P 5605 5100
+F 0 "TP15" H 5730 5100 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 5630 4875 50  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02_top_bot" H 5810 4700 90  0001 C CNN
+F 3 "" H 5605 5100 90  0000 C CNN
+	1    5605 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 563B0545
+P 5755 5150
+F 0 "#PWR014" H 5755 4900 50  0001 C CNN
+F 1 "GND" H 5755 5000 50  0000 C CNN
+F 2 "" H 5755 5150 60  0000 C CNN
+F 3 "" H 5755 5150 60  0000 C CNN
+	1    5755 5150
+	-1   0    0    -1  
+$EndComp
+Text Label 5655 5000 0    50   ~ 0
+3V3
+$Comp
+L pogo_alignment_holes ALN1
+U 1 1 563BB76C
+P 5100 7700
+F 0 "ALN1" H 5115 7500 90  0001 C CNN
+F 1 "pogo_alignment_holes" H 5195 7350 90  0001 C CNN
+F 2 "footprints_on_Cdrive:pogo_almnt_pins" H 5395 7055 90  0001 C CNN
+F 3 "" H 5100 7700 90  0000 C CNN
+	1    5100 7700
+	1    0    0    -1  
+$EndComp
+Text Notes 4675 7600 0    60   ~ 0
+Alignment Holes for\n  Fixture Pogo Pins
+Text Label 5410 3815 0    50   ~ 0
+V2P5_R
+Text Label 3015 1190 0    50   ~ 0
+3V3
+$Comp
+L CAP_NP C3
+U 1 1 56965DF8
+P 4815 1890
+F 0 "C3" H 4845 1990 40  0000 L CNN
+F 1 "0.1uF" H 4855 1860 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 4853 1740 30  0001 C CNN
+F 3 "" H 4815 1890 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 4815 1890 60  0001 C CNN "description"
+F 5 "digikey" H 4815 1890 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 4815 1890 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 4815 1890 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 4815 1890 60  0001 C CNN "manufacturer pn"
+	1    4815 1890
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 56965FB3
+P 4815 1940
+F 0 "#PWR015" H 4815 1690 50  0001 C CNN
+F 1 "GND" H 4815 1790 50  0000 C CNN
+F 2 "" H 4815 1940 60  0000 C CNN
+F 3 "" H 4815 1940 60  0000 C CNN
+	1    4815 1940
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C1
+U 1 1 56A998F9
+P 2155 2045
+F 0 "C1" H 2005 2120 40  0000 L CNN
+F 1 "0.47uF" H 1905 2020 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 2193 1895 30  0001 C CNN
+F 3 "" H 2155 2045 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 2155 2045 60  0001 C CNN "description"
+F 5 "digikey" H 2155 2045 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 2155 2045 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 2155 2045 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 2155 2045 60  0001 C CNN "manufacturer pn"
+	1    2155 2045
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C2
+U 1 1 56EB49B3
+P 825 2110
+F 0 "C2" H 930 2175 40  0000 L CNN
+F 1 "0.47uF" H 870 2085 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 863 1960 30  0001 C CNN
+F 3 "" H 825 2110 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 825 2110 60  0001 C CNN "description"
+F 5 "digikey" H 825 2110 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 825 2110 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 825 2110 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 825 2110 60  0001 C CNN "manufacturer pn"
+	1    825  2110
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Res1_1 R3
+U 1 1 56EB97F7
+P 3015 1540
+F 0 "R3" H 3165 1470 40  0000 C CNN
+F 1 "29.4K" H 3165 1550 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 3070 1260 30  0001 C CNN
+F 3 "" H 3015 1540 30  0000 C CNN
+F 4 " RES SMD 29.4K OHM 1% 1/16W 0402" H 3365 1170 60  0001 C CNN "description"
+F 5 "digikey" H 2805 1055 60  0001 C CNN "supplier"
+F 6 "RMCF0402FT29K4CT-ND" H 3610 1040 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 2390 930 60  0001 C CNN "manufacturer"
+F 8 "RMCF0402FT29K4" H 3490 935 60  0001 C CNN "manufacturer pn"
+	1    3015 1540
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R4
+U 1 1 56EB9803
+P 3165 1540
+F 0 "R4" H 3035 1470 40  0000 C CNN
+F 1 "29.4K" H 3005 1550 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 3220 1260 30  0001 C CNN
+F 3 "" H 3165 1540 30  0000 C CNN
+F 4 " RES SMD 29.4K OHM 1% 1/16W 0402" H 3515 1170 60  0001 C CNN "description"
+F 5 "digikey" H 2955 1055 60  0001 C CNN "supplier"
+F 6 "RMCF0402FT29K4CT-ND" H 3760 1040 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 2540 930 60  0001 C CNN "manufacturer"
+F 8 "RMCF0402FT29K4" H 3640 935 60  0001 C CNN "manufacturer pn"
+	1    3165 1540
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R7
+U 1 1 5731C5C0
+P 2410 2750
+F 0 "R7" H 2560 2680 40  0000 C CNN
+F 1 "47K" H 2560 2760 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 2465 2470 30  0001 C CNN
+F 3 "" H 2410 2750 30  0000 C CNN
+F 4 " RES SMD 47K OHM 1% 1/16W 0402 " H 2760 2380 60  0001 C CNN "description"
+F 5 "digikey" H 2200 2265 60  0001 C CNN "supplier"
+F 6 "RMCF0402FT47K0CT-ND " H 3005 2250 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 1785 2140 60  0001 C CNN "manufacturer"
+F 8 "RMCF0402FT47K0 " H 2885 2145 60  0001 C CNN "manufacturer pn"
+	1    2410 2750
+	-1   0    0    1   
+$EndComp
+Text Label 2410 2545 0    50   ~ 0
+3V3
+$Comp
+L 74CBTLV3257 U8
+U 1 1 573F8EF1
+P 11865 4805
+F 0 "U8" H 11515 5305 60  0000 C CNN
+F 1 "74CBTLV3257" H 11520 4135 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 11610 3615 60  0001 C CNN
+F 3 "" H 13215 4030 60  0000 C CNN
+F 4 "IC_MUX/DEMUX_DUAL_1OF4_DHVQFN16" H 11790 3980 60  0001 C CNN "description"
+F 5 "digikey" H 11515 3880 60  0001 C CNN "supplier"
+F 6 "568-5423-1-ND" H 12140 3880 60  0001 C CNN "supplier pn"
+F 7 "NXP_Semiconductor" H 11240 3755 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3257BQ,115" H 12190 3755 60  0001 C CNN "manufacturer pn"
+	1    11865 4805
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 573F8EF7
+P 12290 5380
+F 0 "#PWR016" H 12290 5130 50  0001 C CNN
+F 1 "GND" H 12290 5230 50  0000 C CNN
+F 2 "" H 12290 5380 60  0000 C CNN
+F 3 "" H 12290 5380 60  0000 C CNN
+	1    12290 5380
+	1    0    0    -1  
+$EndComp
+Text Label 11965 4455 0    50   ~ 0
+SENS_9A
+Text Label 11965 4530 0    50   ~ 0
+SENS_9B
+Text Label 11965 4655 0    50   ~ 0
+SENS_10A
+Text Label 11965 4730 0    50   ~ 0
+SENS_10B
+Text Label 11965 4855 0    50   ~ 0
+SENS_11A
+Text Label 11965 4930 0    50   ~ 0
+SENS_11B
+Text Label 11965 5055 0    50   ~ 0
+SENS_12A
+Text Label 11965 5130 0    50   ~ 0
+SENS_12B
+Text Label 12190 5255 0    50   ~ 0
+3V3
+$Comp
+L 74CBTLV3257 U12
+U 1 1 573FA1BB
+P 11870 6140
+F 0 "U12" H 11520 6640 60  0000 C CNN
+F 1 "74CBTLV3257" H 11525 5470 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 11615 4950 60  0001 C CNN
+F 3 "" H 13220 5365 60  0000 C CNN
+F 4 "IC_MUX/DEMUX_DUAL_1OF4_DHVQFN16" H 11795 5315 60  0001 C CNN "description"
+F 5 "digikey" H 11520 5215 60  0001 C CNN "supplier"
+F 6 "568-5423-1-ND" H 12145 5215 60  0001 C CNN "supplier pn"
+F 7 "NXP_Semiconductor" H 11245 5090 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3257BQ,115" H 12195 5090 60  0001 C CNN "manufacturer pn"
+	1    11870 6140
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 573FA1C1
+P 12295 6715
+F 0 "#PWR017" H 12295 6465 50  0001 C CNN
+F 1 "GND" H 12295 6565 50  0000 C CNN
+F 2 "" H 12295 6715 60  0000 C CNN
+F 3 "" H 12295 6715 60  0000 C CNN
+	1    12295 6715
+	1    0    0    -1  
+$EndComp
+Text Label 11970 5790 0    50   ~ 0
+SENS_13A
+Text Label 11970 5865 0    50   ~ 0
+SENS_13B
+Text Label 11970 5990 0    50   ~ 0
+SENS_14A
+Text Label 11970 6065 0    50   ~ 0
+SENS_14B
+Text Label 11970 6190 0    50   ~ 0
+SENS_15A
+Text Label 11970 6265 0    50   ~ 0
+SENS_15B
+Text Label 11970 6390 0    50   ~ 0
+SENS_16A
+Text Label 11970 6465 0    50   ~ 0
+SENS_16B
+Text Label 12195 6590 0    50   ~ 0
+3V3
+Text Label 10415 6590 0    50   ~ 0
+SELY4
+Text Label 10410 5255 0    50   ~ 0
+SELY3
+Text Label 8890 3215 0    50   ~ 0
+SELG
+Text Label 2485 4340 0    50   ~ 0
+SELR1
+Text Label 2490 4265 0    50   ~ 0
+SELR0
+$Comp
+L CAP_NP C6
+U 1 1 574C10C6
+P 9010 5885
+F 0 "C6" H 9040 5985 40  0000 L CNN
+F 1 "1nF" H 9050 5855 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9048 5735 30  0001 C CNN
+F 3 "" H 9010 5885 60  0000 C CNN
+F 4 "CAP CER 1000PF 50V X7R 0402" H 9010 5885 60  0001 C CNN "description"
+F 5 "digikey" H 9010 5885 60  0001 C CNN "supplier"
+F 6 " 490-1303-1-ND " H 9010 5885 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 9010 5885 60  0001 C CNN "manufacturer"
+F 8 "GRM155R71H102KA01D" H 9010 5885 60  0001 C CNN "manufacturer pn"
+	1    9010 5885
+	1    0    0    -1  
+$EndComp
+Text Label 10090 3785 0    50   ~ 0
+BANK1
+Text Label 10090 3860 0    50   ~ 0
+BANK2
+Text Label 10090 3935 0    50   ~ 0
+BANK3
+Text Label 10090 4010 0    50   ~ 0
+BANK4
+$Comp
+L 74CBTLV3253 U6
+U 1 1 573BCDFA
+P 9740 4035
+F 0 "U6" H 9790 4385 60  0000 C CNN
+F 1 "74CBTLV3253" H 9765 3460 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 9590 3360 60  0001 C CNN
+F 3 "" H 9590 3360 60  0000 C CNN
+F 4 " IC MUX/DEMUX DUAL 1OF4 DHVQFN16 " H 9890 4485 60  0001 C CNN "description"
+F 5 "digikey" H 9990 4585 60  0001 C CNN "supplier"
+F 6 "568-5422-1-ND" H 10090 4685 60  0001 C CNN "supplier pn"
+F 7 "NXP Semiconductors" H 10190 4785 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3253BQ,115" H 10290 4885 60  0001 C CNN "manufacturer pn"
+	1    9740 4035
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AD7683 U7
+U 1 1 573C011B
+P 9335 5790
+F 0 "U7" H 9735 6090 60  0000 C CNN
+F 1 "AD7683" H 9710 5665 60  0000 C CNN
+F 2 "footprints_on_Cdrive:RM-8" H 9735 5665 60  0001 C CNN
+F 3 "" H 9735 5665 60  0000 C CNN
+F 4 " IC ADC 16BIT SAR 100KSPS 8MSOP " H 9835 6190 60  0001 C CNN "description"
+F 5 "digikey" H 9935 6290 60  0001 C CNN "supplier"
+F 6 "AD7683ARMZRL7CT-ND" H 10035 6390 60  0001 C CNN "supplier pn"
+F 7 "Analog Devices" H 10135 6490 60  0001 C CNN "manufacturer"
+F 8 "AD7683ARMZRL7" H 10235 6590 60  0001 C CNN "manufacturer pn"
+	1    9335 5790
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 573C6876
+P 10210 4645
+F 0 "#PWR018" H 10210 4395 50  0001 C CNN
+F 1 "GND" H 10210 4495 50  0000 C CNN
+F 2 "" H 10210 4645 60  0000 C CNN
+F 3 "" H 10210 4645 60  0000 C CNN
+	1    10210 4645
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 573CB9AB
+P 9260 4540
+F 0 "#PWR019" H 9260 4290 50  0001 C CNN
+F 1 "GND" H 9260 4390 50  0000 C CNN
+F 2 "" H 9260 4540 60  0000 C CNN
+F 3 "" H 9260 4540 60  0000 C CNN
+	1    9260 4540
+	-1   0    0    -1  
+$EndComp
+Text Label 9340 4360 2    50   ~ 0
+3V3
+NoConn ~ 9340 4160
+$Comp
+L GND #PWR020
+U 1 1 573D0C58
+P 9245 5950
+F 0 "#PWR020" H 9245 5700 50  0001 C CNN
+F 1 "GND" H 9245 5800 50  0000 C CNN
+F 2 "" H 9245 5950 60  0000 C CNN
+F 3 "" H 9245 5950 60  0000 C CNN
+	1    9245 5950
+	1    0    0    -1  
+$EndComp
+Text Label 10215 5590 0    50   ~ 0
+3V3
+Text Label 9035 5590 0    50   ~ 0
+V2P5
+$Comp
+L GND #PWR021
+U 1 1 573D8DDF
+P 9010 6020
+F 0 "#PWR021" H 9010 5770 50  0001 C CNN
+F 1 "GND" H 9010 5870 50  0000 C CNN
+F 2 "" H 9010 6020 60  0000 C CNN
+F 3 "" H 9010 6020 60  0000 C CNN
+	1    9010 6020
+	1    0    0    -1  
+$EndComp
+Text Label 9005 3785 0    50   ~ 0
+SELB0
+Text Label 9000 3860 0    50   ~ 0
+SELB1
+Text Label 2485 3440 0    50   ~ 0
+ADC_CS
+Text Label 10220 5815 0    50   ~ 0
+ADC_CS
+$Comp
+L Res1_1 R1
+U 1 1 574226CA
+P 6450 1220
+F 0 "R1" H 6510 1110 40  0000 C CNN
+F 1 "1K" H 6520 1310 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 6505 940 30  0001 C CNN
+F 3 "" H 6450 1220 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 6800 850 60  0001 C CNN "description"
+F 5 "digikey" H 6240 735 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 7045 720 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 5825 610 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 6925 615 60  0001 C CNN "manufacturer pn"
+	1    6450 1220
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R5
+U 1 1 57422907
+P 6950 1210
+F 0 "R5" H 7020 1110 40  0000 C CNN
+F 1 "100K" H 7040 1300 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 7005 930 30  0001 C CNN
+F 3 "" H 6950 1210 30  0000 C CNN
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 7300 840 60  0001 C CNN "description"
+F 5 "digikey" H 6740 725 60  0001 C CNN "supplier"
+F 6 " 311-100KLRCT-ND " H 7545 710 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 6325 600 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 7425 605 60  0001 C CNN "manufacturer pn"
+	1    6950 1210
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R6
+U 1 1 574229DF
+P 7200 1210
+F 0 "R6" H 7270 1110 40  0000 C CNN
+F 1 "1M" H 7260 1300 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 7255 930 30  0001 C CNN
+F 3 "" H 7200 1210 30  0000 C CNN
+F 4 " RES SMD 1M OHM 1% 1/16W 0402 " H 7550 840 60  0001 C CNN "description"
+F 5 "digikey" H 6990 725 60  0001 C CNN "supplier"
+F 6 " 311-1.00MLRCT-ND " H 7795 710 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 6575 600 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071ML " H 7675 605 60  0001 C CNN "manufacturer pn"
+	1    7200 1210
+	-1   0    0    1   
+$EndComp
+$Comp
+L TP_SMT TP16
+U 1 1 5743E73F
+P 2410 3590
+F 0 "TP16" H 2535 3590 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3440 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 3590 90  0001 C CNN
+F 3 "" H 2410 3590 90  0000 C CNN
+	1    2410 3590
+	-1   0    0    -1  
+$EndComp
+$Comp
+L TP_SMT TP17
+U 1 1 5743F4C7
+P 2410 3665
+F 0 "TP17" H 2535 3665 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3515 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 3665 90  0001 C CNN
+F 3 "" H 2410 3665 90  0000 C CNN
+	1    2410 3665
+	-1   0    0    -1  
+$EndComp
+Text Label 2460 3665 0    50   ~ 0
+SOMI_SCL
+Text Label 3285 1815 0    50   ~ 0
+SOMI_SCL
+Text Label 2460 3740 0    50   ~ 0
+SPI_CLK
+Text Label 10215 5740 0    50   ~ 0
+SOMI_SCL
+$Comp
+L TP_SMT TP9
+U 1 1 5746690E
+P 2410 3965
+F 0 "TP9" H 2535 3965 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3815 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 3965 90  0001 C CNN
+F 3 "" H 2410 3965 90  0000 C CNN
+	1    2410 3965
+	-1   0    0    -1  
+$EndComp
+Text Label 2485 3965 0    50   ~ 0
+P4.0
+$Comp
+L TP_SMT TP12
+U 1 1 574743B6
+P 2410 3740
+F 0 "TP12" H 2535 3740 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3590 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 3740 90  0001 C CNN
+F 3 "" H 2410 3740 90  0000 C CNN
+	1    2410 3740
+	-1   0    0    -1  
+$EndComp
+Text Label 9040 5665 0    50   ~ 0
+ADC_IN
+$Comp
+L CAP_NP C7
+U 1 1 57487A6C
+P 9300 5385
+F 0 "C7" H 9330 5485 40  0000 L CNN
+F 1 "0.1uF" H 9340 5355 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9338 5235 30  0001 C CNN
+F 3 "" H 9300 5385 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 9300 5385 60  0001 C CNN "description"
+F 5 "digikey" H 9300 5385 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 9300 5385 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 9300 5385 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 9300 5385 60  0001 C CNN "manufacturer pn"
+	1    9300 5385
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C8
+U 1 1 57488B08
+P 10145 5385
+F 0 "C8" H 10175 5485 40  0000 L CNN
+F 1 "0.1uF" H 10185 5355 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 10183 5235 30  0001 C CNN
+F 3 "" H 10145 5385 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 10145 5385 60  0001 C CNN "description"
+F 5 "digikey" H 10145 5385 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 10145 5385 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 10145 5385 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 10145 5385 60  0001 C CNN "manufacturer pn"
+	1    10145 5385
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5748B467
+P 9085 5240
+F 0 "#PWR022" H 9085 4990 50  0001 C CNN
+F 1 "GND" H 9085 5090 50  0000 C CNN
+F 2 "" H 9085 5240 60  0000 C CNN
+F 3 "" H 9085 5240 60  0000 C CNN
+	1    9085 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5748C44C
+P 9955 5240
+F 0 "#PWR023" H 9955 4990 50  0001 C CNN
+F 1 "GND" H 9955 5090 50  0000 C CNN
+F 2 "" H 9955 5240 60  0000 C CNN
+F 3 "" H 9955 5240 60  0000 C CNN
+	1    9955 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP_SMT TP13
+U 1 1 5749C93E
+P 2410 3440
+F 0 "TP13" H 2535 3440 50  0000 C CNN
+F 1 "TP_SMT" H 2635 3290 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2410 3440 90  0001 C CNN
+F 3 "" H 2410 3440 90  0000 C CNN
+	1    2410 3440
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BU33TD3WG U13
+U 1 1 574FCEFD
+P 1475 955
+F 0 "U13" H 1475 1130 60  0000 C CNN
+F 1 "TPS73133" H 1475 755 60  0000 C CNN
+F 2 "footprints_on_Cdrive:SOT23-5" H 1275 80  60  0001 C CNN
+F 3 "" H 1475 1130 60  0001 C CNN
+F 4 "digikey" H 1175 305 60  0001 C CNN "supplier"
+F 5 "296-32553-1-ND " H 1850 305 60  0001 C CNN "supplier pn"
+F 6 "Texas Instruments" H 850 205 60  0001 C CNN "manufacturer"
+F 7 "TPS73133DBVR " H 1775 205 60  0001 C CNN "manufacturer pn"
+F 8 "IC REG LDO 3.3V 0.15A SOT23-5" H 1325 455 60  0001 C CNN "description"
+	1    1475 955 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 574FEAFA
+P 825 1355
+F 0 "#PWR024" H 825 1105 50  0001 C CNN
+F 1 "GND" H 825 1205 50  0000 C CNN
+F 2 "" H 825 1355 60  0000 C CNN
+F 3 "" H 825 1355 60  0000 C CNN
+	1    825  1355
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 574FEB00
+P 1025 1130
+F 0 "#PWR025" H 1025 880 50  0001 C CNN
+F 1 "GND" H 1025 980 50  0000 C CNN
+F 2 "" H 1025 1130 60  0000 C CNN
+F 3 "" H 1025 1130 60  0000 C CNN
+	1    1025 1130
+	1    0    0    -1  
+$EndComp
+Text Label 850  880  0    50   ~ 0
+VIN
+$Comp
+L CAP_NP C11
+U 1 1 574FEB1E
+P 825 1255
+F 0 "C11" H 930 1320 40  0000 L CNN
+F 1 "0.47uF" H 870 1230 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 863 1105 30  0001 C CNN
+F 3 "" H 825 1255 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 825 1255 60  0001 C CNN "description"
+F 5 "digikey" H 825 1255 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 825 1255 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 825 1255 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 825 1255 60  0001 C CNN "manufacturer pn"
+	1    825  1255
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 57513513
+P 2155 2145
+F 0 "#PWR026" H 2155 1895 50  0001 C CNN
+F 1 "GND" H 2155 1995 50  0000 C CNN
+F 2 "" H 2155 2145 60  0000 C CNN
+F 3 "" H 2155 2145 60  0000 C CNN
+	1    2155 2145
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 575135C3
+P 1875 2145
+F 0 "#PWR027" H 1875 1895 50  0001 C CNN
+F 1 "GND" H 1875 1995 50  0000 C CNN
+F 2 "" H 1875 2145 60  0000 C CNN
+F 3 "" H 1875 2145 60  0000 C CNN
+	1    1875 2145
+	1    0    0    -1  
+$EndComp
+Text Label 2030 880  0    50   ~ 0
+3V3
+$Comp
+L CAP_NP C10
+U 1 1 57515AC3
+P 2155 1190
+F 0 "C10" H 2005 1265 40  0000 L CNN
+F 1 "0.47uF" H 1905 1165 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 2193 1040 30  0001 C CNN
+F 3 "" H 2155 1190 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 2155 1190 60  0001 C CNN "description"
+F 5 "digikey" H 2155 1190 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 2155 1190 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 2155 1190 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 2155 1190 60  0001 C CNN "manufacturer pn"
+	1    2155 1190
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 57515ACC
+P 2155 1290
+F 0 "#PWR028" H 2155 1040 50  0001 C CNN
+F 1 "GND" H 2155 1140 50  0000 C CNN
+F 2 "" H 2155 1290 60  0000 C CNN
+F 3 "" H 2155 1290 60  0000 C CNN
+	1    2155 1290
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C9
+U 1 1 57516694
+P 1875 1180
+F 0 "C9" H 1765 1285 40  0000 L CNN
+F 1 "DNI" H 1740 1160 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 1913 1030 30  0001 C CNN
+F 3 "" H 1875 1180 60  0000 C CNN
+F 4 "do not install" H 1875 1180 60  0001 C CNN "description"
+F 5 "NA" H 1875 1180 60  0001 C CNN "supplier"
+F 6 "NA" H 1875 1180 60  0001 C CNN "supplier pn"
+F 7 "NA" H 1875 1180 60  0001 C CNN "manufacturer"
+F 8 "NA" H 1875 1180 60  0001 C CNN "manufacturer pn"
+	1    1875 1180
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5751669A
+P 1875 1280
+F 0 "#PWR029" H 1875 1030 50  0001 C CNN
+F 1 "GND" H 1875 1130 50  0000 C CNN
+F 2 "" H 1875 1280 60  0000 C CNN
+F 3 "" H 1875 1280 60  0000 C CNN
+	1    1875 1280
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C12
+U 1 1 57517666
+P 1875 2045
+F 0 "C12" H 1735 2160 40  0000 L CNN
+F 1 "DNI" H 1740 2025 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 1913 1895 30  0001 C CNN
+F 3 "" H 1875 2045 60  0000 C CNN
+F 4 "do not install" H 1875 2045 60  0001 C CNN "description"
+F 5 "NA" H 1875 2045 60  0001 C CNN "supplier"
+F 6 "NA" H 1875 2045 60  0001 C CNN "supplier pn"
+F 7 "NA" H 1875 2045 60  0001 C CNN "manufacturer"
+F 8 "NA" H 1875 2045 60  0001 C CNN "manufacturer pn"
+	1    1875 2045
+	-1   0    0    -1  
+$EndComp
+Text Label 9155 4010 2    50   ~ 0
+BANK_IN
+$Comp
+L 74CBTLV3253 U15
+U 1 1 575AFD5D
+P 7770 1655
+F 0 "U15" H 7820 2005 60  0000 C CNN
+F 1 "74CBTLV3253" H 7795 1080 60  0000 C CNN
+F 2 "footprints_on_Cdrive:DHVQFN16" H 7620 980 60  0001 C CNN
+F 3 "" H 7620 980 60  0000 C CNN
+F 4 " IC MUX/DEMUX DUAL 1OF4 DHVQFN16 " H 7920 2105 60  0001 C CNN "description"
+F 5 "digikey" H 8020 2205 60  0001 C CNN "supplier"
+F 6 "568-5422-1-ND" H 8120 2305 60  0001 C CNN "supplier pn"
+F 7 "NXP Semiconductors" H 8220 2405 60  0001 C CNN "manufacturer"
+F 8 "74CBTLV3253BQ,115" H 8320 2505 60  0001 C CNN "manufacturer pn"
+	1    7770 1655
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 575B93E1
+P 7315 2165
+F 0 "#PWR030" H 7315 1915 50  0001 C CNN
+F 1 "GND" H 7315 2015 50  0000 C CNN
+F 2 "" H 7315 2165 60  0000 C CNN
+F 3 "" H 7315 2165 60  0000 C CNN
+	1    7315 2165
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 575BC674
+P 8250 2160
+F 0 "#PWR031" H 8250 1910 50  0001 C CNN
+F 1 "GND" H 8250 2010 50  0000 C CNN
+F 2 "" H 8250 2160 60  0000 C CNN
+F 3 "" H 8250 2160 60  0000 C CNN
+	1    8250 2160
+	1    0    0    -1  
+$EndComp
+Text Label 8190 1980 0    50   ~ 0
+3V3
+NoConn ~ 8170 1780
+$Comp
+L Q_Si1101X Q2
+U 1 1 575D179A
+P 8565 2790
+F 0 "Q2" H 8865 2840 50  0000 R CNN
+F 1 "Si1101X" H 9060 2745 50  0000 R CNN
+F 2 "footprints_on_Cdrive:SOT23" H 8765 2890 50  0001 C CNN
+F 3 "" H 8565 2790 50  0000 C CNN
+F 4 "SI1011X-T1-GE3CT-ND " H 9040 3190 50  0001 C CNN "supplier pn"
+F 5 "digikey" H 8390 3190 50  0001 C CNN "supplier"
+F 6 "Vishay" H 8415 3290 50  0001 C CNN "manufacturer"
+F 7 "SI1011X-T1-GE3 " H 8915 3290 50  0001 C CNN "manufacturer pn"
+F 8 "MOSFET P-CH 12V SC-89 " H 8765 3490 50  0001 C CNN "description"
+	1    8565 2790
+	1    0    0    1   
+$EndComp
+$Comp
+L MCP4921 U14
+U 1 1 575D2890
+P 6990 3915
+F 0 "U14" H 6765 4190 50  0000 L CNN
+F 1 "MCP4921" H 6615 3765 50  0000 L CNN
+F 2 "footprints_on_Cdrive:MSOP-8" H 6990 3940 50  0001 C CIN
+F 3 "" H 6990 3940 50  0000 C CNN
+F 4 "digikey" H 6815 4490 50  0001 C CNN "supplier"
+F 5 " MCP4921T-E/MSCT-ND " H 7490 4490 50  0001 C CNN "supplier pn"
+F 6 "Microchip Technology" H 6565 4590 50  0001 C CNN "manufacturer"
+F 7 "MCP4921T-E/MS " H 7390 4590 50  0001 C CNN "manufacturer pn"
+F 8 " ICDAC 12BIT SNGL W/SPI 8MSOP " H 6990 4715 50  0001 C CNN "description"
+	1    6990 3915
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD8603 U10
+U 1 1 575D2EAD
+P 7975 2865
+F 0 "U10" H 8025 3015 50  0000 L CNN
+F 1 "AD8603" H 8025 2715 50  0000 L CNN
+F 2 "footprints_on_Cdrive:SOT23-5" H 8050 3215 50  0001 C CNN
+F 3 "" H 7975 3115 50  0000 C CNN
+F 4 "digikey" H 7775 3315 50  0001 C CNN "supplier"
+F 5 "AD8603AUJZREEL7CT-ND " H 8500 3315 50  0001 C CNN "supplier pn"
+F 6 "Analog Devices" H 7625 3415 50  0001 C CNN "manufacturer"
+F 7 "AD8603AUJZ-REEL7 " H 8400 3415 50  0001 C CNN "manufacturer pn"
+F 8 " IC OPAMP GP 400KHZ RRO TSOT23-5 " H 8000 2465 50  0001 C CNN "description"
+	1    7975 2865
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C13
+U 1 1 575F0A3D
+P 8410 2540
+F 0 "C13" V 8325 2555 40  0000 L CNN
+F 1 "51pF" V 8495 2510 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 8448 2390 30  0001 C CNN
+F 3 "" H 8410 2540 60  0000 C CNN
+F 4 "CAP CER 51PF 50V NP0 0402" H 8410 2540 60  0001 C CNN "description"
+F 5 "digikey" H 8410 2540 60  0001 C CNN "supplier"
+F 6 " 490-5944-1-ND " H 8410 2540 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 8410 2540 60  0001 C CNN "manufacturer"
+F 8 "GRM1555C1H510JA01D " H 8410 2540 60  0001 C CNN "manufacturer pn"
+	1    8410 2540
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 575F9BD5
+P 10100 3335
+F 0 "#PWR032" H 10100 3085 50  0001 C CNN
+F 1 "GND" H 10100 3185 50  0000 C CNN
+F 2 "" H 10100 3335 60  0000 C CNN
+F 3 "" H 10100 3335 60  0000 C CNN
+	1    10100 3335
+	1    0    0    -1  
+$EndComp
+Text Label 9075 3290 0    50   ~ 0
+3V3
+Text Label 8195 1405 0    50   ~ 0
+SELR0
+Text Label 2490 4190 0    50   ~ 0
+SELG
+Text Label 7925 2590 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR033
+U 1 1 5760EA19
+P 7925 3140
+F 0 "#PWR033" H 7925 2890 50  0001 C CNN
+F 1 "GND" H 7925 2990 50  0000 C CNN
+F 2 "" H 7925 3140 60  0000 C CNN
+F 3 "" H 7925 3140 60  0000 C CNN
+	1    7925 3140
+	1    0    0    -1  
+$EndComp
+Text Label 7190 3740 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR034
+U 1 1 57612B9C
+P 7240 4005
+F 0 "#PWR034" H 7240 3755 50  0001 C CNN
+F 1 "GND" H 7240 3855 50  0000 C CNN
+F 2 "" H 7240 4005 60  0000 C CNN
+F 3 "" H 7240 4005 60  0000 C CNN
+	1    7240 4005
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS73125 U1
+U 1 1 576178C6
+P 1475 1810
+F 0 "U1" H 1475 1985 60  0000 C CNN
+F 1 "TPS73125" H 1475 1610 60  0000 C CNN
+F 2 "footprints_on_Cdrive:SOT23-5" H 1275 935 60  0001 C CNN
+F 3 "" H 1475 1985 60  0001 C CNN
+F 4 "digikey" H 1175 1160 60  0001 C CNN "supplier"
+F 5 " 296-15803-1-ND " H 1850 1160 60  0001 C CNN "supplier pn"
+F 6 "Texas Instruments" H 850 1060 60  0001 C CNN "manufacturer"
+F 7 " TPS73125DBVT " H 1775 1060 60  0001 C CNN "manufacturer pn"
+F 8 " IC REG LDO 2.5V 0.15A SOT23-5 " H 1325 1310 60  0001 C CNN "description"
+	1    1475 1810
+	1    0    0    -1  
+$EndComp
+Text Label 7195 3890 0    50   ~ 0
+V2P5
+Text Label 10210 5665 0    50   ~ 0
+SPI_CLK
+Text Label 6055 3815 0    50   ~ 0
+SPI_CLK
+Text Label 6055 3740 0    50   ~ 0
+SIMO_SDA
+Text Label 6055 3890 0    45   ~ 0
+DAC_CS
+$Comp
+L TP_SMT TP11
+U 1 1 57656DC1
+P 7480 2965
+F 0 "TP11" H 7615 2965 50  0000 C CNN
+F 1 "TP_SMT" H 7705 2815 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 7480 2965 90  0001 C CNN
+F 3 "" H 7480 2965 90  0000 C CNN
+	1    7480 2965
+	-1   0    0    -1  
+$EndComp
+Text Label 7190 3815 0    50   ~ 0
+DAC_OUT
+Text Label 8190 1630 0    50   ~ 0
+BIAS_OUT
+$Comp
+L Res1_1 R13
+U 1 1 5766D68D
+P 8845 5665
+F 0 "R13" V 8765 5650 40  0000 C CNN
+F 1 "1K" V 8935 5650 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 8900 5385 30  0001 C CNN
+F 3 "" H 8845 5665 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 9195 5295 60  0001 C CNN "description"
+F 5 "digikey" H 8635 5180 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 9440 5165 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 8220 5055 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 9320 5060 60  0001 C CNN "manufacturer pn"
+	1    8845 5665
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP_NP C14
+U 1 1 57670032
+P 8415 3260
+F 0 "C14" H 8445 3360 40  0000 L CNN
+F 1 "1nF" H 8455 3230 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 8453 3110 30  0001 C CNN
+F 3 "" H 8415 3260 60  0000 C CNN
+F 4 "CAP CER 1000PF 50V X7R 0402" H 8415 3260 60  0001 C CNN "description"
+F 5 "digikey" H 8415 3260 60  0001 C CNN "supplier"
+F 6 " 490-1303-1-ND " H 8415 3260 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 8415 3260 60  0001 C CNN "manufacturer"
+F 8 "GRM155R71H102KA01D" H 8415 3260 60  0001 C CNN "manufacturer pn"
+	1    8415 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 57670D70
+P 8415 3310
+F 0 "#PWR035" H 8415 3060 50  0001 C CNN
+F 1 "GND" H 8415 3160 50  0000 C CNN
+F 2 "" H 8415 3310 60  0000 C CNN
+F 3 "" H 8415 3310 60  0000 C CNN
+	1    8415 3310
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLV1G125 U9
+U 1 1 575CD67C
+P 9440 3290
+F 0 "U9" H 9640 3540 60  0000 C CNN
+F 1 "TLV1G125" H 9640 3165 60  0000 C CNN
+F 2 "footprints_on_Cdrive:SOT23-5" H 9465 3540 60  0001 C CNN
+F 3 "" H 9465 3540 60  0000 C CNN
+F 4 " IC LV SINGLE FET BUS SW SOT-23-5 " H 9565 3640 60  0001 C CNN "description"
+F 5 "digikey" H 9665 3740 60  0001 C CNN "supplier"
+F 6 " 296-9109-1-ND " H 9765 3840 60  0001 C CNN "supplier pn"
+F 7 "Texas Instruments" H 9865 3940 60  0001 C CNN "manufacturer"
+F 8 "SN74CBTLV1G125DBVR" H 9965 4040 60  0001 C CNN "manufacturer pn"
+	1    9440 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1_1 R9
+U 1 1 5768EDD7
+P 9140 3140
+F 0 "R9" V 9100 3030 40  0000 C CNN
+F 1 "1K" V 9100 3240 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 9195 2860 30  0001 C CNN
+F 3 "" H 9140 3140 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 9490 2770 60  0001 C CNN "description"
+F 5 "digikey" H 8930 2655 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 9735 2640 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 8515 2530 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 9615 2535 60  0001 C CNN "manufacturer pn"
+	1    9140 3140
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1_1 R14
+U 1 1 576BF02A
+P 7580 3525
+F 0 "R14" H 7710 3455 40  0000 C CNN
+F 1 "1K" H 7705 3535 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 7635 3245 30  0001 C CNN
+F 3 "" H 7580 3525 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 7930 3155 60  0001 C CNN "description"
+F 5 "digikey" H 7370 3040 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 8175 3025 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 6955 2915 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 8055 2920 60  0001 C CNN "manufacturer pn"
+	1    7580 3525
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP_NP C15
+U 1 1 576C0D18
+P 7820 3560
+F 0 "C15" H 7850 3660 40  0000 L CNN
+F 1 "0.1uF" H 7860 3530 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 7858 3410 30  0001 C CNN
+F 3 "" H 7820 3560 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 7820 3560 60  0001 C CNN "description"
+F 5 "digikey" H 7820 3560 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 7820 3560 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 7820 3560 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 7820 3560 60  0001 C CNN "manufacturer pn"
+	1    7820 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 576C1575
+P 7820 3645
+F 0 "#PWR036" H 7820 3395 50  0001 C CNN
+F 1 "GND" H 7820 3495 50  0000 C CNN
+F 2 "" H 7820 3645 60  0000 C CNN
+F 3 "" H 7820 3645 60  0000 C CNN
+	1    7820 3645
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 576E0BBB
+P 6325 4005
+F 0 "#PWR037" H 6325 3755 50  0001 C CNN
+F 1 "GND" H 6325 3855 50  0000 C CNN
+F 2 "" H 6325 4005 60  0000 C CNN
+F 3 "" H 6325 4005 60  0000 C CNN
+	1    6325 4005
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1_1 R12
+U 1 1 576ED20B
+P 8890 3420
+F 0 "R12" H 9005 3470 40  0000 C CNN
+F 1 "100K" H 9020 3400 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 8945 3140 30  0001 C CNN
+F 3 "" H 8890 3420 30  0000 C CNN
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 9240 3050 60  0001 C CNN "description"
+F 5 "digikey" H 8680 2935 60  0001 C CNN "supplier"
+F 6 " 311-100KLRCT-ND " H 9485 2920 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 8265 2810 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 9365 2815 60  0001 C CNN "manufacturer pn"
+	1    8890 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 576EF1B8
+P 8890 3545
+F 0 "#PWR038" H 8890 3295 50  0001 C CNN
+F 1 "GND" H 8890 3395 50  0000 C CNN
+F 2 "" H 8890 3545 60  0000 C CNN
+F 3 "" H 8890 3545 60  0000 C CNN
+	1    8890 3545
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C17
+U 1 1 576114CB
+P 6985 3360
+F 0 "C17" H 7050 3460 40  0000 L CNN
+F 1 "0.1uF" H 7015 3340 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 7023 3210 30  0001 C CNN
+F 3 "" H 6985 3360 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 6985 3360 60  0001 C CNN "description"
+F 5 "digikey" H 6985 3360 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 6985 3360 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 6985 3360 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 6985 3360 60  0001 C CNN "manufacturer pn"
+	1    6985 3360
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C16
+U 1 1 576115EC
+P 6795 3360
+F 0 "C16" H 6595 3460 40  0000 L CNN
+F 1 "10uF" H 6585 3340 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 6833 3210 30  0001 C CNN
+F 3 "" H 6795 3360 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X5R 0402 " H 6795 3360 60  0001 C CNN "description"
+F 5 "digikey" H 6795 3360 60  0001 C CNN "supplier"
+F 6 " 1276-6830-1-ND " H 6795 3360 60  0001 C CNN "supplier pn"
+F 7 "Samsung" H 6795 3360 60  0001 C CNN "manufacturer"
+F 8 "CL05A106MP8NUB8 " H 6795 3360 60  0001 C CNN "manufacturer pn"
+	1    6795 3360
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 576119AB
+P 6985 3455
+F 0 "#PWR039" H 6985 3205 50  0001 C CNN
+F 1 "GND" H 6985 3305 50  0000 C CNN
+F 2 "" H 6985 3455 60  0000 C CNN
+F 3 "" H 6985 3455 60  0000 C CNN
+	1    6985 3455
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10410 1850 11090 1850
+Connection ~ 11015 1850
+Wire Wire Line
+	10410 1925 11090 1925
+Wire Wire Line
+	11965 1125 12190 1125
+Wire Wire Line
+	11965 1200 12190 1200
+Wire Wire Line
+	11965 1325 12190 1325
+Wire Wire Line
+	11965 1400 12190 1400
+Wire Wire Line
+	11965 1525 12190 1525
+Wire Wire Line
+	11965 1600 12190 1600
+Wire Wire Line
+	11965 1725 12190 1725
+Wire Wire Line
+	11965 1800 12190 1800
+Wire Wire Line
+	11965 1925 12190 1925
+Wire Wire Line
+	11965 2000 12290 2000
+Wire Wire Line
+	11965 2400 12190 2400
+Wire Wire Line
+	11965 2475 12190 2475
+Wire Wire Line
+	11965 2600 12190 2600
+Wire Wire Line
+	11965 2675 12190 2675
+Wire Wire Line
+	11965 2800 12190 2800
+Wire Wire Line
+	11965 2875 12190 2875
+Wire Wire Line
+	11965 3000 12190 3000
+Wire Wire Line
+	11965 3075 12190 3075
+Wire Wire Line
+	1705 6500 1705 6650
+Wire Wire Line
+	1705 5950 1705 6100
+Wire Wire Line
+	1875 1735 2290 1735
+Wire Wire Line
+	2155 1735 2155 1895
+Wire Wire Line
+	2155 2095 2155 2145
+Wire Wire Line
+	825  1810 1075 1810
+Wire Wire Line
+	825  1735 825  1960
+Wire Wire Line
+	825  1735 1075 1735
+Wire Wire Line
+	825  2160 825  2210
+Connection ~ 825  1810
+Wire Wire Line
+	1075 1885 1025 1885
+Wire Wire Line
+	1025 1885 1025 1985
+Wire Wire Line
+	970  3610 1370 3610
+Wire Wire Line
+	970  3510 1370 3510
+Wire Wire Line
+	970  2810 1670 2810
+Wire Wire Line
+	1670 2810 1670 3010
+Wire Wire Line
+	970  3110 1370 3110
+Wire Wire Line
+	970  3210 1370 3210
+Wire Wire Line
+	970  3310 1370 3310
+Wire Wire Line
+	1705 5725 1705 5450
+Wire Wire Line
+	2860 3515 2460 3515
+Wire Wire Line
+	5335 4190 5710 4190
+Wire Wire Line
+	5335 4115 5710 4115
+Wire Wire Line
+	970  3410 1370 3410
+Wire Wire Line
+	2860 3665 2460 3665
+Wire Wire Line
+	2860 3590 2460 3590
+Wire Wire Line
+	3015 1815 3690 1815
+Wire Wire Line
+	3165 1740 3690 1740
+Wire Wire Line
+	12290 2000 12290 2050
+Wire Wire Line
+	11965 3200 12190 3200
+Wire Wire Line
+	11965 3275 12290 3275
+Wire Wire Line
+	12290 3275 12290 3325
+Wire Wire Line
+	4620 5405 5070 5405
+Wire Wire Line
+	4620 5480 5070 5480
+Wire Wire Line
+	4620 5555 5070 5555
+Wire Wire Line
+	4620 5630 5070 5630
+Wire Wire Line
+	4620 5780 5070 5780
+Wire Wire Line
+	4620 5855 5070 5855
+Wire Wire Line
+	4620 5930 5070 5930
+Wire Wire Line
+	4620 6005 5145 6005
+Wire Wire Line
+	4620 6080 5070 6080
+Wire Wire Line
+	4620 6155 5070 6155
+Wire Wire Line
+	4620 6230 5070 6230
+Wire Wire Line
+	4620 6305 5070 6305
+Wire Wire Line
+	4620 6455 5070 6455
+Wire Wire Line
+	4620 6530 5070 6530
+Wire Wire Line
+	4620 6605 5070 6605
+Wire Wire Line
+	4620 6680 5145 6680
+Wire Wire Line
+	2995 5405 3545 5405
+Wire Wire Line
+	3095 5480 3545 5480
+Wire Wire Line
+	3095 5555 3545 5555
+Wire Wire Line
+	3095 5630 3545 5630
+Wire Wire Line
+	3095 5780 3545 5780
+Wire Wire Line
+	3095 5855 3545 5855
+Wire Wire Line
+	3095 5930 3545 5930
+Wire Wire Line
+	3095 6005 3545 6005
+Wire Wire Line
+	2995 6080 3545 6080
+Wire Wire Line
+	3095 6155 3545 6155
+Wire Wire Line
+	3095 6230 3545 6230
+Wire Wire Line
+	3095 6305 3545 6305
+Wire Wire Line
+	3095 6455 3545 6455
+Wire Wire Line
+	3095 6530 3545 6530
+Wire Wire Line
+	3095 6605 3545 6605
+Wire Wire Line
+	3095 6680 3545 6680
+Wire Wire Line
+	4490 1815 4590 1815
+Wire Wire Line
+	4490 1740 4815 1740
+Wire Wire Line
+	2460 3290 2860 3290
+Wire Wire Line
+	2460 3365 2860 3365
+Wire Wire Line
+	2460 3440 2860 3440
+Wire Wire Line
+	5335 4340 5710 4340
+Wire Wire Line
+	5335 2915 5710 2915
+Wire Wire Line
+	2485 3065 2860 3065
+Wire Wire Line
+	2860 3965 2460 3965
+Wire Wire Line
+	2860 4040 2460 4040
+Wire Wire Line
+	2860 4115 2460 4115
+Wire Wire Line
+	2460 3890 2860 3890
+Wire Wire Line
+	5335 2990 5710 2990
+Wire Wire Line
+	5335 3065 5710 3065
+Wire Wire Line
+	2860 2915 2085 2915
+Wire Wire Line
+	2085 2915 2085 3915
+Wire Wire Line
+	2860 3815 2085 3815
+Connection ~ 2085 3815
+Wire Wire Line
+	2860 3140 2085 3140
+Connection ~ 2085 3140
+Wire Wire Line
+	2995 5405 2995 6805
+Wire Wire Line
+	955  6300 1405 6300
+Wire Wire Line
+	2485 2990 2860 2990
+Wire Wire Line
+	970  3710 1045 3710
+Wire Wire Line
+	1145 3010 970  3010
+Wire Wire Line
+	1145 2810 1145 3010
+Connection ~ 1145 2810
+Wire Wire Line
+	970  2910 1145 2910
+Connection ~ 1145 2910
+Wire Wire Line
+	1045 3710 1045 3610
+Connection ~ 1045 3610
+Wire Wire Line
+	2860 4190 2460 4190
+Wire Wire Line
+	5355 2385 5355 2435
+Wire Wire Line
+	5355 2435 5655 2435
+Wire Wire Line
+	5655 2435 5655 2385
+Wire Wire Line
+	5530 2460 5530 2435
+Connection ~ 5530 2435
+Wire Wire Line
+	5655 2010 5655 2185
+Wire Wire Line
+	5355 2185 5355 2135
+Wire Wire Line
+	5355 2135 5655 2135
+Connection ~ 5655 2135
+Wire Wire Line
+	5335 3890 5710 3890
+Wire Wire Line
+	5335 3815 5710 3815
+Wire Wire Line
+	5335 3740 5710 3740
+Wire Wire Line
+	4590 1815 4590 1890
+Wire Wire Line
+	5335 3590 5710 3590
+Wire Wire Line
+	5335 3515 5710 3515
+Wire Wire Line
+	5335 3440 5710 3440
+Wire Wire Line
+	5335 3365 5710 3365
+Wire Wire Line
+	5335 3290 5710 3290
+Wire Wire Line
+	5335 3215 5710 3215
+Wire Wire Line
+	5335 3140 5710 3140
+Wire Wire Line
+	2460 4265 2860 4265
+Wire Wire Line
+	2375 3215 2860 3215
+Wire Wire Line
+	2460 4340 2860 4340
+Wire Wire Line
+	5335 4415 5410 4415
+Wire Wire Line
+	5410 4415 5410 4490
+Wire Wire Line
+	3545 5705 3095 5705
+Wire Wire Line
+	4620 5705 5070 5705
+Wire Wire Line
+	4620 6380 5070 6380
+Wire Wire Line
+	3545 6380 3095 6380
+Connection ~ 2995 6080
+Connection ~ 5145 6680
+Wire Wire Line
+	5145 6005 5145 6855
+Wire Wire Line
+	2105 5150 2105 5050
+Wire Wire Line
+	2105 5375 2105 5700
+Wire Wire Line
+	2105 5925 2105 5975
+Wire Wire Line
+	2105 5550 2330 5550
+Connection ~ 2105 5550
+Wire Wire Line
+	5655 5000 5755 5000
+Wire Wire Line
+	5655 5100 5755 5100
+Wire Wire Line
+	5755 5100 5755 5150
+Wire Wire Line
+	5335 3965 5710 3965
+Wire Wire Line
+	3165 1415 3165 1340
+Wire Wire Line
+	3165 1340 3015 1340
+Wire Wire Line
+	3015 1190 3015 1415
+Wire Wire Line
+	3015 1815 3015 1640
+Wire Wire Line
+	3165 1740 3165 1640
+Wire Wire Line
+	5335 4040 5710 4040
+Connection ~ 3015 1340
+Wire Wire Line
+	2410 2625 2410 2545
+Wire Wire Line
+	2410 2850 2410 3215
+Connection ~ 2410 3215
+Wire Wire Line
+	11965 4455 12190 4455
+Wire Wire Line
+	11965 4530 12190 4530
+Wire Wire Line
+	11965 4655 12190 4655
+Wire Wire Line
+	11965 4730 12190 4730
+Wire Wire Line
+	11965 4855 12190 4855
+Wire Wire Line
+	11965 4930 12190 4930
+Wire Wire Line
+	11965 5055 12190 5055
+Wire Wire Line
+	11965 5130 12190 5130
+Wire Wire Line
+	11965 5255 12190 5255
+Wire Wire Line
+	11965 5330 12290 5330
+Wire Wire Line
+	12290 5330 12290 5380
+Wire Wire Line
+	11970 5790 12195 5790
+Wire Wire Line
+	11970 5865 12195 5865
+Wire Wire Line
+	11970 5990 12195 5990
+Wire Wire Line
+	11970 6065 12195 6065
+Wire Wire Line
+	11970 6190 12195 6190
+Wire Wire Line
+	11970 6265 12195 6265
+Wire Wire Line
+	11970 6390 12195 6390
+Wire Wire Line
+	11970 6465 12195 6465
+Wire Wire Line
+	11970 6590 12195 6590
+Wire Wire Line
+	11970 6665 12295 6665
+Wire Wire Line
+	12295 6665 12295 6715
+Wire Wire Line
+	11015 1850 11015 6515
+Wire Wire Line
+	11015 6515 11095 6515
+Wire Wire Line
+	11090 5180 11015 5180
+Connection ~ 11015 5180
+Wire Wire Line
+	11090 3125 11015 3125
+Connection ~ 11015 3125
+Wire Wire Line
+	10410 3200 11090 3200
+Wire Wire Line
+	10415 6590 11095 6590
+Wire Wire Line
+	10410 5255 11090 5255
+Wire Wire Line
+	10950 1125 10950 5790
+Wire Wire Line
+	10950 5790 11095 5790
+Wire Wire Line
+	10885 1325 10885 5990
+Wire Wire Line
+	10885 5990 11095 5990
+Wire Wire Line
+	10815 6190 11095 6190
+Wire Wire Line
+	10815 1525 10815 6190
+Wire Wire Line
+	10740 1725 10740 6390
+Wire Wire Line
+	10740 6390 11095 6390
+Wire Wire Line
+	11090 3000 10740 3000
+Connection ~ 10740 3000
+Wire Wire Line
+	11090 2800 10815 2800
+Connection ~ 10815 2800
+Wire Wire Line
+	11090 2600 10885 2600
+Connection ~ 10885 2600
+Wire Wire Line
+	11090 2400 10950 2400
+Connection ~ 10950 2400
+Wire Wire Line
+	11090 4455 10950 4455
+Connection ~ 10950 4455
+Wire Wire Line
+	11090 4655 10885 4655
+Connection ~ 10885 4655
+Wire Wire Line
+	11090 4855 10815 4855
+Connection ~ 10815 4855
+Wire Wire Line
+	11090 5055 10740 5055
+Connection ~ 10740 5055
+Wire Wire Line
+	10090 4085 10210 4085
+Wire Wire Line
+	10210 4085 10210 4645
+Wire Wire Line
+	10090 4185 10210 4185
+Connection ~ 10210 4185
+Wire Wire Line
+	10090 4260 10210 4260
+Connection ~ 10210 4260
+Wire Wire Line
+	10090 4335 10210 4335
+Connection ~ 10210 4335
+Wire Wire Line
+	10090 4410 10210 4410
+Connection ~ 10210 4410
+Wire Wire Line
+	10090 4485 10210 4485
+Connection ~ 10210 4485
+Wire Wire Line
+	9340 4360 9210 4360
+Wire Wire Line
+	9340 4485 9260 4485
+Wire Wire Line
+	9260 4485 9260 4540
+Wire Wire Line
+	9335 5740 9245 5740
+Wire Wire Line
+	9245 5740 9245 5950
+Wire Wire Line
+	9335 5815 9245 5815
+Connection ~ 9245 5815
+Wire Wire Line
+	9035 5590 9335 5590
+Wire Wire Line
+	10110 5590 10355 5590
+Wire Wire Line
+	9010 5935 9010 6020
+Wire Wire Line
+	10110 5665 10355 5665
+Wire Wire Line
+	10110 5740 10355 5740
+Wire Wire Line
+	10110 5815 10355 5815
+Wire Wire Line
+	2860 3740 2460 3740
+Wire Wire Line
+	10145 5435 10145 5590
+Connection ~ 10145 5590
+Wire Wire Line
+	9300 5435 9300 5590
+Connection ~ 9300 5590
+Wire Wire Line
+	9300 5235 9300 5160
+Wire Wire Line
+	9300 5160 9085 5160
+Wire Wire Line
+	9085 5160 9085 5240
+Wire Wire Line
+	9955 5240 9955 5165
+Wire Wire Line
+	9955 5165 10145 5165
+Wire Wire Line
+	10145 5165 10145 5235
+Wire Wire Line
+	825  955  1075 955 
+Wire Wire Line
+	825  880  825  1105
+Wire Wire Line
+	825  880  1075 880 
+Wire Wire Line
+	825  1305 825  1355
+Connection ~ 825  955 
+Wire Wire Line
+	1075 1030 1025 1030
+Wire Wire Line
+	1025 1030 1025 1130
+Wire Wire Line
+	1875 1885 1875 1895
+Wire Wire Line
+	1875 2095 1875 2145
+Wire Wire Line
+	1875 880  2155 880 
+Wire Wire Line
+	2155 880  2155 1040
+Wire Wire Line
+	2155 1240 2155 1290
+Wire Wire Line
+	1875 1230 1875 1280
+Wire Wire Line
+	5335 4265 5710 4265
+Wire Wire Line
+	9010 5735 9010 5665
+Connection ~ 9010 5665
+Wire Wire Line
+	8945 5665 9335 5665
+Wire Wire Line
+	10950 1125 11090 1125
+Wire Wire Line
+	10885 1325 11090 1325
+Wire Wire Line
+	10815 1525 11090 1525
+Wire Wire Line
+	10740 1725 11090 1725
+Wire Wire Line
+	7200 1405 7420 1405
+Wire Wire Line
+	6950 1480 7420 1480
+Wire Wire Line
+	6700 1555 7420 1555
+Wire Wire Line
+	6450 1630 7420 1630
+Wire Wire Line
+	7420 1705 7315 1705
+Wire Wire Line
+	7315 1705 7315 2165
+Wire Wire Line
+	7420 2105 7315 2105
+Connection ~ 7315 2105
+Wire Wire Line
+	7420 2030 7315 2030
+Connection ~ 7315 2030
+Wire Wire Line
+	7420 1955 7315 1955
+Connection ~ 7315 1955
+Wire Wire Line
+	7420 1880 7315 1880
+Connection ~ 7315 1880
+Wire Wire Line
+	7420 1805 7315 1805
+Connection ~ 7315 1805
+Wire Wire Line
+	8170 1980 8300 1980
+Wire Wire Line
+	8170 2105 8250 2105
+Wire Wire Line
+	8250 2105 8250 2160
+Wire Wire Line
+	8170 1405 8525 1405
+Wire Wire Line
+	8170 1480 8525 1480
+Wire Wire Line
+	7200 1310 7200 1405
+Wire Wire Line
+	6950 1310 6950 1480
+Wire Wire Line
+	6700 1315 6700 1555
+Wire Wire Line
+	6450 1320 6450 1630
+Wire Wire Line
+	6450 830  6450 1095
+Wire Wire Line
+	7200 1025 7200 1085
+Wire Wire Line
+	6450 1025 7200 1025
+Connection ~ 6450 1025
+Wire Wire Line
+	6700 1090 6700 1025
+Connection ~ 6700 1025
+Wire Wire Line
+	6950 1085 6950 1025
+Connection ~ 6950 1025
+Wire Wire Line
+	10015 3140 10100 3140
+Wire Wire Line
+	10100 3140 10100 3335
+Wire Wire Line
+	10015 3290 10100 3290
+Connection ~ 10100 3290
+Wire Wire Line
+	8170 1630 8665 1630
+Wire Wire Line
+	7675 2765 7630 2765
+Wire Wire Line
+	7630 2765 7630 2385
+Connection ~ 8665 2385
+Wire Wire Line
+	7190 3965 7240 3965
+Wire Wire Line
+	7240 3965 7240 4005
+Wire Wire Line
+	7190 3815 7580 3815
+Wire Wire Line
+	7190 3890 7400 3890
+Wire Wire Line
+	6055 3815 6390 3815
+Wire Wire Line
+	6055 3890 6390 3890
+Wire Wire Line
+	6055 3740 6390 3740
+Wire Wire Line
+	8665 2990 8665 5665
+Wire Wire Line
+	9240 3140 9265 3140
+Wire Wire Line
+	9265 3215 8890 3215
+Wire Wire Line
+	8275 2865 8365 2865
+Wire Wire Line
+	8325 2540 8325 2865
+Connection ~ 8325 2865
+Wire Wire Line
+	7630 2385 8665 2385
+Wire Wire Line
+	8665 5665 8720 5665
+Wire Wire Line
+	10090 3785 10950 3785
+Connection ~ 10950 3785
+Wire Wire Line
+	10090 3935 10815 3935
+Connection ~ 10815 3935
+Wire Wire Line
+	10090 3860 10885 3860
+Connection ~ 10885 3860
+Wire Wire Line
+	10090 4010 10740 4010
+Connection ~ 10740 4010
+Wire Wire Line
+	9340 3785 9005 3785
+Wire Wire Line
+	9340 3860 9000 3860
+Wire Wire Line
+	9340 4010 8665 4010
+Connection ~ 8665 4010
+Wire Wire Line
+	8415 3110 8415 3050
+Wire Wire Line
+	8415 3050 8665 3050
+Connection ~ 8665 3050
+Wire Wire Line
+	7580 3815 7580 3625
+Wire Wire Line
+	7580 2965 7580 3400
+Wire Wire Line
+	7530 2965 7675 2965
+Wire Wire Line
+	7820 3410 7820 3350
+Wire Wire Line
+	7820 3350 7580 3350
+Connection ~ 7580 3350
+Wire Wire Line
+	7820 3610 7820 3645
+Connection ~ 7580 2965
+Wire Wire Line
+	8360 2540 8325 2540
+Wire Wire Line
+	8665 2540 8560 2540
+Connection ~ 8665 2540
+Wire Wire Line
+	8665 1630 8665 2590
+Wire Wire Line
+	9015 3140 8665 3140
+Connection ~ 8665 3140
+Wire Wire Line
+	6390 3965 6325 3965
+Wire Wire Line
+	6325 3965 6325 4005
+Wire Wire Line
+	9265 3290 9075 3290
+Wire Wire Line
+	8890 3215 8890 3320
+Wire Wire Line
+	6985 3410 6985 3455
+Wire Wire Line
+	6795 3410 6795 3430
+Wire Wire Line
+	6795 3430 6985 3430
+Connection ~ 6985 3430
+Wire Wire Line
+	6795 3210 6795 3175
+Wire Wire Line
+	6795 3175 7190 3175
+Wire Wire Line
+	7190 3175 7190 3740
+Wire Wire Line
+	6985 3210 6985 3175
+Connection ~ 6985 3175
+$Comp
+L Res1_1 R15
+U 1 1 576232EA
+P 2390 1735
+F 0 "R15" V 2485 1725 40  0000 C CNN
+F 1 "1K" V 2295 1715 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 2445 1455 30  0001 C CNN
+F 3 "" H 2390 1735 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 2740 1365 60  0001 C CNN "description"
+F 5 "digikey" H 2180 1250 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 2985 1235 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 1765 1125 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 2865 1130 60  0001 C CNN "manufacturer pn"
+	1    2390 1735
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2155 1735
+Wire Wire Line
+	2515 1735 2705 1735
+Text Label 2515 1735 0    50   ~ 0
+V2P5_R
+$Comp
+L TP_SMT_TnB TP18
+U 1 1 57635B7D
+P 8555 5535
+F 0 "TP18" H 8680 5535 50  0000 C CNN
+F 1 "TP_SMT_TnB" H 8580 5310 50  0001 C CNN
+F 2 "footprints_on_Cdrive:Header_Pin_Res" H 8760 5135 90  0001 C CNN
+F 3 "" H 8555 5535 90  0000 C CNN
+	1    8555 5535
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8605 5535 8665 5535
+Connection ~ 8665 5535
+Wire Wire Line
+	2220 1735 2225 1735
+$Comp
+L TP_SMT TP19
+U 1 1 5764E573
+P 2220 1645
+F 0 "TP19" V 2300 1645 50  0000 C CNN
+F 1 "TP_SMT" H 2445 1495 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 2220 1645 90  0001 C CNN
+F 3 "" H 2220 1645 90  0000 C CNN
+	1    2220 1645
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2220 1695 2220 1735
+Connection ~ 2220 1735
+$EndSCHEMATC

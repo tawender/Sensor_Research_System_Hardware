@@ -47,12 +47,12 @@ $EndDescr
 $Comp
 L Rpi_HDR-40 P1
 U 1 1 589F3D7D
-P 9085 2370
-F 0 "P1" H 10235 2495 60  0000 C CNN
-F 1 "Rpi_HDR-40" H 10310 820 60  0000 C CNN
-F 2 "" H 10300 800 60  0000 C CNN
-F 3 "" H 10300 800 60  0000 C CNN
-	1    9085 2370
+P 10780 7150
+F 0 "P1" H 11930 7275 60  0000 C CNN
+F 1 "Rpi_HDR-40" H 12005 5600 60  0000 C CNN
+F 2 "" H 11995 5580 60  0000 C CNN
+F 3 "" H 11995 5580 60  0000 C CNN
+	1    10780 7150
 	1    0    0    -1  
 $EndComp
 Text Label 1035 2625 0    60   ~ 0
@@ -161,22 +161,16 @@ Text Label 1035 4525 0    60   ~ 0
 U1_SW
 Text Label 1035 4625 0    60   ~ 0
 V1_SW
-Text Label 6780 4780 0    60   ~ 0
+Text Label 1045 6810 0    60   ~ 0
 SCL_SW
-Text Label 1035 4825 0    60   ~ 0
-SDA_SW
 Text Label 1035 4725 0    60   ~ 0
 LED1_SW
-Text Label 6765 4680 0    60   ~ 0
+Text Label 1030 6710 0    60   ~ 0
 LED2_SW
 Text Label 1035 4925 0    60   ~ 0
 5V
-Text Label 6795 4880 0    60   ~ 0
-5V
 Text Label 1035 5025 0    60   ~ 0
 5V
-Text Label 6795 4980 0    60   ~ 0
-3V3
 Text Label 1035 5125 0    60   ~ 0
 3V3
 Text Label 1995 5125 0    60   ~ 0
@@ -205,7 +199,6 @@ F 3 "" H 2475 5440 50  0000 C CNN
 $EndComp
 Text Notes 865  2185 0    90   ~ 0
 Ribbon Cable Connects\nTo Chip Holding Fixtures
-NoConn ~ 1445 5225
 $Comp
 L CAP_NP C3
 U 1 1 589F52D4
@@ -267,7 +260,7 @@ $EndComp
 Text Label 7760 2240 0    50   ~ 0
 ADC_CS
 Text Label 7760 2090 0    50   ~ 0
-SPI_CLK
+CLK
 Text Label 7755 2165 0    50   ~ 0
 SOMI
 Text Label 6580 2090 0    50   ~ 0
@@ -386,16 +379,8 @@ Text Label 3520 5095 0    60   ~ 0
 U1_SW
 Text Label 3520 5245 0    60   ~ 0
 V1_SW
-Text Label 6740 4045 0    60   ~ 0
-SDA_SW
-Text Label 6740 3945 0    60   ~ 0
+Text Label 1035 6265 0    60   ~ 0
 LED1_SW
-Text Label 6740 4145 0    60   ~ 0
-5V
-Text Label 6740 4245 0    60   ~ 0
-5V
-Text Label 6740 4345 0    60   ~ 0
-3V3
 $Comp
 L ADG706 U3
 U 1 1 58AC158D
@@ -428,9 +413,9 @@ F 8 " IC MULTIPLEXER 16X1 28TSSOP " H 4305 5770 60  0001 C CNN "description"
 	1    4330 4970
 	-1   0    0    -1  
 $EndComp
-Text Label 6755 3500 0    60   ~ 0
+Text Label 1045 5985 0    60   ~ 0
 MID1_SW
-Text Label 6740 3650 0    60   ~ 0
+Text Label 1030 6135 0    60   ~ 0
 MID2_SW
 NoConn ~ 4755 1465
 NoConn ~ 4755 1540
@@ -558,13 +543,9 @@ Wire Wire Line
 Wire Wire Line
 	3930 5320 3520 5320
 Wire Wire Line
-	7155 4680 6745 4680
+	1420 6710 1010 6710
 Wire Wire Line
-	7155 4780 6745 4780
-Wire Wire Line
-	7155 4880 6745 4880
-Wire Wire Line
-	7155 4980 6745 4980
+	1420 6810 1010 6810
 Wire Wire Line
 	2355 5125 1945 5125
 Wire Wire Line
@@ -594,7 +575,7 @@ Wire Wire Line
 	6875 2240 6785 2240
 Connection ~ 6785 2240
 Wire Wire Line
-	6875 2015 6575 2015
+	6575 2015 6875 2015
 Wire Wire Line
 	7650 2015 7895 2015
 Wire Wire Line
@@ -671,23 +652,17 @@ Wire Wire Line
 Wire Wire Line
 	3930 5245 3520 5245
 Wire Wire Line
-	7150 3945 6740 3945
+	1445 6265 1035 6265
 Wire Wire Line
-	7150 4045 6740 4045
+	1445 6365 1035 6365
 Wire Wire Line
-	7150 4145 6740 4145
+	1455 5985 1045 5985
 Wire Wire Line
-	7150 4245 6740 4245
+	1440 6135 1030 6135
 Wire Wire Line
-	7150 4345 6740 4345
+	5020 4795 4755 4795
 Wire Wire Line
-	7165 3500 6755 3500
-Wire Wire Line
-	7150 3650 6740 3650
-Wire Wire Line
-	4755 4795 5020 4795
-Wire Wire Line
-	5020 4795 5020 1740
+	5020 1740 5020 4795
 Wire Wire Line
 	4755 1740 5580 1740
 Connection ~ 5020 1740
@@ -698,9 +673,9 @@ Wire Wire Line
 Wire Wire Line
 	5075 4870 4755 4870
 Wire Wire Line
-	4755 4945 5130 4945
+	5130 4945 4755 4945
 Wire Wire Line
-	5130 4945 5130 1890
+	5130 1890 5130 4945
 Wire Wire Line
 	4755 1890 5590 1890
 Wire Wire Line
@@ -731,9 +706,9 @@ Wire Wire Line
 Wire Wire Line
 	4755 5245 5590 5245
 Wire Wire Line
-	4755 5145 5415 5145
+	5415 5145 4755 5145
 Wire Wire Line
-	5415 5145 5415 2090
+	5415 2090 5415 5145
 Wire Wire Line
 	4755 2090 6045 2090
 Wire Wire Line
@@ -741,10 +716,10 @@ Wire Wire Line
 Connection ~ 5415 3625
 Connection ~ 5415 2090
 $Comp
-L Res1_1 R?
+L Res1_1 R1
 U 1 1 58ACB2B0
 P 6170 2090
-F 0 "R?" V 6080 2080 40  0000 C CNN
+F 0 "R1" V 6080 2080 40  0000 C CNN
 F 1 "1k" V 6265 2075 40  0000 C CNN
 F 2 "footprints_on_Cdrive:0603_sm" H 6225 1810 30  0001 C CNN
 F 3 "" H 6170 2090 30  0000 C CNN
@@ -758,21 +733,603 @@ F 8 " RC0603FR-071KL " H 6645 1485 60  0001 C CNN "manufacturer pn"
 $EndComp
 Wire Wire Line
 	6270 2090 6875 2090
-Text Label 8705 3195 0    50   ~ 0
-SPI_CLK
-Text Label 8705 3120 0    50   ~ 0
+Text Label 10400 7975 0    50   ~ 0
+CLK
+Text Label 10400 7900 0    50   ~ 0
 SOMI
-Text Label 11540 3195 0    50   ~ 0
+Text Label 13235 7975 0    50   ~ 0
 ADC_CS
 Wire Wire Line
-	9160 3120 8705 3120
+	10855 7900 10400 7900
 Wire Wire Line
-	9160 3195 8705 3195
+	10855 7975 10400 7975
 Wire Wire Line
-	11865 3195 11410 3195
+	13560 7975 13105 7975
+$Comp
+L BU33TD3WG U8
+U 1 1 58AD0299
+P 14875 7225
+F 0 "U8" H 14875 7400 60  0000 C CNN
+F 1 "TPS73133" H 14875 7025 60  0000 C CNN
+F 2 "footprints_on_Cdrive:SOT23-5" H 14675 6350 60  0001 C CNN
+F 3 "" H 14875 7400 60  0001 C CNN
+F 4 "digikey" H 14575 6575 60  0001 C CNN "supplier"
+F 5 "296-32553-1-ND " H 15250 6575 60  0001 C CNN "supplier pn"
+F 6 "Texas Instruments" H 14250 6475 60  0001 C CNN "manufacturer"
+F 7 "TPS73133DBVR " H 15175 6475 60  0001 C CNN "manufacturer pn"
+F 8 "IC REG LDO 3.3V 0.15A SOT23-5" H 14725 6725 60  0001 C CNN "description"
+	1    14875 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR11
+U 1 1 58AD02A0
+P 14225 7625
+F 0 "#PWR11" H 14225 7375 50  0001 C CNN
+F 1 "GND" H 14225 7475 50  0000 C CNN
+F 2 "" H 14225 7625 60  0000 C CNN
+F 3 "" H 14225 7625 60  0000 C CNN
+	1    14225 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR8
+U 1 1 58AD02A6
+P 14425 7400
+F 0 "#PWR8" H 14425 7150 50  0001 C CNN
+F 1 "GND" H 14425 7250 50  0000 C CNN
+F 2 "" H 14425 7400 60  0000 C CNN
+F 3 "" H 14425 7400 60  0000 C CNN
+	1    14425 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C6
+U 1 1 58AD02B2
+P 14225 7525
+F 0 "C6" H 14330 7590 40  0000 L CNN
+F 1 "0.47uF" H 14270 7500 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 14263 7375 30  0001 C CNN
+F 3 "" H 14225 7525 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 14225 7525 60  0001 C CNN "description"
+F 5 "digikey" H 14225 7525 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 14225 7525 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 14225 7525 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 14225 7525 60  0001 C CNN "manufacturer pn"
+	1    14225 7525
+	-1   0    0    -1  
+$EndComp
+Text Label 15430 7150 0    50   ~ 0
+3V3
+$Comp
+L CAP_NP C5
+U 1 1 58AD02BF
+P 15555 7460
+F 0 "C5" H 15405 7535 40  0000 L CNN
+F 1 "0.47uF" H 15305 7435 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 15593 7310 30  0001 C CNN
+F 3 "" H 15555 7460 60  0000 C CNN
+F 4 " CAP CER 0.47UF 10V X5R 0402 " H 15555 7460 60  0001 C CNN "description"
+F 5 "digikey" H 15555 7460 60  0001 C CNN "supplier"
+F 6 " 490-3264-1-ND " H 15555 7460 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 15555 7460 60  0001 C CNN "manufacturer"
+F 8 " GRM155R61A474KE15D " H 15555 7460 60  0001 C CNN "manufacturer pn"
+	1    15555 7460
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR10
+U 1 1 58AD02C6
+P 15555 7560
+F 0 "#PWR10" H 15555 7310 50  0001 C CNN
+F 1 "GND" H 15555 7410 50  0000 C CNN
+F 2 "" H 15555 7560 60  0000 C CNN
+F 3 "" H 15555 7560 60  0000 C CNN
+	1    15555 7560
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C4
+U 1 1 58AD02D1
+P 15275 7450
+F 0 "C4" H 15165 7555 40  0000 L CNN
+F 1 "DNI" H 15140 7430 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 15313 7300 30  0001 C CNN
+F 3 "" H 15275 7450 60  0000 C CNN
+F 4 "do not install" H 15275 7450 60  0001 C CNN "description"
+F 5 "NA" H 15275 7450 60  0001 C CNN "supplier"
+F 6 "NA" H 15275 7450 60  0001 C CNN "supplier pn"
+F 7 "NA" H 15275 7450 60  0001 C CNN "manufacturer"
+F 8 "NA" H 15275 7450 60  0001 C CNN "manufacturer pn"
+	1    15275 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 58AD02D8
+P 15275 7550
+F 0 "#PWR9" H 15275 7300 50  0001 C CNN
+F 1 "GND" H 15275 7400 50  0000 C CNN
+F 2 "" H 15275 7550 60  0000 C CNN
+F 3 "" H 15275 7550 60  0000 C CNN
+	1    15275 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 7500 15275 7550
+Wire Wire Line
+	15555 7510 15555 7560
+Wire Wire Line
+	15555 7150 15555 7310
+Wire Wire Line
+	15275 7150 15555 7150
+Wire Wire Line
+	14425 7300 14425 7400
+Wire Wire Line
+	14475 7300 14425 7300
+Connection ~ 14225 7225
+Wire Wire Line
+	14225 7575 14225 7625
+Wire Wire Line
+	13105 7150 14475 7150
+Wire Wire Line
+	14225 7150 14225 7375
+Wire Wire Line
+	14225 7225 14475 7225
+$Comp
+L probe_point TP1
+U 1 1 58AD02E9
+P 15320 7000
+F 0 "TP1" H 15330 7110 50  0000 C CNN
+F 1 "probe_point" H 15310 6830 50  0001 C CNN
+F 2 "footprints_on_Cdrive:probe_point" H 15320 6720 60  0001 C CNN
+F 3 "" V 15321 7049 60  0000 C CNN
+	1    15320 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15320 7100 15320 7150
+Connection ~ 15320 7150
+Text Label 10400 7150 0    50   ~ 0
+3V3_Rpi
+Wire Wire Line
+	10855 7150 10400 7150
+Text Label 9525 1670 0    60   ~ 0
+B2_SW
+Text Label 9520 1820 0    60   ~ 0
+C2_SW
+Text Label 9525 1970 0    60   ~ 0
+D2_SW
+Text Label 9535 1520 0    60   ~ 0
+A2_SW
+Text Label 9525 2120 0    60   ~ 0
+E2_SW
+Text Label 9525 2270 0    60   ~ 0
+F2_SW
+Text Label 9520 2420 0    60   ~ 0
+G2_SW
+Text Label 9525 2570 0    60   ~ 0
+H2_SW
+Text Label 9520 3055 0    60   ~ 0
+I2_SW
+Text Label 9515 3505 0    60   ~ 0
+L2_SW
+Text Label 9520 3655 0    60   ~ 0
+M2_SW
+Text Label 9520 3805 0    60   ~ 0
+N2_SW
+Text Label 9505 3205 0    60   ~ 0
+J2_SW
+Text Label 9515 3355 0    60   ~ 0
+K2_SW
+Text Label 9515 3955 0    60   ~ 0
+O2_SW
+Text Label 9520 4105 0    60   ~ 0
+P2_SW
+Text Label 9525 4575 0    60   ~ 0
+Q2_SW
+Text Label 9525 4725 0    60   ~ 0
+R2_SW
+Text Label 9520 4875 0    60   ~ 0
+S2_SW
+Text Label 9515 5025 0    60   ~ 0
+T2_SW
+Text Label 9525 5175 0    60   ~ 0
+U2_SW
+Text Label 9515 5325 0    60   ~ 0
+V2_SW
+$Comp
+L ADG706 U5
+U 1 1 58AD7CB6
+P 10290 1920
+F 0 "U5" H 10290 2495 60  0000 C CNN
+F 1 "ADG706" H 10290 1170 60  0000 C CNN
+F 2 "" H 10190 2395 60  0000 C CNN
+F 3 "" H 10290 2495 60  0000 C CNN
+F 4 "digikey" H 9840 3045 60  0001 C CNN "supplier"
+F 5 "ADG706BRUZ-REELCT-ND " H 10690 3045 60  0001 C CNN "supplier pn"
+F 6 "Analog Devices" H 9665 2920 60  0001 C CNN "manufacturer"
+F 7 " ADG706BRUZ-REEL " H 10515 2920 60  0001 C CNN "manufacturer pn"
+F 8 " IC MULTIPLEXER 16X1 28TSSOP " H 10265 2720 60  0001 C CNN "description"
+	1    10290 1920
+	-1   0    0    -1  
+$EndComp
+Text Label 9480 1595 0    60   ~ 0
+B1_SW
+Text Label 9480 1745 0    60   ~ 0
+C1_SW
+Text Label 9480 1895 0    60   ~ 0
+D1_SW
+Text Label 9480 1445 0    60   ~ 0
+A1_SW
+Text Label 9480 2045 0    60   ~ 0
+E1_SW
+Text Label 9480 2195 0    60   ~ 0
+F1_SW
+Text Label 9480 2345 0    60   ~ 0
+G1_SW
+Text Label 9480 2495 0    60   ~ 0
+H1_SW
+Text Label 9475 2980 0    60   ~ 0
+I1_SW
+Text Label 9475 3430 0    60   ~ 0
+L1_SW
+Text Label 9475 3580 0    60   ~ 0
+M1_SW
+Text Label 9475 3730 0    60   ~ 0
+N1_SW
+Text Label 9475 3130 0    60   ~ 0
+J1_SW
+Text Label 9475 3280 0    60   ~ 0
+K1_SW
+Text Label 9475 3880 0    60   ~ 0
+O1_SW
+Text Label 9475 4030 0    60   ~ 0
+P1_SW
+Text Label 9480 4500 0    60   ~ 0
+Q1_SW
+Text Label 9480 4650 0    60   ~ 0
+R1_SW
+Text Label 9480 4800 0    60   ~ 0
+S1_SW
+Text Label 9480 4950 0    60   ~ 0
+T1_SW
+Text Label 9480 5100 0    60   ~ 0
+U1_SW
+Text Label 9480 5250 0    60   ~ 0
+V1_SW
+$Comp
+L ADG706 U6
+U 1 1 58AD7CD7
+P 10285 3455
+F 0 "U6" H 10285 4030 60  0000 C CNN
+F 1 "ADG706" H 10285 2705 60  0000 C CNN
+F 2 "" H 10185 3930 60  0000 C CNN
+F 3 "" H 10285 4030 60  0000 C CNN
+F 4 "digikey" H 9835 4580 60  0001 C CNN "supplier"
+F 5 "ADG706BRUZ-REELCT-ND " H 10685 4580 60  0001 C CNN "supplier pn"
+F 6 "Analog Devices" H 9660 4455 60  0001 C CNN "manufacturer"
+F 7 " ADG706BRUZ-REEL " H 10510 4455 60  0001 C CNN "manufacturer pn"
+F 8 " IC MULTIPLEXER 16X1 28TSSOP " H 10260 4255 60  0001 C CNN "description"
+	1    10285 3455
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ADG706 U7
+U 1 1 58AD7CE2
+P 10290 4975
+F 0 "U7" H 10290 5550 60  0000 C CNN
+F 1 "ADG706" H 10290 4225 60  0000 C CNN
+F 2 "" H 10190 5450 60  0000 C CNN
+F 3 "" H 10290 5550 60  0000 C CNN
+F 4 "digikey" H 9840 6100 60  0001 C CNN "supplier"
+F 5 "ADG706BRUZ-REELCT-ND " H 10690 6100 60  0001 C CNN "supplier pn"
+F 6 "Analog Devices" H 9665 5975 60  0001 C CNN "manufacturer"
+F 7 " ADG706BRUZ-REEL " H 10515 5975 60  0001 C CNN "manufacturer pn"
+F 8 " IC MULTIPLEXER 16X1 28TSSOP " H 10265 5775 60  0001 C CNN "description"
+	1    10290 4975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9890 1520 9480 1520
+Wire Wire Line
+	9890 1670 9480 1670
+Wire Wire Line
+	9890 1820 9480 1820
+Wire Wire Line
+	9890 1970 9480 1970
+Wire Wire Line
+	9890 2120 9480 2120
+Wire Wire Line
+	9890 2270 9480 2270
+Wire Wire Line
+	9890 2420 9480 2420
+Wire Wire Line
+	9890 2570 9480 2570
+Wire Wire Line
+	9885 3055 9475 3055
+Wire Wire Line
+	9885 3205 9475 3205
+Wire Wire Line
+	9885 3355 9475 3355
+Wire Wire Line
+	9885 3505 9475 3505
+Wire Wire Line
+	9885 3655 9475 3655
+Wire Wire Line
+	9885 3805 9475 3805
+Wire Wire Line
+	9885 3955 9475 3955
+Wire Wire Line
+	9885 4105 9475 4105
+Wire Wire Line
+	9890 4575 9480 4575
+Wire Wire Line
+	9890 4725 9480 4725
+Wire Wire Line
+	9890 4875 9480 4875
+Wire Wire Line
+	9890 5025 9480 5025
+Wire Wire Line
+	9890 5175 9480 5175
+Wire Wire Line
+	9890 5325 9480 5325
+Wire Wire Line
+	9890 1445 9480 1445
+Wire Wire Line
+	9890 1595 9480 1595
+Wire Wire Line
+	9890 1745 9480 1745
+Wire Wire Line
+	9890 1895 9480 1895
+Wire Wire Line
+	9890 2045 9480 2045
+Wire Wire Line
+	9890 2195 9480 2195
+Wire Wire Line
+	9890 2345 9480 2345
+Wire Wire Line
+	9890 2495 9480 2495
+Wire Wire Line
+	9885 2980 9475 2980
+Wire Wire Line
+	9885 3130 9475 3130
+Wire Wire Line
+	9885 3280 9475 3280
+Wire Wire Line
+	9885 3430 9475 3430
+Wire Wire Line
+	9885 3580 9475 3580
+Wire Wire Line
+	9885 3730 9475 3730
+Wire Wire Line
+	9885 3880 9475 3880
+Wire Wire Line
+	9885 4030 9475 4030
+Wire Wire Line
+	9890 4500 9480 4500
+Wire Wire Line
+	9890 4650 9480 4650
+Wire Wire Line
+	9890 4800 9480 4800
+Wire Wire Line
+	9890 4950 9480 4950
+Wire Wire Line
+	9890 5100 9480 5100
+Wire Wire Line
+	9890 5250 9480 5250
+NoConn ~ 10715 1470
+NoConn ~ 10715 1545
+NoConn ~ 10715 1620
+NoConn ~ 10710 3005
+NoConn ~ 10710 3080
+NoConn ~ 10710 3155
+NoConn ~ 10715 4525
+NoConn ~ 10715 4600
+NoConn ~ 10715 4675
+Text Label 11170 1745 0    60   ~ 0
+gnd_addr0
+Text Label 11170 1970 0    60   ~ 0
+gnd_addr3
+Text Label 11170 1895 0    60   ~ 0
+gnd_addr2
+Text Label 11170 1820 0    60   ~ 0
+gnd_addr1
+Text Label 11550 2195 0    60   ~ 0
+gnd_en0
+Text Label 11545 3730 0    60   ~ 0
+gnd_en0
+Text Label 11550 5250 0    60   ~ 0
+gnd_en0
+Wire Wire Line
+	10980 4800 10715 4800
+Wire Wire Line
+	10980 1745 10980 4800
+Wire Wire Line
+	10715 1745 11540 1745
+Connection ~ 10980 1745
+Wire Wire Line
+	10715 1820 11545 1820
+Wire Wire Line
+	11035 1820 11035 4875
+Wire Wire Line
+	11035 4875 10715 4875
+Wire Wire Line
+	11090 4950 10715 4950
+Wire Wire Line
+	11090 1895 11090 4950
+Wire Wire Line
+	10715 1895 11550 1895
+Wire Wire Line
+	10715 1970 11555 1970
+Wire Wire Line
+	11145 1970 11145 5025
+Wire Wire Line
+	11145 5025 10715 5025
+Wire Wire Line
+	10710 3280 10980 3280
+Connection ~ 10980 3280
+Wire Wire Line
+	10710 3355 11035 3355
+Connection ~ 11035 3355
+Wire Wire Line
+	10710 3430 11090 3430
+Connection ~ 11090 3430
+Wire Wire Line
+	10710 3505 11145 3505
+Connection ~ 11145 3505
+Connection ~ 11145 1970
+Connection ~ 11090 1895
+Connection ~ 11035 1820
+Wire Wire Line
+	10715 2195 11550 2195
+Wire Wire Line
+	10710 3730 11545 3730
+Wire Wire Line
+	10715 5250 11550 5250
+Wire Wire Line
+	11375 5150 10715 5150
+Wire Wire Line
+	11375 2095 11375 5150
+Wire Wire Line
+	10715 2095 12105 2095
+Wire Wire Line
+	10710 3630 11375 3630
+Connection ~ 11375 3630
+Connection ~ 11375 2095
 $Comp
 L GND #PWR?
-U 1 1 58ACD377
+U 1 1 58AD8E66
+P 10785 5675
+F 0 "#PWR?" H 10785 5425 50  0001 C CNN
+F 1 "GND" H 10785 5525 50  0000 C CNN
+F 2 "" H 10785 5675 50  0000 C CNN
+F 3 "" H 10785 5675 50  0000 C CNN
+	1    10785 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10715 5500 10785 5500
+Wire Wire Line
+	10785 5500 10785 5675
+Wire Wire Line
+	10715 5575 10785 5575
+Connection ~ 10785 5575
+$Comp
+L GND #PWR?
+U 1 1 58ADA4C5
+P 10780 4155
+F 0 "#PWR?" H 10780 3905 50  0001 C CNN
+F 1 "GND" H 10780 4005 50  0000 C CNN
+F 2 "" H 10780 4155 50  0000 C CNN
+F 3 "" H 10780 4155 50  0000 C CNN
+	1    10780 4155
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10710 3980 10780 3980
+Wire Wire Line
+	10780 3980 10780 4155
+Wire Wire Line
+	10710 4055 10780 4055
+Connection ~ 10780 4055
+$Comp
+L GND #PWR?
+U 1 1 58ADA7B4
+P 10785 2620
+F 0 "#PWR?" H 10785 2370 50  0001 C CNN
+F 1 "GND" H 10785 2470 50  0000 C CNN
+F 2 "" H 10785 2620 50  0000 C CNN
+F 3 "" H 10785 2620 50  0000 C CNN
+	1    10785 2620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10715 2445 10785 2445
+Wire Wire Line
+	10785 2445 10785 2620
+Wire Wire Line
+	10715 2520 10785 2520
+Connection ~ 10785 2520
+Wire Wire Line
+	10715 2370 10755 2370
+$Comp
+L GND #PWR?
+U 1 1 58ADAAC7
+P 12105 2205
+F 0 "#PWR?" H 12105 1955 50  0001 C CNN
+F 1 "GND" H 12105 2055 50  0000 C CNN
+F 2 "" H 12105 2205 50  0000 C CNN
+F 3 "" H 12105 2205 50  0000 C CNN
+	1    12105 2205
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12105 2095 12105 2205
+Text Label 13145 7150 0    50   ~ 0
+5V_Rpi
+Connection ~ 14225 7150
+Text Label 10755 2370 0    50   ~ 0
+3V3
+Wire Wire Line
+	10710 3905 10750 3905
+Text Label 10750 3905 0    50   ~ 0
+3V3
+Wire Wire Line
+	10715 5425 10755 5425
+Text Label 10755 5425 0    50   ~ 0
+3V3
+Wire Wire Line
+	4750 3900 4790 3900
+Text Label 4790 3900 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR?
+U 1 1 58AE0179
+P 4820 4150
+F 0 "#PWR?" H 4820 3900 50  0001 C CNN
+F 1 "GND" H 4820 4000 50  0000 C CNN
+F 2 "" H 4820 4150 50  0000 C CNN
+F 3 "" H 4820 4150 50  0000 C CNN
+	1    4820 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3975 4820 3975
+Wire Wire Line
+	4820 3975 4820 4150
+Wire Wire Line
+	4750 4050 4820 4050
+Connection ~ 4820 4050
+Wire Wire Line
+	4755 2365 4795 2365
+Text Label 4795 2365 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR?
+U 1 1 58AE0546
+P 4825 2615
+F 0 "#PWR?" H 4825 2365 50  0001 C CNN
+F 1 "GND" H 4825 2465 50  0000 C CNN
+F 2 "" H 4825 2615 50  0000 C CNN
+F 3 "" H 4825 2615 50  0000 C CNN
+	1    4825 2615
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4755 2440 4825 2440
+Wire Wire Line
+	4825 2440 4825 2615
+Wire Wire Line
+	4755 2515 4825 2515
+Connection ~ 4825 2515
+Wire Wire Line
+	4755 5420 4795 5420
+Text Label 4795 5420 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR?
+U 1 1 58AE0F65
 P 4825 5670
 F 0 "#PWR?" H 4825 5420 50  0001 C CNN
 F 1 "GND" H 4825 5520 50  0000 C CNN
@@ -788,159 +1345,170 @@ Wire Wire Line
 Wire Wire Line
 	4755 5570 4825 5570
 Connection ~ 4825 5570
-Wire Wire Line
-	4755 5420 4905 5420
+Text Notes 4275 1135 0    100  ~ 0
+Select Signal For ADC Measurement
+Wire Notes Line
+	3340 910  8250 910 
+Wire Notes Line
+	8250 910  8250 6005
+Wire Notes Line
+	8250 6005 3340 6005
+Wire Notes Line
+	3340 6005 3340 910 
+Text Notes 9690 1185 0    100  ~ 0
+Select Signal To Gnd If Required
+Wire Notes Line
+	9320 910  12380 910 
+Wire Notes Line
+	12380 910  12380 6005
+Wire Notes Line
+	12380 6005 9320 6005
+Wire Notes Line
+	9320 6005 9320 910 
 $Sheet
-S 7865 5865 1200 645 
-U 58ACDD84
-F0 "Sheet58ACDD83" 60
-F1 "CSS118_rev7a_CLCC.sch" 60
+S 13275 900  1430 1045
+U 58AE4815
+F0 "Sheet58AE4814" 100
+F1 "nea_research_switch_pcb_rev2.sch" 100
 $EndSheet
-$Comp
-L BU33TD3WG U?
-U 1 1 58AD0299
-P 3055 8680
-F 0 "U?" H 3055 8855 60  0000 C CNN
-F 1 "TPS73133" H 3055 8480 60  0000 C CNN
-F 2 "footprints_on_Cdrive:SOT23-5" H 2855 7805 60  0001 C CNN
-F 3 "" H 3055 8855 60  0001 C CNN
-F 4 "digikey" H 2755 8030 60  0001 C CNN "supplier"
-F 5 "296-32553-1-ND " H 3430 8030 60  0001 C CNN "supplier pn"
-F 6 "Texas Instruments" H 2430 7930 60  0001 C CNN "manufacturer"
-F 7 "TPS73133DBVR " H 3355 7930 60  0001 C CNN "manufacturer pn"
-F 8 "IC REG LDO 3.3V 0.15A SOT23-5" H 2905 8180 60  0001 C CNN "description"
-	1    3055 8680
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 58AD02A0
-P 2405 9080
-F 0 "#PWR?" H 2405 8830 50  0001 C CNN
-F 1 "GND" H 2405 8930 50  0000 C CNN
-F 2 "" H 2405 9080 60  0000 C CNN
-F 3 "" H 2405 9080 60  0000 C CNN
-	1    2405 9080
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 58AD02A6
-P 2605 8855
-F 0 "#PWR?" H 2605 8605 50  0001 C CNN
-F 1 "GND" H 2605 8705 50  0000 C CNN
-F 2 "" H 2605 8855 60  0000 C CNN
-F 3 "" H 2605 8855 60  0000 C CNN
-	1    2605 8855
-	1    0    0    -1  
-$EndComp
-Text Label 2430 8605 0    50   ~ 0
-VIN
-$Comp
-L CAP_NP C?
-U 1 1 58AD02B2
-P 2405 8980
-F 0 "C?" H 2510 9045 40  0000 L CNN
-F 1 "0.47uF" H 2450 8955 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0402" H 2443 8830 30  0001 C CNN
-F 3 "" H 2405 8980 60  0000 C CNN
-F 4 " CAP CER 0.47UF 10V X5R 0402 " H 2405 8980 60  0001 C CNN "description"
-F 5 "digikey" H 2405 8980 60  0001 C CNN "supplier"
-F 6 " 490-3264-1-ND " H 2405 8980 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 2405 8980 60  0001 C CNN "manufacturer"
-F 8 " GRM155R61A474KE15D " H 2405 8980 60  0001 C CNN "manufacturer pn"
-	1    2405 8980
-	-1   0    0    -1  
-$EndComp
-Text Label 3610 8605 0    50   ~ 0
-3V3
-$Comp
-L CAP_NP C?
-U 1 1 58AD02BF
-P 3735 8915
-F 0 "C?" H 3585 8990 40  0000 L CNN
-F 1 "0.47uF" H 3485 8890 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0402" H 3773 8765 30  0001 C CNN
-F 3 "" H 3735 8915 60  0000 C CNN
-F 4 " CAP CER 0.47UF 10V X5R 0402 " H 3735 8915 60  0001 C CNN "description"
-F 5 "digikey" H 3735 8915 60  0001 C CNN "supplier"
-F 6 " 490-3264-1-ND " H 3735 8915 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 3735 8915 60  0001 C CNN "manufacturer"
-F 8 " GRM155R61A474KE15D " H 3735 8915 60  0001 C CNN "manufacturer pn"
-	1    3735 8915
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 58AD02C6
-P 3735 9015
-F 0 "#PWR?" H 3735 8765 50  0001 C CNN
-F 1 "GND" H 3735 8865 50  0000 C CNN
-F 2 "" H 3735 9015 60  0000 C CNN
-F 3 "" H 3735 9015 60  0000 C CNN
-	1    3735 9015
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C?
-U 1 1 58AD02D1
-P 3455 8905
-F 0 "C?" H 3345 9010 40  0000 L CNN
-F 1 "DNI" H 3320 8885 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0402" H 3493 8755 30  0001 C CNN
-F 3 "" H 3455 8905 60  0000 C CNN
-F 4 "do not install" H 3455 8905 60  0001 C CNN "description"
-F 5 "NA" H 3455 8905 60  0001 C CNN "supplier"
-F 6 "NA" H 3455 8905 60  0001 C CNN "supplier pn"
-F 7 "NA" H 3455 8905 60  0001 C CNN "manufacturer"
-F 8 "NA" H 3455 8905 60  0001 C CNN "manufacturer pn"
-	1    3455 8905
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 58AD02D8
-P 3455 9005
-F 0 "#PWR?" H 3455 8755 50  0001 C CNN
-F 1 "GND" H 3455 8855 50  0000 C CNN
-F 2 "" H 3455 9005 60  0000 C CNN
-F 3 "" H 3455 9005 60  0000 C CNN
-	1    3455 9005
-	1    0    0    -1  
-$EndComp
+Text Label 1995 2425 0    60   ~ 0
+MID2_SW
+Text Label 1990 2625 0    60   ~ 0
+B2_SW
+Text Label 1985 2725 0    60   ~ 0
+C2_SW
+Text Label 1990 2825 0    60   ~ 0
+D2_SW
+Text Label 2000 2525 0    60   ~ 0
+A2_SW
 Wire Wire Line
-	3455 8955 3455 9005
+	2355 2425 1945 2425
 Wire Wire Line
-	3735 8965 3735 9015
+	2355 2525 1945 2525
 Wire Wire Line
-	3735 8605 3735 8765
+	2355 2625 1945 2625
 Wire Wire Line
-	3455 8605 3735 8605
+	2355 2725 1945 2725
 Wire Wire Line
-	2605 8755 2605 8855
+	2355 2825 1945 2825
 Wire Wire Line
-	2655 8755 2605 8755
-Connection ~ 2405 8680
+	2355 2925 1945 2925
 Wire Wire Line
-	2405 9030 2405 9080
+	2355 3025 1945 3025
 Wire Wire Line
-	2405 8605 2655 8605
+	2355 3125 1945 3125
 Wire Wire Line
-	2405 8605 2405 8830
+	2355 3225 1945 3225
 Wire Wire Line
-	2405 8680 2655 8680
-$Comp
-L probe_point TP?
-U 1 1 58AD02E9
-P 3500 8455
-F 0 "TP?" H 3510 8565 50  0000 C CNN
-F 1 "probe_point" H 3490 8285 50  0001 C CNN
-F 2 "footprints_on_Cdrive:probe_point" H 3500 8175 60  0001 C CNN
-F 3 "" V 3501 8504 60  0000 C CNN
-	1    3500 8455
-	1    0    0    -1  
-$EndComp
+	2355 3325 1945 3325
 Wire Wire Line
-	3500 8555 3500 8605
-Connection ~ 3500 8605
+	2355 3425 1945 3425
+Wire Wire Line
+	2355 3525 1945 3525
+Wire Wire Line
+	2355 3625 1945 3625
+Wire Wire Line
+	2355 3725 1945 3725
+Wire Wire Line
+	2355 3825 1945 3825
+Wire Wire Line
+	2355 3925 1945 3925
+Wire Wire Line
+	2355 4025 1945 4025
+Wire Wire Line
+	2355 4125 1945 4125
+Wire Wire Line
+	2355 4225 1945 4225
+Wire Wire Line
+	2355 4325 1945 4325
+Wire Wire Line
+	2355 4425 1945 4425
+Wire Wire Line
+	2355 4525 1945 4525
+Wire Wire Line
+	2355 4625 1945 4625
+Wire Wire Line
+	2355 4725 1945 4725
+Wire Wire Line
+	2355 4825 1945 4825
+Wire Wire Line
+	2355 4925 1945 4925
+Wire Wire Line
+	2355 5025 1945 5025
+Text Label 1990 2925 0    60   ~ 0
+E2_SW
+Text Label 1990 3025 0    60   ~ 0
+F2_SW
+Text Label 1985 3125 0    60   ~ 0
+G2_SW
+Text Label 1990 3225 0    60   ~ 0
+H2_SW
+Text Label 1990 3325 0    60   ~ 0
+I2_SW
+Text Label 1985 3625 0    60   ~ 0
+L2_SW
+Text Label 1990 3725 0    60   ~ 0
+M2_SW
+Text Label 1990 3825 0    60   ~ 0
+N2_SW
+Text Label 1975 3425 0    60   ~ 0
+J2_SW
+Text Label 1985 3525 0    60   ~ 0
+K2_SW
+Text Label 1985 3925 0    60   ~ 0
+O2_SW
+Text Label 1990 4025 0    60   ~ 0
+P2_SW
+Text Label 1990 4125 0    60   ~ 0
+Q2_SW
+Text Label 1990 4225 0    60   ~ 0
+R2_SW
+Text Label 1985 4325 0    60   ~ 0
+S2_SW
+Text Label 1980 4425 0    60   ~ 0
+T2_SW
+Text Label 1990 4525 0    60   ~ 0
+U2_SW
+Text Label 1980 4625 0    60   ~ 0
+V2_SW
+Text Label 1980 4825 0    60   ~ 0
+SCL_SW
+Text Label 1965 4725 0    60   ~ 0
+LED2_SW
+Text Label 1995 4925 0    60   ~ 0
+5V
+Text Label 1990 5025 0    60   ~ 0
+SIMO
+Text Label 10400 7225 0    50   ~ 0
+SDA
+Wire Wire Line
+	10855 7225 10400 7225
+Text Label 10400 7300 0    50   ~ 0
+SCL
+Wire Wire Line
+	10855 7300 10400 7300
+Text Label 10400 7825 0    50   ~ 0
+SIMO
+Wire Wire Line
+	10855 7825 10400 7825
+Text Label 1040 4825 0    55   ~ 0
+~CS_SW
+Text Label 1035 5225 0    60   ~ 0
+SOMI
+Wire Wire Line
+	1035 5225 1445 5225
+Text Label 1035 6365 0    55   ~ 0
+~CS_SW
+Text Label 1040 6510 0    60   ~ 0
+SOMI
+Text Label 1065 6600 0    60   ~ 0
+SIMO
+NoConn ~ 3930 5395
+NoConn ~ 3930 5470
+NoConn ~ 3930 5545
+NoConn ~ 3930 5620
+NoConn ~ 9890 5400
+NoConn ~ 9890 5475
+NoConn ~ 9890 5550
+NoConn ~ 9890 5625
 $EndSCHEMATC
