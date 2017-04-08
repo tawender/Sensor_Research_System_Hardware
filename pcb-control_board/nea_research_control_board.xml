@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-control_board\nea_research_control_board.sch</source>
+    <date>3/30/2017 6:31:48 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NEA Research Fixture - Control Board</title>
+        <company>Custom Silicon Solutions</company>
+        <rev>1</rev>
+        <date>2017-02-10</date>
+        <source>nea_research_control_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Rpi_HDR-40</value>
+      <libsource lib="misc_parts" part="Rpi_HDR-40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589F3D7D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X30</value>
+      <footprint>footprints_on_Cdrive:HDR_2x30_F_latch</footprint>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">AHK60H-ND</field>
+        <field name="manufacturer">TE</field>
+        <field name="manufacturer pn">1-5499922-1 </field>
+        <field name="description">CONN HEADER VERT 60POS .100 15AU </field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X30"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589F4192</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1nF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description">CAP CER 1000PF 50V X7R 0402</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1303-1-ND </field>
+        <field name="manufacturer">Murata</field>
+        <field name="manufacturer pn">GRM155R71H102KA01D</field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589F52D4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AD7683</value>
+      <footprint>footprints_on_Cdrive:RM-8</footprint>
+      <fields>
+        <field name="description"> IC ADC 16BIT SAR 100KSPS 8MSOP </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">AD7683ARMZRL7CT-ND</field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn">AD7683ARMZRL7</field>
+      </fields>
+      <libsource lib="misc_parts" part="AD7683"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>589F52E0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A2F7AE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AC158D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AC296B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>footprints_on_Cdrive:0603_sm</footprint>
+      <fields>
+        <field name="description"> RES SMD 1K OHM 1% 1/10W 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 311-1.00KHRCT-ND </field>
+        <field name="manufacturer">Yageo</field>
+        <field name="manufacturer pn"> RC0603FR-071KL </field>
+      </fields>
+      <libsource lib="misc_parts" part="Res1_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58ACB2B0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPS73133</value>
+      <footprint>footprints_on_Cdrive:SOT23-5</footprint>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">296-32553-1-ND </field>
+        <field name="manufacturer">Texas Instruments</field>
+        <field name="manufacturer pn">TPS73133DBVR </field>
+        <field name="description">IC REG LDO 3.3V 0.15A SOT23-5</field>
+      </fields>
+      <libsource lib="misc_parts" part="BU33TD3WG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD0299</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.47uF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.47UF 10V X5R 0402 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-3264-1-ND </field>
+        <field name="manufacturer">Murata</field>
+        <field name="manufacturer pn"> GRM155R61A474KE15D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD02B2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.47uF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.47UF 10V X5R 0402 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-3264-1-ND </field>
+        <field name="manufacturer">Murata</field>
+        <field name="manufacturer pn"> GRM155R61A474KE15D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD02BF</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>DNI</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description">do not install</field>
+        <field name="supplier">NA</field>
+        <field name="supplier pn">NA</field>
+        <field name="manufacturer">NA</field>
+        <field name="manufacturer pn">NA</field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD02D1</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>probe_point</value>
+      <footprint>footprints_on_Cdrive:probe_point</footprint>
+      <libsource lib="misc_parts" part="probe_point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD02E9</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD7CB6</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD7CD7</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ADG706</value>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="ADG706"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD7CE2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_SMT</value>
+      <footprint>footprints:0603-D</footprint>
+      <fields>
+        <field name="description"> LED YELLOW CLEAR 0603 SMD </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">754-1932-1-ND </field>
+        <field name="manufacturer">Kingbright</field>
+        <field name="manufacturer pn">APT1608LSYCK/J3-PRV </field>
+        <field name="Value2">Yellow LED</field>
+      </fields>
+      <libsource lib="misc_parts" part="LED_SMT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B0C894</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.5K</value>
+      <footprint>footprints_on_Cdrive:0603</footprint>
+      <fields>
+        <field name="description"> RES SMD 1.5K OHM 1% 1/10W 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 311-1.50KHRCT-ND </field>
+        <field name="manufacturer">Yageo</field>
+        <field name="manufacturer pn">RC0603FR-071K5L</field>
+      </fields>
+      <libsource lib="misc_parts" part="Res1_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B0C8A0</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LS08</value>
+      <footprint>footprints_on_Cdrive:SOIC-14_N</footprint>
+      <fields>
+        <field name="description">IC GATE AND 4CH 2-INP 14-SO </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 74HC08S14-13DICT-ND </field>
+        <field name="manufacturer pn">74HC08S14-13 </field>
+        <field name="manufacturer">Diodes Inc.</field>
+      </fields>
+      <libsource lib="74xx" part="74LS08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B11728</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>MCP4921</value>
+      <footprint>footprints_on_Cdrive:</footprint>
+      <fields>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> MCP4921T-E/MSCT-ND </field>
+        <field name="manufacturer">Microchip Technology</field>
+        <field name="manufacturer pn">MCP4921T-E/MS </field>
+        <field name="description"> ICDAC 12BIT SNGL W/SPI 8MSOP </field>
+      </fields>
+      <libsource lib="misc_parts" part="MCP4921"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B240E1</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description"> RES SMD 1K OHM 1% 1/16W 0402 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 311-1.00KLRCT-ND </field>
+        <field name="manufacturer">Yageo</field>
+        <field name="manufacturer pn"> RC0402FR-071KL </field>
+      </fields>
+      <libsource lib="misc_parts" part="Res1_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B2410B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description">CAP CER 0.1UF 16V X5R 0402</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">478-1126-1-ND</field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn">0402YD104KAT2A</field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B24117</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description">CAP CER 0.1UF 16V X5R 0402</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">478-1126-1-ND</field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn">0402YD104KAT2A</field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B2412F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>footprints_on_Cdrive:0402</footprint>
+      <fields>
+        <field name="description">CAP CER 10UF 10V X5R 0402 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 1276-6830-1-ND </field>
+        <field name="manufacturer">Samsung</field>
+        <field name="manufacturer pn">CL05A106MP8NUB8 </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B2413B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC8D47</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC9902</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC99F3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCA635</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCAD6A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DCD00D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD8E9F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD8EAA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="description"> CAP CER 0.1UF 16V X7R 0603 </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> 490-1532-1-ND </field>
+        <field name="manufacturer">AVX Corporation</field>
+        <field name="manufacturer pn"> GRM188R71C104KA01D </field>
+      </fields>
+      <libsource lib="misc_parts" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DD8EB5</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_02X05</value>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DE103E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS08">
+      <aliases>
+        <alias>74LS09</alias>
+      </aliases>
+      <description>Quad And2</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="AD7683">
+      <description>ADC, 16-bit, SPI Interface</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD7683</field>
+        <field name="description"> IC ADC 16BIT SAR 100KSPS 8MSOP </field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">AD7683ARMZRL7CT-ND</field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn">AD7683ARMZRL7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="~CS" type="input"/>
+        <pin num="6" name="DOUT" type="input"/>
+        <pin num="7" name="DCLK" type="input"/>
+        <pin num="8" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="ADG706">
+      <description>Mux 16:1, 28TSSOP, Analog Devices</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG706</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">ADG706BRUZ-REELCT-ND </field>
+        <field name="manufacturer">Analog Devices</field>
+        <field name="manufacturer pn"> ADG706BRUZ-REEL </field>
+        <field name="description"> IC MULTIPLEXER 16X1 28TSSOP </field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="S16" type="input"/>
+        <pin num="5" name="S15" type="input"/>
+        <pin num="6" name="S14" type="input"/>
+        <pin num="7" name="S13" type="input"/>
+        <pin num="8" name="S12" type="input"/>
+        <pin num="9" name="S11" type="input"/>
+        <pin num="10" name="S10" type="input"/>
+        <pin num="11" name="S9" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="NC" type="input"/>
+        <pin num="14" name="A3" type="input"/>
+        <pin num="15" name="A2" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A0" type="input"/>
+        <pin num="18" name="EN" type="input"/>
+        <pin num="19" name="S1" type="input"/>
+        <pin num="20" name="S2" type="input"/>
+        <pin num="21" name="S3" type="input"/>
+        <pin num="22" name="S4" type="input"/>
+        <pin num="23" name="S5" type="input"/>
+        <pin num="24" name="S6" type="input"/>
+        <pin num="25" name="S7" type="input"/>
+        <pin num="26" name="S8" type="input"/>
+        <pin num="27" name="VSS" type="input"/>
+        <pin num="28" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="BU33TD3WG">
+      <description>CMOS LDO Regulator, 3.3V</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BU33TD3WG</field>
+        <field name="Footprint">footprints_on_Cdrive:SOT23-5</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">BU33TD3WGCT-ND</field>
+        <field name="manufacturer">Rohm Semiconductor</field>
+        <field name="manufacturer pn">BU33TD3WG-TR</field>
+        <field name="description">IC REG LDO 3.3V 0.2A 5SSOP </field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="STBY" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="CAP_NP">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X30">
+      <description>Connector 02x30</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X30</fp>
+        <fp>Pin_Header_Angled_2X30</fp>
+        <fp>Socket_Strip_Straight_2X30</fp>
+        <fp>Socket_Strip_Angled_2X30</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X30</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+        <pin num="37" name="P37" type="passive"/>
+        <pin num="38" name="P38" type="passive"/>
+        <pin num="39" name="P39" type="passive"/>
+        <pin num="40" name="P40" type="passive"/>
+        <pin num="41" name="P41" type="passive"/>
+        <pin num="42" name="P42" type="passive"/>
+        <pin num="43" name="P43" type="passive"/>
+        <pin num="44" name="P44" type="passive"/>
+        <pin num="45" name="P45" type="passive"/>
+        <pin num="46" name="P46" type="passive"/>
+        <pin num="47" name="P47" type="passive"/>
+        <pin num="48" name="P48" type="passive"/>
+        <pin num="49" name="P49" type="passive"/>
+        <pin num="50" name="P50" type="passive"/>
+        <pin num="51" name="P51" type="passive"/>
+        <pin num="52" name="P52" type="passive"/>
+        <pin num="53" name="P53" type="passive"/>
+        <pin num="54" name="P54" type="passive"/>
+        <pin num="55" name="P55" type="passive"/>
+        <pin num="56" name="P56" type="passive"/>
+        <pin num="57" name="P57" type="passive"/>
+        <pin num="58" name="P58" type="passive"/>
+        <pin num="59" name="P59" type="passive"/>
+        <pin num="60" name="P60" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="LED_SMT">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_SMT</field>
+        <field name="Footprint">footprints:0603-D</field>
+        <field name="description">LED 1.6X0.8MM 568NM GRN CLR SMD</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">754-1121-1-ND</field>
+        <field name="manufacturer">Kingbright</field>
+        <field name="manufacturer pn">APT1608SGC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="MCP4921">
+      <aliases>
+        <alias>MCP4921-E/SN</alias>
+        <alias>MCP4921-E/P</alias>
+      </aliases>
+      <description>MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, MSOP-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf</docs>
+      <footprints>
+        <fp>MSOP*</fp>
+        <fp>SOIC*</fp>
+        <fp>DIP*</fp>
+        <fp>PDIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4921</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn"> MCP4921T-E/MSCT-ND </field>
+        <field name="manufacturer">Microchip Technology</field>
+        <field name="manufacturer pn">MCP4921T-E/MS </field>
+        <field name="description"> ICDAC 12BIT SNGL W/SPI 8MSOP </field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="~CS~" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="~LDAC~" type="input"/>
+        <pin num="6" name="VrefA" type="passive"/>
+        <pin num="7" name="AVSS" type="power_in"/>
+        <pin num="8" name="VoutA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="Res1_1">
+      <description>RES SMD 10K OHM 1% 1/16W 0402</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Res1_1</field>
+        <field name="Footprint">footprints_on_Cdrive:0402</field>
+        <field name="description">RES SMD 10K OHM 1% 1/16W 0402</field>
+        <field name="supplier">digikey</field>
+        <field name="supplier pn">RMCF0402FT10K0CT-ND</field>
+        <field name="manufacturer">Stackpole Electronics Inc.</field>
+        <field name="manufacturer pn">RMCF0402FT10K0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="Rpi_HDR-40">
+      <description>Raspberry Pi3 40-Pin Header</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Rpi_HDR-40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="input"/>
+        <pin num="2" name="5V" type="input"/>
+        <pin num="3" name="GPIO2-SDA1_I2C" type="input"/>
+        <pin num="4" name="5V" type="input"/>
+        <pin num="5" name="GPIO3-SCL1_I2C" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="GPIO4" type="input"/>
+        <pin num="8" name="GPIO14-UART0_TXD" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="GPIO15-UART0_RXD" type="input"/>
+        <pin num="11" name="GPIO17" type="input"/>
+        <pin num="12" name="GPIO18-PCM_CLK" type="input"/>
+        <pin num="13" name="GPIO27" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+        <pin num="15" name="GPIO22" type="input"/>
+        <pin num="16" name="GPIO23" type="input"/>
+        <pin num="17" name="3V3" type="input"/>
+        <pin num="18" name="GPIO24" type="input"/>
+        <pin num="19" name="GPIO10-SPI0_MOSI" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+        <pin num="21" name="GPIO9-SPI0_MISO" type="input"/>
+        <pin num="22" name="GPIO25" type="input"/>
+        <pin num="23" name="GPIO11-SPI0_SCLK" type="input"/>
+        <pin num="24" name="GPIO8-SPI0_CE0_N" type="input"/>
+        <pin num="25" name="GND" type="input"/>
+        <pin num="26" name="GPIO7-SPI0_CE1_N" type="input"/>
+        <pin num="27" name="ID_SD-I2C_ID_EEPROM" type="input"/>
+        <pin num="28" name="ID_SC-I2C_ID_EEPROM" type="input"/>
+        <pin num="29" name="GPIO5" type="input"/>
+        <pin num="30" name="GND" type="input"/>
+        <pin num="31" name="GPIO6" type="input"/>
+        <pin num="32" name="GPIO12" type="input"/>
+        <pin num="33" name="GPIO13" type="input"/>
+        <pin num="34" name="GND" type="input"/>
+        <pin num="35" name="GPIO19" type="input"/>
+        <pin num="36" name="GPIO16" type="input"/>
+        <pin num="37" name="GPIO26" type="input"/>
+        <pin num="38" name="GPIO20" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="GPIO21" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc_parts" part="probe_point">
+      <description>probe point sized for oscilloscope probe</description>
+      <footprints>
+        <fp>Hdr_Pin</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">probe_point</field>
+        <field name="Footprint">footprints_on_Cdrive:probe_point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library\74xx.lib</uri>
+    </library>
+    <library logical="misc_parts">
+      <uri>C:\kicad\lib\misc_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="/E1_SW">
+      <node ref="P2" pin="11"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="3" name="/M1_SW">
+      <node ref="U6" pin="10"/>
+      <node ref="P2" pin="27"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="4" name="/L1_SW">
+      <node ref="P2" pin="25"/>
+      <node ref="U3" pin="25"/>
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="5" name="/K1_SW">
+      <node ref="P2" pin="23"/>
+      <node ref="U3" pin="23"/>
+      <node ref="U6" pin="24"/>
+    </net>
+    <net code="6" name="/J1_SW">
+      <node ref="U6" pin="22"/>
+      <node ref="P2" pin="21"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="7" name="/I1_SW">
+      <node ref="P2" pin="19"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="8" name="/H1_SW">
+      <node ref="U5" pin="4"/>
+      <node ref="P2" pin="17"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="9" name="/G1_SW">
+      <node ref="U5" pin="6"/>
+      <node ref="U2" pin="7"/>
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="10" name="/F1_SW">
+      <node ref="U5" pin="8"/>
+      <node ref="U2" pin="9"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="11" name="/D1_SW">
+      <node ref="P2" pin="9"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="12" name="/C1_SW">
+      <node ref="U2" pin="23"/>
+      <node ref="P2" pin="7"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="13" name="/B1_SW">
+      <node ref="U5" pin="22"/>
+      <node ref="P2" pin="5"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="14" name="/A1_SW">
+      <node ref="U5" pin="20"/>
+      <node ref="P2" pin="3"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="15" name="/5V">
+      <node ref="P2" pin="53"/>
+      <node ref="P2" pin="51"/>
+      <node ref="P2" pin="52"/>
+    </net>
+    <net code="16" name="/N1_SW">
+      <node ref="P2" pin="29"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="17" name="/LED1_SW">
+      <node ref="P2" pin="47"/>
+      <node ref="P1" pin="37"/>
+    </net>
+    <net code="18" name="Net-(R1-Pad2)">
+      <node ref="U4" pin="28"/>
+      <node ref="U2" pin="28"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="19" name="/P1_SW">
+      <node ref="U3" pin="5"/>
+      <node ref="U6" pin="4"/>
+      <node ref="P2" pin="33"/>
+    </net>
+    <net code="20" name="/O1_SW">
+      <node ref="P2" pin="31"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="U6" pin="12"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U6" pin="28"/>
+      <node ref="U6" pin="27"/>
+      <node ref="U5" pin="27"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="28"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U4" pin="27"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="27"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U7" pin="27"/>
+      <node ref="U7" pin="28"/>
+      <node ref="P2" pin="58"/>
+      <node ref="P2" pin="59"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="34"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="30"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P2" pin="60"/>
+      <node ref="P1" pin="39"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U9" pin="7"/>
+      <node ref="P3" pin="10"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U10" pin="7"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="P3" pin="9"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="22" name="/3V3">
+      <node ref="U2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="P2" pin="55"/>
+      <node ref="P2" pin="56"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="23" name="/gnd_mux_en">
+      <node ref="U9" pin="9"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U9" pin="12"/>
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="24" name="Net-(U9-Pad3)">
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="25" name="/DAC_OUT">
+      <node ref="U10" pin="8"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="26" name="/~DAC_CS">
+      <node ref="P1" pin="26"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="27" name="/SIMO_SDA">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="28" name="/SPI_CLK">
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="29" name="/V2P5">
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="30" name="/mux_en0">
+      <node ref="U9" pin="5"/>
+      <node ref="U2" pin="18"/>
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="31" name="VCC">
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="33" name="/LED2_SW">
+      <node ref="P1" pin="35"/>
+      <node ref="P2" pin="48"/>
+    </net>
+    <net code="34" name="/mux_en2">
+      <node ref="U9" pin="13"/>
+      <node ref="P1" pin="16"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="35" name="Net-(U7-Pad18)">
+      <node ref="U9" pin="11"/>
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="36" name="/mux_en1">
+      <node ref="U3" pin="18"/>
+      <node ref="P1" pin="12"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="37" name="Net-(U6-Pad18)">
+      <node ref="U9" pin="8"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="38" name="/MID1_SW">
+      <node ref="U7" pin="6"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="39" name="Net-(P3-Pad8)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="40" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="41" name="/V1_SW">
+      <node ref="P2" pin="45"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="42" name="/U1_SW">
+      <node ref="U4" pin="11"/>
+      <node ref="P2" pin="43"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="43" name="/T1_SW">
+      <node ref="U7" pin="26"/>
+      <node ref="U4" pin="25"/>
+      <node ref="P2" pin="41"/>
+    </net>
+    <net code="44" name="/S1_SW">
+      <node ref="P2" pin="39"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="45" name="/R1_SW">
+      <node ref="U4" pin="21"/>
+      <node ref="P2" pin="37"/>
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="46" name="/Q1_SW">
+      <node ref="U7" pin="20"/>
+      <node ref="U4" pin="19"/>
+      <node ref="P2" pin="35"/>
+    </net>
+    <net code="47" name="Net-(P3-Pad6)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="48" name="/5V_OUT">
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="50" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="51" name="/GPIO24">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="52" name="/~BME280_CS">
+      <node ref="P2" pin="49"/>
+    </net>
+    <net code="53" name="/3V3_Rpi">
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="54" name="/SCL">
+      <node ref="P3" pin="3"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="55" name="/SDA">
+      <node ref="P3" pin="4"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="56" name="/CLK">
+      <node ref="U1" pin="7"/>
+      <node ref="P2" pin="50"/>
+      <node ref="P1" pin="23"/>
+    </net>
+    <net code="57" name="/GPIO22">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="58" name="/GPIO21">
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="59" name="/GPIO20">
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="60" name="/GPIO16">
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="61" name="/GPIO12">
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="62" name="/GPIO25">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="63" name="Net-(P1-Pad28)">
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="64" name="Net-(P1-Pad27)">
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="65" name="/GPIO5">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="66" name="/GPIO6">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="67" name="/mux_addr2">
+      <node ref="P1" pin="8"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U7" pin="15"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="68" name="/mux_addr1">
+      <node ref="U7" pin="16"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U4" pin="16"/>
+      <node ref="P1" pin="11"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="69" name="/mux_addr0">
+      <node ref="U3" pin="17"/>
+      <node ref="U4" pin="17"/>
+      <node ref="U6" pin="17"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="70" name="/MID2_SW">
+      <node ref="U7" pin="7"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="71" name="/SIMO">
+      <node ref="P2" pin="54"/>
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="74" name="/ADC_IN">
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="75" name="/SOMI">
+      <node ref="P2" pin="57"/>
+      <node ref="P1" pin="21"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="76" name="/~ADC_CS">
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="78" name="/V2_SW">
+      <node ref="U4" pin="8"/>
+      <node ref="U7" pin="9"/>
+      <node ref="P2" pin="46"/>
+    </net>
+    <net code="79" name="/U2_SW">
+      <node ref="P2" pin="44"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="80" name="/T2_SW">
+      <node ref="U4" pin="26"/>
+      <node ref="P2" pin="42"/>
+      <node ref="U7" pin="25"/>
+    </net>
+    <net code="81" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="82" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="83" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="84" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="85" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="86" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="87" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="88" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="89" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="90" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="91" name="/A2_SW">
+      <node ref="U5" pin="19"/>
+      <node ref="U2" pin="20"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="92" name="/D2_SW">
+      <node ref="U2" pin="26"/>
+      <node ref="U5" pin="25"/>
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="93" name="/C2_SW">
+      <node ref="P2" pin="8"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="94" name="/B2_SW">
+      <node ref="U2" pin="22"/>
+      <node ref="U5" pin="21"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="95" name="/H2_SW">
+      <node ref="U5" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P2" pin="18"/>
+    </net>
+    <net code="96" name="/G2_SW">
+      <node ref="U5" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="97" name="/F2_SW">
+      <node ref="U5" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="98" name="/E2_SW">
+      <node ref="U2" pin="10"/>
+      <node ref="P2" pin="12"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="99" name="/I2_SW">
+      <node ref="U3" pin="20"/>
+      <node ref="U6" pin="19"/>
+      <node ref="P2" pin="20"/>
+    </net>
+    <net code="100" name="/S2_SW">
+      <node ref="P2" pin="40"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="101" name="/R2_SW">
+      <node ref="P2" pin="38"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="102" name="/Q2_SW">
+      <node ref="U4" pin="20"/>
+      <node ref="U7" pin="19"/>
+      <node ref="P2" pin="36"/>
+    </net>
+    <net code="103" name="/P2_SW">
+      <node ref="P2" pin="34"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="104" name="/O2_SW">
+      <node ref="P2" pin="32"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="105" name="/K2_SW">
+      <node ref="U3" pin="24"/>
+      <node ref="U6" pin="23"/>
+      <node ref="P2" pin="24"/>
+    </net>
+    <net code="106" name="/J2_SW">
+      <node ref="P2" pin="22"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="107" name="/N2_SW">
+      <node ref="U6" pin="9"/>
+      <node ref="P2" pin="30"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="108" name="/M2_SW">
+      <node ref="U6" pin="11"/>
+      <node ref="U3" pin="10"/>
+      <node ref="P2" pin="28"/>
+    </net>
+    <net code="109" name="/L2_SW">
+      <node ref="U6" pin="25"/>
+      <node ref="U3" pin="26"/>
+      <node ref="P2" pin="26"/>
+    </net>
+    <net code="110" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="111" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="112" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="113" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="114" name="Net-(U6-Pad13)">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="115" name="/5V_Rpi">
+      <node ref="P1" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="116" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="117" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="118" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="119" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="120" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="121" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="122" name="/mux_addr3">
+      <node ref="U6" pin="14"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U4" pin="14"/>
+      <node ref="P1" pin="10"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="123" name="Net-(C4-Pad1)">
+      <node ref="U8" pin="4"/>
+      <node ref="C4" pin="1"/>
+    </net>
+  </nets>
+</export>
