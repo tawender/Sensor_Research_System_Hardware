@@ -500,7 +500,7 @@ F1 "QS4A110" 410 -630 60 H V C CNN
 F2 "" 415 595 60 H V C CNN
 F3 "" 415 595 60 H V C CNN
 F4 "digikey" 0 1100 60 H I C CNN "supplier"
-F5 "800-1776-5-ND" 660 1090 60 H I C CNN "suppiler pn"
+F5 "800-1776-5-ND" 660 1090 60 H I C CNN "supplier pn"
 F6 "IDT" 20 970 60 H I C CNN "manufacturer"
 F7 "QS4A110QG" 510 980 60 H I C CNN "manufacturer pn"
 F8 "IC SWITCH 5PST, 24QSOP" 340 830 60 H I C CNN "description"

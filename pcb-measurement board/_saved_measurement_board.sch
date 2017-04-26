@@ -61,22 +61,6 @@ F 8 "MSP430G2955IRHA40R" H 6405 3235 60  0001 C CNN "manufacturer pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1_1 R2
-U 1 1 562B17DA
-P 9380 1215
-F 0 "R2" H 9440 1110 40  0000 C CNN
-F 1 "10K" H 9460 1310 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 9435 935 30  0001 C CNN
-F 3 "" H 9380 1215 30  0000 C CNN
-F 4 "RES SMD 10K OHM 1% 1/16W 0402 " H 9730 845 60  0001 C CNN "description"
-F 5 "digikey" H 9170 730 60  0001 C CNN "supplier"
-F 6 " 311-10.0KLRCT-ND " H 9975 715 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 8755 605 60  0001 C CNN "manufacturer"
-F 8 "RC0402FR-0710KL " H 9855 610 60  0001 C CNN "manufacturer pn"
-	1    9380 1215
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 562B1801
 P 1650 3125
@@ -284,54 +268,22 @@ F 8 "RMCF0402FT47K0 " H 4605 3290 60  0001 C CNN "manufacturer pn"
 $EndComp
 Text Label 4130 3690 0    50   ~ 0
 3V3
-Text Label 11570 3215 0    50   ~ 0
-SELG
+Text Label 11570 3215 0    45   ~ 0
+~SELG
 $Comp
 L Res1_1 R1
 U 1 1 574226CA
 P 9130 1220
 F 0 "R1" H 9190 1110 40  0000 C CNN
-F 1 "1K" H 9200 1310 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 9185 940 30  0001 C CNN
+F 1 "?" H 9200 1310 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 9185 940 30  0001 C CNN
 F 3 "" H 9130 1220 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 9480 850 60  0001 C CNN "description"
+F 4 " " H 9480 850 60  0001 C CNN "description"
 F 5 "digikey" H 8920 735 60  0001 C CNN "supplier"
-F 6 " 311-1.00KLRCT-ND " H 9725 720 60  0001 C CNN "supplier pn"
+F 6 " " H 9725 720 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 8505 610 60  0001 C CNN "manufacturer"
-F 8 " RC0402FR-071KL " H 9605 615 60  0001 C CNN "manufacturer pn"
+F 8 " " H 9605 615 60  0001 C CNN "manufacturer pn"
 	1    9130 1220
-	-1   0    0    1   
-$EndComp
-$Comp
-L Res1_1 R5
-U 1 1 57422907
-P 9630 1210
-F 0 "R5" H 9700 1110 40  0000 C CNN
-F 1 "100K" H 9720 1300 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 9685 930 30  0001 C CNN
-F 3 "" H 9630 1210 30  0000 C CNN
-F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 9980 840 60  0001 C CNN "description"
-F 5 "digikey" H 9420 725 60  0001 C CNN "supplier"
-F 6 " 311-100KLRCT-ND " H 10225 710 60  0001 C CNN "supplier pn"
-F 7 "Stackpole Electronics Inc." H 9005 600 60  0001 C CNN "manufacturer"
-F 8 " RC0402FR-07100KL " H 10105 605 60  0001 C CNN "manufacturer pn"
-	1    9630 1210
-	-1   0    0    1   
-$EndComp
-$Comp
-L Res1_1 R6
-U 1 1 574229DF
-P 9880 1210
-F 0 "R6" H 9950 1110 40  0000 C CNN
-F 1 "1M" H 9940 1300 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 9935 930 30  0001 C CNN
-F 3 "" H 9880 1210 30  0000 C CNN
-F 4 " RES SMD 1M OHM 1% 1/16W 0402 " H 10230 840 60  0001 C CNN "description"
-F 5 "digikey" H 9670 725 60  0001 C CNN "supplier"
-F 6 " 311-1.00MLRCT-ND " H 10475 710 60  0001 C CNN "supplier pn"
-F 7 "Stackpole Electronics Inc." H 9255 600 60  0001 C CNN "manufacturer"
-F 8 " RC0402FR-071ML " H 10355 605 60  0001 C CNN "manufacturer pn"
-	1    9880 1210
 	-1   0    0    1   
 $EndComp
 Text Label 4180 4810 0    50   ~ 0
@@ -613,7 +565,7 @@ F 3 "" H 12780 3335 60  0000 C CNN
 	1    12780 3335
 	1    0    0    -1  
 $EndComp
-Text Label 11755 3290 0    50   ~ 0
+Text Label 11940 3290 2    50   ~ 0
 3V3
 Text Label 10875 1405 0    50   ~ 0
 SELR0
@@ -1501,13 +1453,13 @@ Text Label 15645 2435 0    60   ~ 0
 G2
 Text Label 15645 2595 0    60   ~ 0
 H2
-Text Label 15645 3160 0    60   ~ 0
+Text Label 15640 3155 0    60   ~ 0
 I2
-Text Label 15645 3320 0    60   ~ 0
+Text Label 15640 3315 0    60   ~ 0
 J2
-Text Label 15640 3480 0    60   ~ 0
+Text Label 15635 3475 0    60   ~ 0
 K2
-Text Label 15645 3640 0    60   ~ 0
+Text Label 15640 3635 0    60   ~ 0
 L2
 Text Label 15645 4155 0    60   ~ 0
 M2
@@ -1545,13 +1497,13 @@ Text Label 15645 2355 0    60   ~ 0
 G1
 Text Label 15645 2515 0    60   ~ 0
 H1
-Text Label 15645 3080 0    60   ~ 0
+Text Label 15640 3075 0    60   ~ 0
 I1
-Text Label 15645 3240 0    60   ~ 0
+Text Label 15640 3235 0    60   ~ 0
 J1
-Text Label 15645 3400 0    60   ~ 0
+Text Label 15640 3395 0    60   ~ 0
 K1
-Text Label 15645 3560 0    60   ~ 0
+Text Label 15640 3555 0    60   ~ 0
 L1
 Text Label 15645 4075 0    60   ~ 0
 M1
@@ -1604,31 +1556,15 @@ L Res1_1 R10
 U 1 1 59018DC0
 P 3840 5680
 F 0 "R10" H 3735 5720 40  0000 C CNN
-F 1 "1K" H 3730 5650 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 3895 5400 30  0001 C CNN
+F 1 "DNI" H 3730 5650 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 3895 5400 30  0001 C CNN
 F 3 "" H 3840 5680 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 4190 5310 60  0001 C CNN "description"
-F 5 "digikey" H 3630 5195 60  0001 C CNN "supplier"
-F 6 " 311-1.00KLRCT-ND " H 4435 5180 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 3215 5070 60  0001 C CNN "manufacturer"
-F 8 " RC0402FR-071KL " H 4315 5075 60  0001 C CNN "manufacturer pn"
+F 4 " " H 4190 5310 60  0001 C CNN "description"
+F 5 " " H 3630 5195 60  0001 C CNN "supplier"
+F 6 " " H 4435 5180 60  0001 C CNN "supplier pn"
+F 7 " " H 3215 5070 60  0001 C CNN "manufacturer"
+F 8 " " H 4315 5075 60  0001 C CNN "manufacturer pn"
 	1    3840 5680
-	1    0    0    -1  
-$EndComp
-$Comp
-L Res1_1 R8
-U 1 1 5901A0D8
-P 4085 5675
-F 0 "R8" H 4195 5705 40  0000 C CNN
-F 1 "1K" H 4195 5635 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0402" H 4140 5395 30  0001 C CNN
-F 3 "" H 4085 5675 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 4435 5305 60  0001 C CNN "description"
-F 5 "digikey" H 3875 5190 60  0001 C CNN "supplier"
-F 6 " 311-1.00KLRCT-ND " H 4680 5175 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 3460 5065 60  0001 C CNN "manufacturer"
-F 8 " RC0402FR-071KL " H 4560 5070 60  0001 C CNN "manufacturer pn"
-	1    4085 5675
 	1    0    0    -1  
 $EndComp
 Text Label 14780 2175 2    50   ~ 0
@@ -1847,7 +1783,7 @@ U 1 1 59063BAB
 P 11535 5045
 F 0 "U16" H 11985 5145 60  0000 C CNN
 F 1 "AD8293" H 11985 4615 60  0000 C CNN
-F 2 "" H 12115 5005 60  0000 C CNN
+F 2 "footprints_on_Cdrive:SOT23-8" H 12115 5005 60  0001 C CNN
 F 3 "" H 12115 5005 60  0000 C CNN
 F 4 " IC OPAMP INSTR 500HZ RRO SOT23-8 " H 11965 5295 60  0001 C CNN "description"
 F 5 "digikey" H 11485 5465 60  0001 C CNN "supplier"
@@ -2100,8 +2036,6 @@ F 8 " RC0402FR-07100KL " H 11830 4105 60  0001 C CNN "manufacturer pn"
 	1    11355 4710
 	0    1    1    0   
 $EndComp
-Text Label 11290 5285 0    50   ~ 0
-V2P5
 $Comp
 L GND #PWR050
 U 1 1 5908C6DC
@@ -2133,7 +2067,7 @@ $Comp
 L CAP_NP C20
 U 1 1 5908EFA5
 P 12820 5405
-F 0 "C20" H 12655 5445 40  0000 L CNN
+F 0 "C20" H 12615 5445 40  0000 L CNN
 F 1 "39nF" H 12615 5380 40  0000 L CNN
 F 2 "footprints_on_Cdrive:0402" H 12858 5255 30  0001 C CNN
 F 3 "" H 12820 5405 60  0000 C CNN
@@ -2154,17 +2088,6 @@ F 1 "GND" H 12820 5360 50  0000 C CNN
 F 2 "" H 12820 5510 60  0000 C CNN
 F 3 "" H 12820 5510 60  0000 C CNN
 	1    12820 5510
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR052
-U 1 1 5909229B
-P 12485 5400
-F 0 "#PWR052" H 12485 5150 50  0001 C CNN
-F 1 "GND" H 12485 5250 50  0000 C CNN
-F 2 "" H 12485 5400 60  0000 C CNN
-F 3 "" H 12485 5400 60  0000 C CNN
-	1    12485 5400
 	1    0    0    -1  
 $EndComp
 Text Label 12485 5205 0    50   ~ 0
@@ -2470,7 +2393,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 3115 8700 3155
 Wire Wire Line
-	11945 3290 11755 3290
+	11945 3290 11850 3290
 Wire Wire Line
 	11570 3215 11570 3320
 Wire Wire Line
@@ -2883,21 +2806,21 @@ Wire Wire Line
 Wire Wire Line
 	15570 2035 15900 2035
 Wire Wire Line
-	15575 3640 15905 3640
+	15570 3635 15900 3635
 Wire Wire Line
-	15575 3560 15905 3560
+	15570 3555 15900 3555
 Wire Wire Line
-	15575 3480 15905 3480
+	15570 3475 15900 3475
 Wire Wire Line
-	15575 3400 15905 3400
+	15570 3395 15900 3395
 Wire Wire Line
-	15575 3320 15905 3320
+	15570 3315 15900 3315
 Wire Wire Line
-	15575 3240 15905 3240
+	15570 3235 15900 3235
 Wire Wire Line
-	15575 3160 15905 3160
+	15570 3155 15900 3155
 Wire Wire Line
-	15575 3080 15905 3080
+	15570 3075 15900 3075
 Wire Wire Line
 	15570 4635 15900 4635
 Wire Wire Line
@@ -3158,7 +3081,7 @@ Wire Wire Line
 Wire Wire Line
 	11455 5365 11455 5430
 Wire Wire Line
-	11535 5285 11290 5285
+	11145 5285 11535 5285
 Wire Wire Line
 	12435 5045 12500 5045
 Wire Wire Line
@@ -3175,8 +3098,6 @@ Wire Wire Line
 	12820 5455 12820 5510
 Wire Wire Line
 	12435 5285 12485 5285
-Wire Wire Line
-	12485 5285 12485 5400
 Wire Wire Line
 	14105 3875 13930 3875
 Wire Wire Line
@@ -3241,10 +3162,10 @@ Wire Wire Line
 Wire Wire Line
 	13085 4025 13085 4090
 $Comp
-L GND #PWR053
+L GND #PWR052
 U 1 1 590C39E4
 P 13085 4335
-F 0 "#PWR053" H 13085 4085 50  0001 C CNN
+F 0 "#PWR052" H 13085 4085 50  0001 C CNN
 F 1 "GND" H 13085 4185 50  0000 C CNN
 F 2 "" H 13085 4335 60  0000 C CNN
 F 3 "" H 13085 4335 60  0000 C CNN
@@ -3281,10 +3202,10 @@ Wire Wire Line
 Wire Wire Line
 	13090 4860 13090 4925
 $Comp
-L GND #PWR054
+L GND #PWR053
 U 1 1 590C8CAA
 P 13090 5170
-F 0 "#PWR054" H 13090 4920 50  0001 C CNN
+F 0 "#PWR053" H 13090 4920 50  0001 C CNN
 F 1 "GND" H 13090 5020 50  0000 C CNN
 F 2 "" H 13090 5170 60  0000 C CNN
 F 3 "" H 13090 5170 60  0000 C CNN
@@ -3299,10 +3220,10 @@ Wire Wire Line
 Text Label 12925 4785 0    45   ~ 0
 ~CV_EN
 $Comp
-L GND #PWR055
+L GND #PWR054
 U 1 1 590CD2B2
 P 13980 4905
-F 0 "#PWR055" H 13980 4655 50  0001 C CNN
+F 0 "#PWR054" H 13980 4655 50  0001 C CNN
 F 1 "GND" H 13980 4755 50  0000 C CNN
 F 2 "" H 13980 4905 60  0000 C CNN
 F 3 "" H 13980 4905 60  0000 C CNN
@@ -3310,10 +3231,10 @@ F 3 "" H 13980 4905 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR056
+L GND #PWR055
 U 1 1 590CD4FB
 P 13990 4060
-F 0 "#PWR056" H 13990 3810 50  0001 C CNN
+F 0 "#PWR055" H 13990 3810 50  0001 C CNN
 F 1 "GND" H 13990 3910 50  0000 C CNN
 F 2 "" H 13990 4060 60  0000 C CNN
 F 3 "" H 13990 4060 60  0000 C CNN
@@ -3362,10 +3283,10 @@ Text Label 4180 5185 0    45   ~ 0
 Text Label 4180 5110 0    45   ~ 0
 ~CV_EN
 $Comp
-L CAP_NP C?
+L CAP_NP C26
 U 1 1 5913DEFA
 P 11120 2140
-F 0 "C?" H 11185 2240 40  0000 L CNN
+F 0 "C26" H 11185 2240 40  0000 L CNN
 F 1 "0.1uF" H 11150 2120 40  0000 L CNN
 F 2 "footprints_on_Cdrive:0402" H 11158 1990 30  0001 C CNN
 F 3 "" H 11120 2140 60  0000 C CNN
@@ -3378,10 +3299,10 @@ F 8 "0402YD104KAT2A" H 11120 2140 60  0001 C CNN "manufacturer pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR056
 U 1 1 5913E8D9
 P 11120 2190
-F 0 "#PWR?" H 11120 1940 50  0001 C CNN
+F 0 "#PWR056" H 11120 1940 50  0001 C CNN
 F 1 "GND" H 11120 2040 50  0000 C CNN
 F 2 "" H 11120 2190 60  0000 C CNN
 F 3 "" H 11120 2190 60  0000 C CNN
@@ -3391,32 +3312,158 @@ $EndComp
 Wire Wire Line
 	11120 1980 11120 1990
 $Comp
-L CAP_NP C?
+L CAP_NP C27
 U 1 1 59141DF7
-P 11950 3665
-F 0 "C?" H 11790 3715 40  0000 L CNN
-F 1 "0.1uF" H 11750 3645 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0402" H 11988 3515 30  0001 C CNN
-F 3 "" H 11950 3665 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V X5R 0402" H 11950 3665 60  0001 C CNN "description"
-F 5 "digikey" H 11950 3665 60  0001 C CNN "supplier"
-F 6 "478-1126-1-ND" H 11950 3665 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 11950 3665 60  0001 C CNN "manufacturer"
-F 8 "0402YD104KAT2A" H 11950 3665 60  0001 C CNN "manufacturer pn"
-	1    11950 3665
+P 11850 3570
+F 0 "C27" H 11690 3620 40  0000 L CNN
+F 1 "0.1uF" H 11650 3550 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 11888 3420 30  0001 C CNN
+F 3 "" H 11850 3570 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 11850 3570 60  0001 C CNN "description"
+F 5 "digikey" H 11850 3570 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 11850 3570 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 11850 3570 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 11850 3570 60  0001 C CNN "manufacturer pn"
+	1    11850 3570
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR057
 U 1 1 59141DFD
-P 11910 3675
-F 0 "#PWR?" H 11910 3425 50  0001 C CNN
-F 1 "GND" H 11910 3525 50  0000 C CNN
-F 2 "" H 11910 3675 60  0000 C CNN
-F 3 "" H 11910 3675 60  0000 C CNN
-	1    11910 3675
+P 11850 3665
+F 0 "#PWR057" H 11850 3415 50  0001 C CNN
+F 1 "GND" H 11850 3515 50  0000 C CNN
+F 2 "" H 11850 3665 60  0000 C CNN
+F 3 "" H 11850 3665 60  0000 C CNN
+	1    11850 3665
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	11910 3630 11910 3675
+	11850 3620 11850 3665
+Wire Wire Line
+	11850 3290 11850 3420
+Text Label 12485 5285 0    50   ~ 0
+3V3
+$Comp
+L Res1_1 R8
+U 1 1 591533BF
+P 10945 5365
+F 0 "R8" H 11050 5305 40  0000 C CNN
+F 1 "100k" H 11080 5380 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11000 5085 30  0001 C CNN
+F 3 "" H 10945 5365 30  0000 C CNN
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11295 4995 60  0001 C CNN "description"
+F 5 "digikey" H 10735 4880 60  0001 C CNN "supplier"
+F 6 " 311-100KLRCT-ND " H 11540 4865 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10320 4755 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 11420 4760 60  0001 C CNN "manufacturer pn"
+	1    10945 5365
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R13
+U 1 1 59153CC5
+P 10945 5660
+F 0 "R13" H 11050 5600 40  0000 C CNN
+F 1 "18k" H 11065 5675 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11000 5380 30  0001 C CNN
+F 3 "" H 10945 5660 30  0000 C CNN
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11295 5290 60  0001 C CNN "description"
+F 5 "digikey" H 10735 5175 60  0001 C CNN "supplier"
+F 6 " 311-100KLRCT-ND " H 11540 5160 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10320 5050 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 11420 5055 60  0001 C CNN "manufacturer pn"
+	1    10945 5660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10945 5240 10945 5170
+Text Label 10945 5170 0    50   ~ 0
+3V3
+$Comp
+L GND #PWR058
+U 1 1 591555C7
+P 10945 5805
+F 0 "#PWR058" H 10945 5555 50  0001 C CNN
+F 1 "GND" H 10945 5655 50  0000 C CNN
+F 2 "" H 10945 5805 60  0000 C CNN
+F 3 "" H 10945 5805 60  0000 C CNN
+	1    10945 5805
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10945 5760 10945 5805
+Wire Wire Line
+	10945 5465 10945 5535
+Wire Wire Line
+	11145 5285 11145 5500
+Wire Wire Line
+	11145 5500 10945 5500
+Connection ~ 10945 5500
+$Comp
+L Res1_1 R16
+U 1 1 5916F7DC
+P 4085 5675
+F 0 "R16" H 3980 5715 40  0000 C CNN
+F 1 "DNI" H 3975 5645 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 4140 5395 30  0001 C CNN
+F 3 "" H 4085 5675 30  0000 C CNN
+F 4 " " H 4435 5305 60  0001 C CNN "description"
+F 5 " " H 3875 5190 60  0001 C CNN "supplier"
+F 6 " " H 4680 5175 60  0001 C CNN "supplier pn"
+F 7 " " H 3460 5065 60  0001 C CNN "manufacturer"
+F 8 " " H 4560 5070 60  0001 C CNN "manufacturer pn"
+	1    4085 5675
+	1    0    0    -1  
+$EndComp
+Text Label 11165 5285 0    50   ~ 0
+0V5
+$Comp
+L Res1_1 R6
+U 1 1 591835DF
+P 9380 1215
+F 0 "R6" H 9440 1105 40  0000 C CNN
+F 1 "?" H 9450 1305 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 9435 935 30  0001 C CNN
+F 3 "" H 9380 1215 30  0000 C CNN
+F 4 " " H 9730 845 60  0001 C CNN "description"
+F 5 "digikey" H 9170 730 60  0001 C CNN "supplier"
+F 6 " " H 9975 715 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 8755 605 60  0001 C CNN "manufacturer"
+F 8 " " H 9855 610 60  0001 C CNN "manufacturer pn"
+	1    9380 1215
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R2
+U 1 1 59183961
+P 9630 1210
+F 0 "R2" H 9690 1100 40  0000 C CNN
+F 1 "?" H 9700 1300 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 9685 930 30  0001 C CNN
+F 3 "" H 9630 1210 30  0000 C CNN
+F 4 " " H 9980 840 60  0001 C CNN "description"
+F 5 "digikey" H 9420 725 60  0001 C CNN "supplier"
+F 6 " " H 10225 710 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 9005 600 60  0001 C CNN "manufacturer"
+F 8 " " H 10105 605 60  0001 C CNN "manufacturer pn"
+	1    9630 1210
+	-1   0    0    1   
+$EndComp
+$Comp
+L Res1_1 R5
+U 1 1 59183AB2
+P 9880 1210
+F 0 "R5" H 9940 1100 40  0000 C CNN
+F 1 "?" H 9950 1300 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 9935 930 30  0001 C CNN
+F 3 "" H 9880 1210 30  0000 C CNN
+F 4 " " H 10230 840 60  0001 C CNN "description"
+F 5 "digikey" H 9670 725 60  0001 C CNN "supplier"
+F 6 " " H 10475 710 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 9255 600 60  0001 C CNN "manufacturer"
+F 8 " " H 10355 605 60  0001 C CNN "manufacturer pn"
+	1    9880 1210
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
