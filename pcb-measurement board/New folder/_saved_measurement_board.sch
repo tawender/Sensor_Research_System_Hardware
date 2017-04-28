@@ -110,6 +110,38 @@ F 3 "" H 3805 5060 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L CAP_NP C16
+U 1 1 562AD98A
+P 6490 3490
+F 0 "C16" H 6520 3590 40  0000 L CNN
+F 1 "0.1uF" H 6530 3460 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 6528 3340 30  0001 C CNN
+F 3 "" H 6490 3490 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 6490 3490 60  0001 C CNN "description"
+F 5 "digikey" H 6490 3490 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 6490 3490 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 6490 3490 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 6490 3490 60  0001 C CNN "manufacturer pn"
+	1    6490 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C17
+U 1 1 562AD98B
+P 6790 3490
+F 0 "C17" H 6820 3590 40  0000 L CNN
+F 1 "0.1uF" H 6830 3460 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 6828 3340 30  0001 C CNN
+F 3 "" H 6790 3490 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 6790 3490 60  0001 C CNN "description"
+F 5 "digikey" H 6790 3490 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 6790 3490 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 6790 3490 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 6790 3490 60  0001 C CNN "manufacturer pn"
+	1    6790 3490
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR04
 U 1 1 562197F7
 P 6665 3615
@@ -135,7 +167,7 @@ F 3 "" H 7130 5635 60  0000 C CNN
 	1    7130 5635
 	1    0    0    -1  
 $EndComp
-Text Label 4185 4360 0    45   ~ 0
+Text Label 4205 4360 0    45   ~ 0
 ~RST
 Text Label 7155 4285 0    50   ~ 0
 TEST
@@ -162,6 +194,24 @@ F 3 "" H 5205 3510 60  0000 C CNN
 $EndComp
 Text Label 7130 4960 0    50   ~ 0
 V2P5_R
+$Comp
+L Res1_1 R8
+U 1 1 5731C5C0
+P 4130 3895
+F 0 "R8" H 4280 3825 40  0000 C CNN
+F 1 "47K" H 4280 3905 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 4185 3615 30  0001 C CNN
+F 3 "" H 4130 3895 30  0000 C CNN
+F 4 " RES SMD 47K OHM 1% 1/16W 0402 " H 4480 3525 60  0001 C CNN "description"
+F 5 "digikey" H 3920 3410 60  0001 C CNN "supplier"
+F 6 "RMCF0402FT47K0CT-ND " H 4725 3395 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 3505 3285 60  0001 C CNN "manufacturer"
+F 8 "RMCF0402FT47K0 " H 4605 3290 60  0001 C CNN "manufacturer pn"
+	1    4130 3895
+	-1   0    0    1   
+$EndComp
+Text Label 4130 3690 0    50   ~ 0
+3V3
 Text Label 11570 3215 0    45   ~ 0
 ~SELG
 $Comp
@@ -411,13 +461,13 @@ U 1 1 575F0A3D
 P 11090 2540
 F 0 "C9" V 11005 2555 40  0000 L CNN
 F 1 "51pF" V 11175 2510 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 11128 2390 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11128 2390 30  0001 C CNN
 F 3 "" H 11090 2540 60  0000 C CNN
-F 4 " CAP CER 51PF 50V C0G/NP0 0603 " H 11090 2540 60  0001 C CNN "description"
+F 4 "CAP CER 51PF 50V NP0 0402" H 11090 2540 60  0001 C CNN "description"
 F 5 "digikey" H 11090 2540 60  0001 C CNN "supplier"
-F 6 " 490-1420-1-ND " H 11090 2540 60  0001 C CNN "supplier pn"
+F 6 " 490-5944-1-ND " H 11090 2540 60  0001 C CNN "supplier pn"
 F 7 "Murata" H 11090 2540 60  0001 C CNN "manufacturer"
-F 8 "GRM1885C1H510JA01D" H 11090 2540 60  0001 C CNN "manufacturer pn"
+F 8 "GRM1555C1H510JA01D " H 11090 2540 60  0001 C CNN "manufacturer pn"
 	1    11090 2540
 	0    1    1    0   
 $EndComp
@@ -502,6 +552,22 @@ DAC1_OUT
 Text Label 10870 1630 0    50   ~ 0
 BIAS_OUT
 $Comp
+L CAP_NP C14
+U 1 1 57670032
+P 11095 3260
+F 0 "C14" H 11125 3360 40  0000 L CNN
+F 1 "1nF" H 11135 3230 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 11133 3110 30  0001 C CNN
+F 3 "" H 11095 3260 60  0000 C CNN
+F 4 "CAP CER 1000PF 50V X7R 0402" H 11095 3260 60  0001 C CNN "description"
+F 5 "digikey" H 11095 3260 60  0001 C CNN "supplier"
+F 6 " 490-1303-1-ND " H 11095 3260 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 11095 3260 60  0001 C CNN "manufacturer"
+F 8 "GRM155R71H102KA01D" H 11095 3260 60  0001 C CNN "manufacturer pn"
+	1    11095 3260
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR018
 U 1 1 57670D70
 P 11095 3310
@@ -529,6 +595,54 @@ F 8 "SN74CBTLV1G125DBVR" H 12645 4040 60  0001 C CNN "manufacturer pn"
 	1    0    0    -1  
 $EndComp
 $Comp
+L Res1_1 R6
+U 1 1 5768EDD7
+P 11820 3140
+F 0 "R6" V 11780 3030 40  0000 C CNN
+F 1 "1K" V 11780 3240 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11875 2860 30  0001 C CNN
+F 3 "" H 11820 3140 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 12170 2770 60  0001 C CNN "description"
+F 5 "digikey" H 11610 2655 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 12415 2640 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 11195 2530 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 12295 2535 60  0001 C CNN "manufacturer pn"
+	1    11820 3140
+	0    1    1    0   
+$EndComp
+$Comp
+L Res1_1 R5
+U 1 1 576BF02A
+P 10055 2965
+F 0 "R5" V 10145 2965 40  0000 C CNN
+F 1 "1K" V 9965 2955 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 10110 2685 30  0001 C CNN
+F 3 "" H 10055 2965 30  0000 C CNN
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 10405 2595 60  0001 C CNN "description"
+F 5 "digikey" H 9845 2480 60  0001 C CNN "supplier"
+F 6 " 311-1.00KLRCT-ND " H 10650 2465 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 9430 2355 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-071KL " H 10530 2360 60  0001 C CNN "manufacturer pn"
+	1    10055 2965
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP_NP C15
+U 1 1 576C0D18
+P 10280 3305
+F 0 "C15" H 10310 3405 40  0000 L CNN
+F 1 "0.1uF" H 10320 3275 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 10318 3155 30  0001 C CNN
+F 3 "" H 10280 3305 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 10280 3305 60  0001 C CNN "description"
+F 5 "digikey" H 10280 3305 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 10280 3305 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 10280 3305 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 10280 3305 60  0001 C CNN "manufacturer pn"
+	1    10280 3305
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR019
 U 1 1 576C1575
 P 10280 3390
@@ -551,6 +665,22 @@ F 3 "" H 8700 3155 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Res1_1 R7
+U 1 1 576ED20B
+P 11570 3420
+F 0 "R7" H 11685 3470 40  0000 C CNN
+F 1 "100K" H 11700 3400 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11625 3140 30  0001 C CNN
+F 3 "" H 11570 3420 30  0000 C CNN
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11920 3050 60  0001 C CNN "description"
+F 5 "digikey" H 11360 2935 60  0001 C CNN "supplier"
+F 6 " 311-100KLRCT-ND " H 12165 2920 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10945 2810 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 12045 2815 60  0001 C CNN "manufacturer pn"
+	1    11570 3420
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR021
 U 1 1 576EF1B8
 P 11570 3545
@@ -559,6 +689,38 @@ F 1 "GND" H 11570 3395 50  0000 C CNN
 F 2 "" H 11570 3545 60  0000 C CNN
 F 3 "" H 11570 3545 60  0000 C CNN
 	1    11570 3545
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C8
+U 1 1 576114CB
+P 9360 2510
+F 0 "C8" H 9425 2610 40  0000 L CNN
+F 1 "0.1uF" H 9390 2490 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9398 2360 30  0001 C CNN
+F 3 "" H 9360 2510 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 9360 2510 60  0001 C CNN "description"
+F 5 "digikey" H 9360 2510 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 9360 2510 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 9360 2510 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 9360 2510 60  0001 C CNN "manufacturer pn"
+	1    9360 2510
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C7
+U 1 1 576115EC
+P 9170 2510
+F 0 "C7" H 8970 2610 40  0000 L CNN
+F 1 "10uF" H 8960 2490 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9208 2360 30  0001 C CNN
+F 3 "" H 9170 2510 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X5R 0402 " H 9170 2510 60  0001 C CNN "description"
+F 5 "digikey" H 9170 2510 60  0001 C CNN "supplier"
+F 6 " 1276-6830-1-ND " H 9170 2510 60  0001 C CNN "supplier pn"
+F 7 "Samsung" H 9170 2510 60  0001 C CNN "manufacturer"
+F 8 "CL05A106MP8NUB8 " H 9170 2510 60  0001 C CNN "manufacturer pn"
+	1    9170 2510
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1296,14 +1458,30 @@ U 1 1 5904F6B3
 P 1695 6955
 F 0 "C31" H 1550 7055 40  0000 L CNN
 F 1 "1.1nF" H 1505 6930 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 1733 6805 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 1733 6805 30  0001 C CNN
 F 3 "" H 1695 6955 60  0000 C CNN
-F 4 " CAP CER 1100PF 50V C0G/NP0 0603 " H 1695 6955 60  0001 C CNN "description"
+F 4 "CAP CER 1100PF 50V NP0 0402" H 1695 6955 60  0001 C CNN "description"
 F 5 "digikey" H 1695 6955 60  0001 C CNN "supplier"
-F 6 " 490-1452-1-ND " H 1695 6955 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 1695 6955 60  0001 C CNN "manufacturer"
-F 8 "GRM1885C1H112JA01D " H 1695 6955 60  0001 C CNN "manufacturer pn"
+F 6 "399-9948-1-ND" H 1695 6955 60  0001 C CNN "supplier pn"
+F 7 "Kemet" H 1695 6955 60  0001 C CNN "manufacturer"
+F 8 "C0402C112J5GAC7867" H 1695 6955 60  0001 C CNN "manufacturer pn"
 	1    1695 6955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Res1 R15
+U 1 1 5904F6BF
+P 1370 6580
+F 0 "R15" H 1480 6640 40  0000 C CNN
+F 1 "47K" H 1510 6540 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 1300 6580 30  0001 C CNN
+F 3 "" H 1370 6580 30  0001 C CNN
+F 4 "RES SMD 47K OHM 1% 1/16W 0402" H 1370 6580 60  0001 C CNN "description"
+F 5 "digikey" H 1370 6580 60  0001 C CNN "supplier"
+F 6 "311-47.0KLRCT-ND" H 1370 6580 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 1370 6580 60  0001 C CNN "manufacturer"
+F 8 "RC0402FR-0747KL" H 1370 6580 60  0001 C CNN "manufacturer pn"
+	1    1370 6580
 	1    0    0    -1  
 $EndComp
 Text Label 1370 6330 0    50   ~ 0
@@ -1314,13 +1492,13 @@ U 1 1 5904F6CC
 P 1120 6630
 F 0 "C29" H 1150 6730 40  0000 L CNN
 F 1 "10uF" H 1160 6600 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 1158 6480 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 1158 6480 30  0001 C CNN
 F 3 "" H 1120 6630 60  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 1120 6630 60  0001 C CNN "description"
+F 4 "CAP CER 10UF 4V X5R 0402" H 1120 6630 60  0001 C CNN "description"
 F 5 "digikey" H 1120 6630 60  0001 C CNN "supplier"
-F 6 " 490-3896-1-ND " H 1120 6630 60  0001 C CNN "supplier pn"
+F 6 "490-10693-1-ND" H 1120 6630 60  0001 C CNN "supplier pn"
 F 7 "Murata" H 1120 6630 60  0001 C CNN "manufacturer"
-F 8 "GRM188R60J106ME47D " H 1120 6630 60  0001 C CNN "manufacturer pn"
+F 8 "GRM155R60G106ME44D" H 1120 6630 60  0001 C CNN "manufacturer pn"
 	1    1120 6630
 	1    0    0    -1  
 $EndComp
@@ -1552,15 +1730,31 @@ U 1 1 59074ADD
 P 10085 4810
 F 0 "R10" V 10175 4810 40  0000 C CNN
 F 1 "1K" V 9995 4800 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 10140 4530 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 10140 4530 30  0001 C CNN
 F 3 "" H 10085 4810 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/10W 0603 " H 10435 4440 60  0001 C CNN "description"
+F 4 " RES SMD 1K OHM 1% 1/16W 0402 " H 10435 4440 60  0001 C CNN "description"
 F 5 "digikey" H 9875 4325 60  0001 C CNN "supplier"
-F 6 " 311-1.00KHRCT-ND " H 10680 4310 60  0001 C CNN "supplier pn"
+F 6 " 311-1.00KLRCT-ND " H 10680 4310 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 9460 4200 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-071KLL " H 10560 4205 60  0001 C CNN "manufacturer pn"
+F 8 " RC0402FR-071KL " H 10560 4205 60  0001 C CNN "manufacturer pn"
 	1    10085 4810
 	0    -1   -1   0   
+$EndComp
+$Comp
+L CAP_NP C25
+U 1 1 59074AE8
+P 10310 5150
+F 0 "C25" H 10340 5250 40  0000 L CNN
+F 1 "0.1uF" H 10350 5120 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 10348 5000 30  0001 C CNN
+F 3 "" H 10310 5150 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 10310 5150 60  0001 C CNN "description"
+F 5 "digikey" H 10310 5150 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 10310 5150 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 10310 5150 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 10310 5150 60  0001 C CNN "manufacturer pn"
+	1    10310 5150
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR046
@@ -1585,6 +1779,38 @@ F 3 "" H 8730 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L CAP_NP C22
+U 1 1 59074AFF
+P 9390 4355
+F 0 "C22" H 9455 4455 40  0000 L CNN
+F 1 "0.1uF" H 9420 4335 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9428 4205 30  0001 C CNN
+F 3 "" H 9390 4355 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 9390 4355 60  0001 C CNN "description"
+F 5 "digikey" H 9390 4355 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 9390 4355 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 9390 4355 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 9390 4355 60  0001 C CNN "manufacturer pn"
+	1    9390 4355
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C21
+U 1 1 59074B0A
+P 9200 4355
+F 0 "C21" H 9000 4455 40  0000 L CNN
+F 1 "10uF" H 8990 4335 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 9238 4205 30  0001 C CNN
+F 3 "" H 9200 4355 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X5R 0402 " H 9200 4355 60  0001 C CNN "description"
+F 5 "digikey" H 9200 4355 60  0001 C CNN "supplier"
+F 6 " 1276-6830-1-ND " H 9200 4355 60  0001 C CNN "supplier pn"
+F 7 "Samsung" H 9200 4355 60  0001 C CNN "manufacturer"
+F 8 "CL05A106MP8NUB8 " H 9200 4355 60  0001 C CNN "manufacturer pn"
+	1    9200 4355
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR048
 U 1 1 59074B10
 P 9390 4450
@@ -1599,15 +1825,15 @@ $Comp
 L Res1_1 R9
 U 1 1 59085C0B
 P 11355 4710
-F 0 "R9" V 11205 4680 40  0000 C CNN
-F 1 "10ohm 0.1%" V 11275 4705 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0805" H 11410 4430 30  0001 C CNN
+F 0 "R9" V 11275 4700 40  0000 C CNN
+F 1 "10" V 11440 4705 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11410 4430 30  0001 C CNN
 F 3 "" H 11355 4710 30  0000 C CNN
-F 4 " RES SMD 10 OHM 0.1% 1/4W 0805 " H 11705 4340 60  0001 C CNN "description"
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11705 4340 60  0001 C CNN "description"
 F 5 "digikey" H 11145 4225 60  0001 C CNN "supplier"
-F 6 " A110351CT-ND" H 11950 4210 60  0001 C CNN "supplier pn"
-F 7 "TE Connectivity" H 10730 4100 60  0001 C CNN "manufacturer"
-F 8 " 2-1625868-7 " H 11830 4105 60  0001 C CNN "manufacturer pn"
+F 6 " 311-100KLRCT-ND " H 11950 4210 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10730 4100 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 11830 4105 60  0001 C CNN "manufacturer pn"
 	1    11355 4710
 	0    1    1    0   
 $EndComp
@@ -1623,18 +1849,34 @@ F 3 "" H 11455 5430 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L CAP_NP C23
+U 1 1 5908D287
+P 12650 5045
+F 0 "C23" V 12800 5055 40  0000 L CNN
+F 1 "0.1uF" V 12740 5015 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 12688 4895 30  0001 C CNN
+F 3 "" H 12650 5045 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 12650 5045 60  0001 C CNN "description"
+F 5 "digikey" H 12650 5045 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 12650 5045 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 12650 5045 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 12650 5045 60  0001 C CNN "manufacturer pn"
+	1    12650 5045
+	0    -1   -1   0   
+$EndComp
+$Comp
 L CAP_NP C27
 U 1 1 5908EFA5
 P 12820 5405
 F 0 "C27" H 12615 5445 40  0000 L CNN
 F 1 "39nF" H 12615 5380 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 12858 5255 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 12858 5255 30  0001 C CNN
 F 3 "" H 12820 5405 60  0000 C CNN
-F 4 " CAP CER 0.039UF 16V X7R 0603 " H 12820 5405 60  0001 C CNN "description"
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 12820 5405 60  0001 C CNN "description"
 F 5 "digikey" H 12820 5405 60  0001 C CNN "supplier"
-F 6 " 399-9078-1-ND " H 12820 5405 60  0001 C CNN "supplier pn"
-F 7 "Kemet" H 12820 5405 60  0001 C CNN "manufacturer"
-F 8 " C0603C393K4RACTU " H 12820 5405 60  0001 C CNN "manufacturer pn"
+F 6 "478-1126-1-ND" H 12820 5405 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 12820 5405 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 12820 5405 60  0001 C CNN "manufacturer pn"
 	1    12820 5405
 	1    0    0    -1  
 $EndComp
@@ -1777,6 +2019,8 @@ Wire Wire Line
 Wire Wire Line
 	3840 5410 4580 5410
 Wire Wire Line
+	4130 4360 4580 4360
+Wire Wire Line
 	4085 5485 4580 5485
 Wire Wire Line
 	7055 5560 7130 5560
@@ -1786,6 +2030,10 @@ Wire Wire Line
 	7055 5110 7430 5110
 Wire Wire Line
 	7055 5185 7430 5185
+Wire Wire Line
+	4130 3770 4130 3690
+Wire Wire Line
+	4130 3995 4130 4360
 Wire Wire Line
 	4580 4885 4180 4885
 Wire Wire Line
@@ -2334,6 +2582,14 @@ Wire Wire Line
 Wire Wire Line
 	15570 5085 15900 5085
 Wire Wire Line
+	15570 6655 15900 6655
+Wire Wire Line
+	15570 6575 15900 6575
+Wire Wire Line
+	15570 6495 15900 6495
+Wire Wire Line
+	15570 6415 15900 6415
+Wire Wire Line
 	15570 6335 15900 6335
 Wire Wire Line
 	15570 6255 15900 6255
@@ -2414,7 +2670,7 @@ Wire Notes Line
 Wire Notes Line
 	3145 5705 3145 7275
 Wire Wire Line
-	5060 9190 5585 9190
+	5215 9190 5585 9190
 Wire Wire Line
 	5215 9290 5585 9290
 Wire Wire Line
@@ -2721,6 +2977,22 @@ Text Label 4180 5260 0    45   ~ 0
 Text Label 4180 5110 0    45   ~ 0
 ~CV_EN
 $Comp
+L CAP_NP C5
+U 1 1 5913DEFA
+P 11120 2140
+F 0 "C5" H 11185 2240 40  0000 L CNN
+F 1 "0.1uF" H 11150 2120 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 11158 1990 30  0001 C CNN
+F 3 "" H 11120 2140 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V X5R 0402" H 11120 2140 60  0001 C CNN "description"
+F 5 "digikey" H 11120 2140 60  0001 C CNN "supplier"
+F 6 "478-1126-1-ND" H 11120 2140 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 11120 2140 60  0001 C CNN "manufacturer"
+F 8 "0402YD104KAT2A" H 11120 2140 60  0001 C CNN "manufacturer pn"
+	1    11120 2140
+	1    0    0    -1  
+$EndComp
+$Comp
 L GND #PWR055
 U 1 1 5913E8D9
 P 11120 2190
@@ -2756,13 +3028,13 @@ U 1 1 591533BF
 P 10945 5365
 F 0 "R11" H 11050 5305 40  0000 C CNN
 F 1 "100k" H 11080 5380 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 11000 5085 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11000 5085 30  0001 C CNN
 F 3 "" H 10945 5365 30  0000 C CNN
-F 4 " RES SMD 100K OHM 1% 1/10W 0603 " H 11295 4995 60  0001 C CNN "description"
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11295 4995 60  0001 C CNN "description"
 F 5 "digikey" H 10735 4880 60  0001 C CNN "supplier"
-F 6 " 311-100KHRCT-ND " H 11540 4865 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 10320 4755 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-07100KL " H 11420 4760 60  0001 C CNN "manufacturer pn"
+F 6 " 311-100KLRCT-ND " H 11540 4865 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10320 4755 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 11420 4760 60  0001 C CNN "manufacturer pn"
 	1    10945 5365
 	-1   0    0    1   
 $EndComp
@@ -2772,13 +3044,13 @@ U 1 1 59153CC5
 P 10945 5660
 F 0 "R12" H 11050 5600 40  0000 C CNN
 F 1 "18k" H 11065 5675 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 11000 5380 30  0001 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11000 5380 30  0001 C CNN
 F 3 "" H 10945 5660 30  0000 C CNN
-F 4 " RES SMD 18K OHM 1% 1/10W 0603 " H 11295 5290 60  0001 C CNN "description"
+F 4 " RES SMD 100K OHM 1% 1/16W 0402 " H 11295 5290 60  0001 C CNN "description"
 F 5 "digikey" H 10735 5175 60  0001 C CNN "supplier"
-F 6 " 311-18.0KHRCT-ND " H 11540 5160 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 10320 5050 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-0718KL " H 11420 5055 60  0001 C CNN "manufacturer pn"
+F 6 " 311-100KLRCT-ND " H 11540 5160 60  0001 C CNN "supplier pn"
+F 7 "Stackpole Electronics Inc." H 10320 5050 60  0001 C CNN "manufacturer"
+F 8 " RC0402FR-07100KL " H 11420 5055 60  0001 C CNN "manufacturer pn"
 	1    10945 5660
 	-1   0    0    1   
 $EndComp
@@ -3207,6 +3479,22 @@ F 8 " GRM188R71C104KA01D " H 13090 5075 60  0001 C CNN "manufacturer pn"
 	-1   0    0    -1  
 $EndComp
 $Comp
+L CAP_NP C18
+U 1 1 5925FFC2
+P 11850 3570
+F 0 "C18" H 11945 3630 40  0000 L CNN
+F 1 "0.1uF" H 11915 3555 40  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 11888 3420 30  0001 C CNN
+F 3 "" H 11850 3570 60  0000 C CNN
+F 4 " CAP CER 0.1UF 16V X7R 0603 " H 11850 3570 60  0001 C CNN "description"
+F 5 "digikey" H 11850 3570 60  0001 C CNN "supplier"
+F 6 " 490-1532-1-ND " H 11850 3570 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 11850 3570 60  0001 C CNN "manufacturer"
+F 8 " GRM188R71C104KA01D " H 11850 3570 60  0001 C CNN "manufacturer pn"
+	1    11850 3570
+	1    0    0    -1  
+$EndComp
+$Comp
 L CAP_NP C33
 U 1 1 59262340
 P 9495 9730
@@ -3447,301 +3735,4 @@ F 3 "" H 8285 4885 90  0000 C CNN
 	1    8285 4885
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CAP_NP C16
-U 1 1 5902F24F
-P 6490 3490
-F 0 "C16" H 6585 3550 40  0000 L CNN
-F 1 "0.1uF" H 6555 3475 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 6528 3340 30  0001 C CNN
-F 3 "" H 6490 3490 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 6490 3490 60  0001 C CNN "description"
-F 5 "digikey" H 6490 3490 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 6490 3490 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 6490 3490 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 6490 3490 60  0001 C CNN "manufacturer pn"
-	1    6490 3490
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C17
-U 1 1 59030AFF
-P 6790 3490
-F 0 "C17" H 6885 3550 40  0000 L CNN
-F 1 "0.1uF" H 6855 3475 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 6828 3340 30  0001 C CNN
-F 3 "" H 6790 3490 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 6790 3490 60  0001 C CNN "description"
-F 5 "digikey" H 6790 3490 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 6790 3490 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 6790 3490 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 6790 3490 60  0001 C CNN "manufacturer pn"
-	1    6790 3490
-	1    0    0    -1  
-$EndComp
-$Comp
-L Res1_1 R15
-U 1 1 5903961E
-P 1370 6605
-F 0 "R15" H 1520 6535 40  0000 C CNN
-F 1 "47K" H 1520 6615 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 1425 6325 30  0001 C CNN
-F 3 "" H 1370 6605 30  0000 C CNN
-F 4 "RES SMD 47K OHM 1% 1/10W 0603 " H 1720 6235 60  0001 C CNN "description"
-F 5 "digikey" H 1160 6120 60  0001 C CNN "supplier"
-F 6 " 311-47.0KHRCT-ND " H 1965 6105 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 745 5995 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-0747KL" H 1845 6000 60  0001 C CNN "manufacturer pn"
-	1    1370 6605
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4580 4360 4185 4360
-$Comp
-L CAP_NP C21
-U 1 1 5904D8F7
-P 9200 4355
-F 0 "C21" H 9265 4405 40  0000 L CNN
-F 1 "10uF" H 9245 4335 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 9238 4205 30  0001 C CNN
-F 3 "" H 9200 4355 60  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 9200 4355 60  0001 C CNN "description"
-F 5 "digikey" H 9200 4355 60  0001 C CNN "supplier"
-F 6 " 490-3896-1-ND " H 9200 4355 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 9200 4355 60  0001 C CNN "manufacturer"
-F 8 "GRM188R60J106ME47D " H 9200 4355 60  0001 C CNN "manufacturer pn"
-	1    9200 4355
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C22
-U 1 1 590511AE
-P 9390 4355
-F 0 "C22" H 9460 4410 40  0000 L CNN
-F 1 "0.1uF" H 9415 4330 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 9428 4205 30  0001 C CNN
-F 3 "" H 9390 4355 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 9390 4355 60  0001 C CNN "description"
-F 5 "digikey" H 9390 4355 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 9390 4355 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 9390 4355 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 9390 4355 60  0001 C CNN "manufacturer pn"
-	1    9390 4355
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C7
-U 1 1 5905311B
-P 9170 2510
-F 0 "C7" H 9235 2560 40  0000 L CNN
-F 1 "10uF" H 9215 2490 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 9208 2360 30  0001 C CNN
-F 3 "" H 9170 2510 60  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 9170 2510 60  0001 C CNN "description"
-F 5 "digikey" H 9170 2510 60  0001 C CNN "supplier"
-F 6 " 490-3896-1-ND " H 9170 2510 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 9170 2510 60  0001 C CNN "manufacturer"
-F 8 "GRM188R60J106ME47D " H 9170 2510 60  0001 C CNN "manufacturer pn"
-	1    9170 2510
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C8
-U 1 1 59053277
-P 9360 2510
-F 0 "C8" H 9430 2565 40  0000 L CNN
-F 1 "0.1uF" H 9385 2485 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 9398 2360 30  0001 C CNN
-F 3 "" H 9360 2510 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 9360 2510 60  0001 C CNN "description"
-F 5 "digikey" H 9360 2510 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 9360 2510 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 9360 2510 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 9360 2510 60  0001 C CNN "manufacturer pn"
-	1    9360 2510
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C25
-U 1 1 5905A22C
-P 10310 5150
-F 0 "C25" H 10380 5205 40  0000 L CNN
-F 1 "0.1uF" H 10335 5125 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 10348 5000 30  0001 C CNN
-F 3 "" H 10310 5150 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 10310 5150 60  0001 C CNN "description"
-F 5 "digikey" H 10310 5150 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 10310 5150 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 10310 5150 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 10310 5150 60  0001 C CNN "manufacturer pn"
-	1    10310 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C23
-U 1 1 59062364
-P 12550 5045
-F 0 "C23" V 12710 5020 40  0000 L CNN
-F 1 "0.1uF" V 12640 5005 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 12588 4895 30  0001 C CNN
-F 3 "" H 12550 5045 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 12550 5045 60  0001 C CNN "description"
-F 5 "digikey" H 12550 5045 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 12550 5045 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 12550 5045 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 12550 5045 60  0001 C CNN "manufacturer pn"
-	1    12550 5045
-	0    1    -1   0   
-$EndComp
-$Comp
-L Res1_1 R5
-U 1 1 59072267
-P 10055 2965
-F 0 "R5" V 10145 2965 40  0000 C CNN
-F 1 "1K" V 9965 2955 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 10110 2685 30  0001 C CNN
-F 3 "" H 10055 2965 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/10W 0603 " H 10405 2595 60  0001 C CNN "description"
-F 5 "digikey" H 9845 2480 60  0001 C CNN "supplier"
-F 6 " 311-1.00KHRCT-ND " H 10650 2465 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 9430 2355 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-071KLL " H 10530 2360 60  0001 C CNN "manufacturer pn"
-	1    10055 2965
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CAP_NP C15
-U 1 1 59073656
-P 10280 3305
-F 0 "C15" H 10350 3360 40  0000 L CNN
-F 1 "0.1uF" H 10305 3280 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 10318 3155 30  0001 C CNN
-F 3 "" H 10280 3305 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 10280 3305 60  0001 C CNN "description"
-F 5 "digikey" H 10280 3305 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 10280 3305 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 10280 3305 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 10280 3305 60  0001 C CNN "manufacturer pn"
-	1    10280 3305
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C14
-U 1 1 590790F9
-P 11095 3260
-F 0 "C14" H 10905 3310 40  0000 L CNN
-F 1 "1.1nF" H 10905 3235 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 11133 3110 30  0001 C CNN
-F 3 "" H 11095 3260 60  0000 C CNN
-F 4 " CAP CER 1100PF 50V C0G/NP0 0603 " H 11095 3260 60  0001 C CNN "description"
-F 5 "digikey" H 11095 3260 60  0001 C CNN "supplier"
-F 6 " 490-1452-1-ND " H 11095 3260 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 11095 3260 60  0001 C CNN "manufacturer"
-F 8 "GRM1885C1H112JA01D " H 11095 3260 60  0001 C CNN "manufacturer pn"
-	1    11095 3260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Res1_1 R7
-U 1 1 590831E0
-P 11570 3445
-F 0 "R7" H 11470 3355 40  0000 C CNN
-F 1 "100k" H 11440 3425 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 11625 3165 30  0001 C CNN
-F 3 "" H 11570 3445 30  0000 C CNN
-F 4 " RES SMD 100K OHM 1% 1/10W 0603 " H 11920 3075 60  0001 C CNN "description"
-F 5 "digikey" H 11360 2960 60  0001 C CNN "supplier"
-F 6 " 311-100KHRCT-ND " H 12165 2945 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 10945 2835 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-07100KL " H 12045 2840 60  0001 C CNN "manufacturer pn"
-	1    11570 3445
-	-1   0    0    1   
-$EndComp
-$Comp
-L CAP_NP C18
-U 1 1 59086DFE
-P 11850 3570
-F 0 "C18" H 11920 3625 40  0000 L CNN
-F 1 "0.1uF" H 11875 3545 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 11888 3420 30  0001 C CNN
-F 3 "" H 11850 3570 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 11850 3570 60  0001 C CNN "description"
-F 5 "digikey" H 11850 3570 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 11850 3570 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 11850 3570 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 11850 3570 60  0001 C CNN "manufacturer pn"
-	1    11850 3570
-	1    0    0    -1  
-$EndComp
-$Comp
-L Res1_1 R6
-U 1 1 59088D7A
-P 11795 3140
-F 0 "R6" V 11840 3265 40  0000 C CNN
-F 1 "1K" V 11835 3015 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 11850 2860 30  0001 C CNN
-F 3 "" H 11795 3140 30  0000 C CNN
-F 4 " RES SMD 1K OHM 1% 1/10W 0603 " H 12145 2770 60  0001 C CNN "description"
-F 5 "digikey" H 11585 2655 60  0001 C CNN "supplier"
-F 6 " 311-1.00KHRCT-ND " H 12390 2640 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 11170 2530 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-071KLL " H 12270 2535 60  0001 C CNN "manufacturer pn"
-	1    11795 3140
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CAP_NP C5
-U 1 1 59092FBF
-P 11120 2140
-F 0 "C5" H 11190 2195 40  0000 L CNN
-F 1 "0.1uF" H 11145 2115 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 11158 1990 30  0001 C CNN
-F 3 "" H 11120 2140 60  0000 C CNN
-F 4 " CAP CER 0.1UF 16V X7R 0603 " H 11120 2140 60  0001 C CNN "description"
-F 5 "digikey" H 11120 2140 60  0001 C CNN "supplier"
-F 6 " 490-1532-1-ND " H 11120 2140 60  0001 C CNN "supplier pn"
-F 7 "AVX Corporation" H 11120 2140 60  0001 C CNN "manufacturer"
-F 8 " GRM188R71C104KA01D " H 11120 2140 60  0001 C CNN "manufacturer pn"
-	1    11120 2140
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15570 6415
-NoConn ~ 15570 6495
-NoConn ~ 15570 6575
-NoConn ~ 15570 6655
-$Comp
-L CAP_NP C35
-U 1 1 590AA06A
-P 5060 8960
-F 0 "C35" H 5090 9060 40  0000 L CNN
-F 1 "10uF" H 5100 8930 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 5098 8810 30  0001 C CNN
-F 3 "" H 5060 8960 60  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 5060 8960 60  0001 C CNN "description"
-F 5 "digikey" H 5060 8960 60  0001 C CNN "supplier"
-F 6 " 490-3896-1-ND " H 5060 8960 60  0001 C CNN "supplier pn"
-F 7 "Murata" H 5060 8960 60  0001 C CNN "manufacturer"
-F 8 "GRM188R60J106ME47D " H 5060 8960 60  0001 C CNN "manufacturer pn"
-	1    5060 8960
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR067
-U 1 1 590ABC1B
-P 5335 8745
-F 0 "#PWR067" H 5335 8495 50  0001 C CNN
-F 1 "GND" H 5335 8595 50  0000 C CNN
-F 2 "" H 5335 8745 50  0000 C CNN
-F 3 "" H 5335 8745 50  0000 C CNN
-	1    5335 8745
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5335 8745 5335 8710
-Wire Wire Line
-	5335 8710 5060 8710
-Wire Wire Line
-	5060 8710 5060 8810
-Wire Wire Line
-	5060 9010 5060 9190
 $EndSCHEMATC
