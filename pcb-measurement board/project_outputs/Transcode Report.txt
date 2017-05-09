@@ -1,0 +1,133 @@
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-B.Cu.gbl' ----   Mon May 08 22:14:24 2017
+
+D15   --> D100
+D16   --> D101
+D17   --> D102
+D18   --> D103
+D19   --> D104
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-B.Mask.gbs' ----   Mon May 08 22:14:24 2017
+
+D11   --> D105
+D12   --> D106
+D13   --> D107
+D14   --> D108
+D15   --> D109
+D16   --> D110
+D17   --> D111
+D18   --> D112
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-B.Paste.gbp' ----   Mon May 08 22:14:24 2017
+
+D11   --> D113
+D12   --> D114
+D13   --> D115
+D14   --> D116
+D15   --> D117
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-B.SilkS.gbo' ----   Mon May 08 22:14:24 2017
+
+D11   --> D118
+D12   --> D119
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-Edge.Cuts.gm1' ----   Mon May 08 22:14:24 2017
+
+D11   --> D120
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-F.Cu.gtl' ----   Mon May 08 22:14:24 2017
+
+D14   --> D121
+D15   --> D122
+D16   --> D123
+D17   --> D124
+D18   --> D125
+D19   --> D126
+D20   --> D127
+D21   --> D128
+D22   --> D129
+D23   --> D130
+D24   --> D131
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-F.Mask.gts' ----   Mon May 08 22:14:24 2017
+
+D11   --> D132
+D12   --> D133
+D13   --> D134
+D14   --> D135
+D15   --> D136
+D16   --> D137
+D17   --> D138
+D18   --> D139
+D19   --> D140
+D20   --> D141
+D21   --> D142
+D22   --> D143
+D23   --> D144
+D24   --> D145
+D25   --> D146
+D26   --> D147
+D27   --> D148
+D28   --> D149
+D29   --> D150
+D30   --> D151
+D31   --> D152
+D32   --> D153
+D33   --> D154
+D34   --> D155
+D35   --> D156
+D36   --> D157
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-F.Paste.gtp' ----   Mon May 08 22:14:24 2017
+
+D11   --> D158
+D12   --> D159
+D13   --> D160
+D14   --> D161
+D15   --> D162
+D16   --> D163
+D17   --> D164
+D18   --> D165
+D19   --> D166
+D20   --> D167
+D21   --> D168
+D22   --> D169
+D23   --> D170
+D24   --> D171
+D25   --> D172
+D26   --> D173
+D27   --> D174
+D28   --> D175
+D29   --> D176
+D30   --> D177
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-F.SilkS.gto' ----   Mon May 08 22:14:24 2017
+
+D11   --> D178
+D12   --> D179
+D13   --> D180
+D14   --> D181
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'L:\proj1\nea\Parking_Meter\research_wafer_fixture\version 2\pcb-measurement board\project_outputs\measurement_board-In1.Cu.g2' ----   Mon May 08 22:14:37 2017
+
+D16   --> D182
+-----------------------------------------------------------------

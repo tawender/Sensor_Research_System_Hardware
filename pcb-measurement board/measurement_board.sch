@@ -34,9 +34,9 @@ EELAYER 25 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "Schematic - NEA Sensor Measurement PCB"
-Date "2017-04-20"
+Date "2017-05-08"
 Rev "1"
 Comp "Custom Silicon Solutions"
 Comment1 ""
@@ -484,17 +484,6 @@ Text Label 8430 2890 0    50   ~ 0
 SIMO
 Text Label 8430 3040 0    45   ~ 0
 DAC1_CS
-$Comp
-L TP_SMT TP3
-U 1 1 57656DC1
-P 10210 2825
-F 0 "TP3" V 10290 2830 50  0000 C CNN
-F 1 "TP_SMT" H 10435 2675 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 10210 2825 90  0001 C CNN
-F 3 "" H 10210 2825 90  0000 C CNN
-	1    10210 2825
-	0    1    -1   0   
-$EndComp
 Text Label 9565 2965 0    50   ~ 0
 DAC1_OUT
 Text Label 10870 1630 0    50   ~ 0
@@ -1264,7 +1253,7 @@ U 1 1 5904F780
 P 5835 9390
 F 0 "P4" H 5835 9690 50  0000 C CNN
 F 1 "CONN_02X05" H 5835 9090 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 5835 8190 50  0001 C CNN
+F 2 "footprints_on_Cdrive:header_2x5_idc" H 5835 8190 50  0001 C CNN
 F 3 "" H 5835 8190 50  0000 C CNN
 F 4 "digikey" H 5835 9390 60  0001 C CNN "supplier"
 F 5 " AHK10H-ND" H 5835 9390 60  0001 C CNN "supplier pn"
@@ -1340,7 +1329,7 @@ U 1 1 59068F1E
 P 7250 9400
 F 0 "P5" H 7250 9700 50  0000 C CNN
 F 1 "CONN_02X05" H 7250 9100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 7250 8200 50  0001 C CNN
+F 2 "footprints_on_Cdrive:header_2x5_idc" H 7250 8200 50  0001 C CNN
 F 3 "" H 7250 8200 50  0000 C CNN
 	1    7250 9400
 	1    0    0    -1  
@@ -1447,19 +1436,8 @@ Text Label 8460 4810 0    50   ~ 0
 CLK
 Text Label 8460 4735 0    50   ~ 0
 SIMO
-Text Label 8460 4885 0    45   ~ 0
+Text Label 8465 4885 0    45   ~ 0
 DAC2_CS
-$Comp
-L TP_SMT TP6
-U 1 1 59074AD1
-P 10240 4670
-F 0 "TP6" V 10320 4675 50  0000 C CNN
-F 1 "TP_SMT" H 10465 4520 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 10240 4670 90  0001 C CNN
-F 3 "" H 10240 4670 90  0000 C CNN
-	1    10240 4670
-	0    1    -1   0   
-$EndComp
 Text Label 9595 4810 0    50   ~ 0
 DAC2_OUT
 $Comp
@@ -1718,30 +1696,30 @@ $EndComp
 $Comp
 L Res1_1 R12
 U 1 1 59153CC5
-P 10945 5660
-F 0 "R12" H 11050 5600 40  0000 C CNN
-F 1 "18k" H 11065 5675 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 11000 5380 30  0001 C CNN
-F 3 "" H 10945 5660 30  0000 C CNN
-F 4 " RES SMD 18K OHM 1% 1/10W 0603 " H 11295 5290 60  0001 C CNN "description"
-F 5 "digikey" H 10735 5175 60  0001 C CNN "supplier"
-F 6 " 311-18.0KHRCT-ND " H 11540 5160 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 10320 5050 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-0718KL " H 11420 5055 60  0001 C CNN "manufacturer pn"
-	1    10945 5660
+P 10945 5740
+F 0 "R12" H 11050 5680 40  0000 C CNN
+F 1 "18k" H 11065 5755 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 11000 5460 30  0001 C CNN
+F 3 "" H 10945 5740 30  0000 C CNN
+F 4 " RES SMD 18K OHM 1% 1/10W 0603 " H 11295 5370 60  0001 C CNN "description"
+F 5 "digikey" H 10735 5255 60  0001 C CNN "supplier"
+F 6 " 311-18.0KHRCT-ND " H 11540 5240 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 10320 5130 60  0001 C CNN "manufacturer"
+F 8 "RC0603FR-0718KL " H 11420 5135 60  0001 C CNN "manufacturer pn"
+	1    10945 5740
 	-1   0    0    1   
 $EndComp
 Text Label 10945 5170 0    50   ~ 0
-3V3
+V2P5
 $Comp
 L GND #PWR054
 U 1 1 591555C7
-P 10945 5805
-F 0 "#PWR054" H 10945 5555 50  0001 C CNN
-F 1 "GND" H 10945 5655 50  0000 C CNN
-F 2 "" H 10945 5805 60  0000 C CNN
-F 3 "" H 10945 5805 60  0000 C CNN
-	1    10945 5805
+P 10945 5885
+F 0 "#PWR054" H 10945 5635 50  0001 C CNN
+F 1 "GND" H 10945 5735 50  0000 C CNN
+F 2 "" H 10945 5885 60  0000 C CNN
+F 3 "" H 10945 5885 60  0000 C CNN
+	1    10945 5885
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1957,7 +1935,7 @@ Text Label 9825 10045 2    50   ~ 0
 3V3
 Text Notes 11560 2230 0    80   ~ 0
 Constant Current\nMeasurement
-Text Notes 9795 4140 0    80   ~ 0
+Text Notes 9430 4110 0    80   ~ 0
 Constant Voltage\nMeasurement
 Text Label 7130 5110 0    50   ~ 0
 Vmeas
@@ -2215,17 +2193,6 @@ F 3 "" H 3035 1125 90  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TP_SMT TP13
-U 1 1 592A33D5
-P 1030 9655
-F 0 "TP13" V 1110 9655 50  0000 C CNN
-F 1 "TP_SMT" H 1255 9505 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 1030 9655 90  0001 C CNN
-F 3 "" H 1030 9655 90  0000 C CNN
-	1    1030 9655
-	0    1    -1   0   
-$EndComp
-$Comp
 L TP_SMT TP8
 U 1 1 592A354E
 P 5165 9290
@@ -2235,39 +2202,6 @@ F 2 "footprints_on_Cdrive:TP_SMT.02" H 5165 9290 90  0001 C CNN
 F 3 "" H 5165 9290 90  0000 C CNN
 	1    5165 9290
 	-1   0    0    -1  
-$EndComp
-$Comp
-L TP_SMT TP14
-U 1 1 592B0114
-P 2390 9655
-F 0 "TP14" V 2470 9655 50  0000 C CNN
-F 1 "TP_SMT" H 2615 9505 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 2390 9655 90  0001 C CNN
-F 3 "" H 2390 9655 90  0000 C CNN
-	1    2390 9655
-	0    1    -1   0   
-$EndComp
-$Comp
-L TP_SMT TP11
-U 1 1 592B15C7
-P 3925 9530
-F 0 "TP11" V 4005 9530 50  0000 C CNN
-F 1 "TP_SMT" H 4150 9380 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 3925 9530 90  0001 C CNN
-F 3 "" H 3925 9530 90  0000 C CNN
-	1    3925 9530
-	0    1    -1   0   
-$EndComp
-$Comp
-L TP_SMT TP15
-U 1 1 592B8C1C
-P 2575 9750
-F 0 "TP15" V 2655 9750 50  0000 C CNN
-F 1 "TP_SMT" H 2800 9600 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 2575 9750 90  0001 C CNN
-F 3 "" H 2575 9750 90  0000 C CNN
-	1    2575 9750
-	0    -1   1    0   
 $EndComp
 $Comp
 L TP_SMT TP9
@@ -2311,17 +2245,6 @@ F 1 "TP_SMT" H 8500 2890 90  0001 C CNN
 F 2 "footprints_on_Cdrive:TP_SMT.02" H 8275 3040 90  0001 C CNN
 F 3 "" H 8275 3040 90  0000 C CNN
 	1    8275 3040
-	-1   0    0    -1  
-$EndComp
-$Comp
-L TP_SMT TP7
-U 1 1 592E2837
-P 8285 4885
-F 0 "TP7" H 8395 4880 50  0000 C CNN
-F 1 "TP_SMT" H 8510 4735 90  0001 C CNN
-F 2 "footprints_on_Cdrive:TP_SMT.02" H 8285 4885 90  0001 C CNN
-F 3 "" H 8285 4885 90  0000 C CNN
-	1    8285 4885
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -3191,10 +3114,7 @@ Wire Wire Line
 Wire Wire Line
 	9360 2360 9360 2325
 Connection ~ 9360 2325
-Connection ~ 10210 2965
 Connection ~ 10280 2965
-Wire Wire Line
-	10210 2875 10210 2965
 Wire Wire Line
 	1980 8605 2260 8605
 Wire Wire Line
@@ -3296,7 +3216,7 @@ Wire Wire Line
 Wire Wire Line
 	3810 9700 3810 9785
 Wire Wire Line
-	3370 9600 3925 9600
+	3370 9600 3740 9600
 Wire Wire Line
 	2870 9500 2575 9500
 Wire Wire Line
@@ -3310,9 +3230,9 @@ Wire Notes Line
 Wire Notes Line
 	4010 7850 4010 9985
 Wire Wire Line
-	1980 9705 2390 9705
+	1980 9705 2260 9705
 Wire Wire Line
-	1030 9705 1480 9705
+	1170 9705 1480 9705
 Wire Wire Line
 	10900 7490 10745 7490
 Wire Wire Line
@@ -3676,9 +3596,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 9500 7870 9500
 Wire Wire Line
-	10385 4610 10355 4610
+	10355 4610 10385 4610
 Wire Wire Line
-	10355 4610 10355 4230
+	10355 4100 10355 4610
 Wire Wire Line
 	9595 4960 9645 4960
 Wire Wire Line
@@ -3690,7 +3610,7 @@ Wire Wire Line
 Wire Wire Line
 	8460 4810 8795 4810
 Wire Wire Line
-	8335 4885 8795 4885
+	8465 4885 8795 4885
 Wire Wire Line
 	8460 4735 8795 4735
 Wire Wire Line
@@ -3719,19 +3639,13 @@ Wire Wire Line
 Wire Wire Line
 	9390 4205 9390 4170
 Connection ~ 9390 4170
-Connection ~ 10240 4810
 Connection ~ 10310 4810
-Wire Wire Line
-	10240 4720 10240 4810
 Wire Wire Line
 	11345 3875 13180 3875
 Wire Wire Line
 	10985 4710 11230 4710
 Wire Wire Line
-	11085 4710 11085 4230
-Wire Wire Line
-	11085 4230 10355 4230
-Connection ~ 11085 4710
+	10355 4230 11305 4230
 Wire Wire Line
 	11455 4710 13185 4710
 Wire Wire Line
@@ -3839,13 +3753,13 @@ Wire Wire Line
 Wire Wire Line
 	10945 5240 10945 5170
 Wire Wire Line
-	10945 5760 10945 5805
+	10945 5840 10945 5885
 Wire Wire Line
-	10945 5465 10945 5535
+	10945 5465 10945 5615
 Wire Wire Line
-	11145 5500 11145 5285
+	11145 5285 11145 5650
 Wire Wire Line
-	8095 5500 11145 5500
+	8095 5500 10945 5500
 Connection ~ 10945 5500
 Wire Wire Line
 	14450 1030 14450 1005
@@ -3904,8 +3818,6 @@ Wire Wire Line
 	2700 2650 2980 2650
 Connection ~ 2980 2650
 Connection ~ 3035 1245
-Wire Wire Line
-	3925 9600 3925 9580
 Wire Wire Line
 	6480 9490 6480 9530
 Wire Wire Line
@@ -4036,4 +3948,115 @@ Text Label 2135 6235 0    50   ~ 0
 SCK
 Wire Wire Line
 	2135 6235 2430 6235
+$Comp
+L Res1_1 R17
+U 1 1 5911522F
+P 11405 4230
+F 0 "R17" V 11565 4235 40  0000 C CNN
+F 1 "0 ohm" V 11495 4235 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11460 3950 30  0001 C CNN
+F 3 "" H 11405 4230 30  0000 C CNN
+F 4 " RES SMD 0.0OHM JUMPER 1/16W 0402 " H 11755 3860 60  0001 C CNN "description"
+F 5 "digikey" H 11195 3745 60  0001 C CNN "supplier"
+F 6 " 311-0.0JRCT-ND " H 12000 3730 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 10780 3620 60  0001 C CNN "manufacturer"
+F 8 " RC0402JR-070RL " H 11880 3625 60  0001 C CNN "manufacturer pn"
+	1    11405 4230
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Res1_1 R18
+U 1 1 591175B3
+P 11115 4460
+F 0 "R18" H 11240 4515 40  0000 C CNN
+F 1 "DNI" H 11230 4445 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0402" H 11170 4180 30  0001 C CNN
+F 3 "" H 11115 4460 30  0000 C CNN
+F 4 " RES SMD 0.0OHM JUMPER 1/16W 0402 " H 11465 4090 60  0001 C CNN "description"
+F 5 "digikey" H 10905 3975 60  0001 C CNN "supplier"
+F 6 " 311-0.0JRCT-ND " H 11710 3960 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 10490 3850 60  0001 C CNN "manufacturer"
+F 8 " RC0402JR-070RL " H 11590 3855 60  0001 C CNN "manufacturer pn"
+	1    11115 4460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11115 4360 11115 4230
+Connection ~ 11115 4230
+Wire Wire Line
+	11530 4230 11585 4230
+Wire Wire Line
+	11585 4230 11585 4710
+Connection ~ 11585 4710
+Wire Wire Line
+	11115 4585 11115 4710
+Connection ~ 11115 4710
+$Comp
+L CAP_NP C39
+U 1 1 5911B3B7
+P 10655 4100
+F 0 "C39" V 10790 4230 40  0000 L CNN
+F 1 "10pF" V 10720 4200 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0402" H 10693 3950 30  0001 C CNN
+F 3 "" H 10655 4100 60  0000 C CNN
+F 4 " CAP CER 10PF 50V C0G/NP0 0402 " H 10655 4100 60  0001 C CNN "description"
+F 5 "digikey" H 10655 4100 60  0001 C CNN "supplier"
+F 6 " 490-5921-1-ND " H 10655 4100 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 10655 4100 60  0001 C CNN "manufacturer"
+F 8 " GRM1555C1H100JA01D " H 10655 4100 60  0001 C CNN "manufacturer pn"
+	1    10655 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10805 4100 11010 4100
+Wire Wire Line
+	11010 4100 11010 4710
+Connection ~ 11010 4710
+Wire Wire Line
+	10605 4100 10355 4100
+Connection ~ 10355 4230
+Wire Wire Line
+	10945 5565 11145 5565
+Connection ~ 10945 5565
+$Comp
+L GND #PWR074
+U 1 1 591247F5
+P 11145 5885
+F 0 "#PWR074" H 11145 5635 50  0001 C CNN
+F 1 "GND" H 11145 5735 50  0000 C CNN
+F 2 "" H 11145 5885 60  0000 C CNN
+F 3 "" H 11145 5885 60  0000 C CNN
+	1    11145 5885
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C40
+U 1 1 59124800
+P 11145 5800
+F 0 "C40" H 11215 5855 40  0000 L CNN
+F 1 "0.1uF" H 11170 5775 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0603" H 11183 5650 30  0001 C CNN
+F 3 "" H 11145 5800 60  0000 C CNN
+F 4 " CAP CER 0.1UF 16V X7R 0603 " H 11145 5800 60  0001 C CNN "description"
+F 5 "digikey" H 11145 5800 60  0001 C CNN "supplier"
+F 6 " 490-1532-1-ND " H 11145 5800 60  0001 C CNN "supplier pn"
+F 7 "AVX Corporation" H 11145 5800 60  0001 C CNN "manufacturer"
+F 8 " GRM188R71C104KA01D " H 11145 5800 60  0001 C CNN "manufacturer pn"
+	1    11145 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11145 5850 11145 5885
+Connection ~ 11145 5565
+$Comp
+L TP_SMT TP3
+U 1 1 591574ED
+P 8415 4885
+F 0 "TP3" H 8530 4875 50  0000 C CNN
+F 1 "TP_SMT" H 8640 4735 90  0001 C CNN
+F 2 "footprints_on_Cdrive:TP_SMT.02" H 8415 4885 90  0001 C CNN
+F 3 "" H 8415 4885 90  0000 C CNN
+	1    8415 4885
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
