@@ -53,9 +53,9 @@ F 1 "CONN_02X15" H 7105 945 50  0000 C CNN
 F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x15_Pitch2.54mm" H 7105 645 50  0001 C CNN
 F 3 "" H 7105 645 50  0000 C CNN
 F 4 "digikey" H 7105 1795 60  0001 C CNN "supplier"
-F 5 "A107235-ND " H 7105 1795 60  0001 C CNN "supplier pn"
+F 5 "A26494-ND " H 7105 1795 60  0001 C CNN "supplier pn"
 F 6 "TE" H 7105 1795 60  0001 C CNN "manufacturer"
-F 7 "2-146134-1 " H 7105 1795 60  0001 C CNN "manufacturer pn"
+F 7 "1-534998-5" H 7105 1795 60  0001 C CNN "manufacturer pn"
 F 8 "CONN HEADER B/A 30POS VERT DUAL SMT" H 7105 1795 60  0001 C CNN "description"
 	1    7105 1795
 	-1   0    0    -1  
@@ -69,10 +69,10 @@ F 1 "CONN_02X13" H 5715 1150 50  0000 C CNN
 F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x13_Pitch2.54mm" H 5715 750 50  0001 C CNN
 F 3 "" H 5715 750 50  0000 C CNN
 F 4 "digikey" H 5715 1900 60  0001 C CNN "supplier"
-F 5 "A26494-ND" H 5715 1900 60  0001 C CNN "supplier pn"
+F 5 "A26492-ND" H 5715 1900 60  0001 C CNN "supplier pn"
 F 6 "TE" H 5715 1900 60  0001 C CNN "manufacturer"
-F 7 "1-534998-5 " H 5715 1900 60  0001 C CNN "manufacturer pn"
-F 8 "CONN RECEPT 30POS .100 VERT DUAL " H 5715 1900 60  0001 C CNN "description"
+F 7 "1-534998-3 " H 5715 1900 60  0001 C CNN "manufacturer pn"
+F 8 "CONN RECEPT 26POS .100 VERT DUAL " H 5715 1900 60  0001 C CNN "description"
 	1    5715 1900
 	-1   0    0    -1  
 $EndComp

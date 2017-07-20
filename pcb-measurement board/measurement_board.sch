@@ -36,9 +36,9 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Schematic - NEA Sensor Measurement PCB"
-Date "2017-05-08"
+Date "2017-05-12"
 Rev "1"
-Comp "Custom Silicon Solutions"
+Comp "Custom Silicon Solutions, Inc."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -164,22 +164,6 @@ Text Label 7130 4960 0    50   ~ 0
 V2P5
 Text Label 11570 3215 0    45   ~ 0
 ~SELG
-$Comp
-L Res1_1 R4
-U 1 1 574226CA
-P 9130 1220
-F 0 "R4" H 9190 1110 40  0000 C CNN
-F 1 "?" H 9200 1310 40  0000 C CNN
-F 2 "footprints_on_Cdrive:0603" H 9185 940 30  0001 C CNN
-F 3 "" H 9130 1220 30  0000 C CNN
-F 4 " " H 9480 850 60  0001 C CNN "description"
-F 5 "digikey" H 8920 735 60  0001 C CNN "supplier"
-F 6 " " H 9725 720 60  0001 C CNN "supplier pn"
-F 7 "Yageo" H 8505 610 60  0001 C CNN "manufacturer"
-F 8 " " H 9605 615 60  0001 C CNN "manufacturer pn"
-	1    9130 1220
-	-1   0    0    1   
-$EndComp
 Text Label 4180 4810 0    50   ~ 0
 SCK
 $Comp
@@ -360,14 +344,14 @@ L Q_Si1101X Q1
 U 1 1 575D179A
 P 11245 2790
 F 0 "Q1" H 11545 2840 50  0000 R CNN
-F 1 "Si1101X" H 11740 2745 50  0000 R CNN
+F 1 "Si1103X" H 11740 2745 50  0000 R CNN
 F 2 "footprints_on_Cdrive:SOT23" H 11445 2890 50  0001 C CNN
 F 3 "" H 11245 2790 50  0000 C CNN
-F 4 "SI1011X-T1-GE3CT-ND " H 11720 3190 50  0001 C CNN "supplier pn"
+F 4 "SI1013X-T1-GE3CT-ND " H 11720 3190 50  0001 C CNN "supplier pn"
 F 5 "digikey" H 11070 3190 50  0001 C CNN "supplier"
 F 6 "Vishay" H 11095 3290 50  0001 C CNN "manufacturer"
-F 7 "SI1011X-T1-GE3 " H 11595 3290 50  0001 C CNN "manufacturer pn"
-F 8 "MOSFET P-CH 12V SC-89 " H 11445 3490 50  0001 C CNN "description"
+F 7 "SI1013X-T1-GE3 " H 11595 3290 50  0001 C CNN "manufacturer pn"
+F 8 "MOSFET P-CH 20V 350MA SC89-3 " H 11445 3490 50  0001 C CNN "description"
 	1    11245 2790
 	1    0    0    1   
 $EndComp
@@ -447,7 +431,7 @@ F 3 "" H 10605 3140 60  0000 C CNN
 	1    10605 3140
 	1    0    0    -1  
 $EndComp
-Text Label 9565 2890 0    50   ~ 0
+Text Label 9565 2720 0    50   ~ 0
 3V3
 $Comp
 L GND #PWR017
@@ -579,10 +563,10 @@ F 1 "CONN_02X15" H 3120 8150 50  0000 C CNN
 F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x15_Pitch2.54mm" H 3120 7850 50  0001 C CNN
 F 3 "" H 3120 7850 50  0000 C CNN
 F 4 "digikey" H 3120 9000 60  0001 C CNN "supplier"
-F 5 "A107235-ND " H 3120 9000 60  0001 C CNN "supplier pn"
+F 5 "A26494-ND" H 3120 9000 60  0001 C CNN "supplier pn"
 F 6 "TE" H 3120 9000 60  0001 C CNN "manufacturer"
-F 7 "2-146134-1 " H 3120 9000 60  0001 C CNN "manufacturer pn"
-F 8 "CONN HEADER B/A 30POS VERT DUAL SMT" H 3120 9000 60  0001 C CNN "description"
+F 7 "1-534998-5" H 3120 9000 60  0001 C CNN "manufacturer pn"
+F 8 " CONN RECEPT 30POS .100 VERT DUAL " H 3120 9000 60  0001 C CNN "description"
 	1    3120 9000
 	-1   0    0    -1  
 $EndComp
@@ -595,10 +579,10 @@ F 1 "CONN_02X13" H 1730 8355 50  0000 C CNN
 F 2 "footprints_on_Cdrive:Pin_Header_Straight_2x13_Pitch2.54mm" H 1730 7955 50  0001 C CNN
 F 3 "" H 1730 7955 50  0000 C CNN
 F 4 "digikey" H 1730 9105 60  0001 C CNN "supplier"
-F 5 "A26494-ND" H 1730 9105 60  0001 C CNN "supplier pn"
+F 5 "A26492-ND" H 1730 9105 60  0001 C CNN "supplier pn"
 F 6 "TE" H 1730 9105 60  0001 C CNN "manufacturer"
-F 7 "1-534998-5 " H 1730 9105 60  0001 C CNN "manufacturer pn"
-F 8 "CONN RECEPT 30POS .100 VERT DUAL " H 1730 9105 60  0001 C CNN "description"
+F 7 "1-534998-3" H 1730 9105 60  0001 C CNN "manufacturer pn"
+F 8 "CONN RECEPT 26POS .100 VERT DUAL " H 1730 9105 60  0001 C CNN "description"
 	1    1730 9105
 	-1   0    0    -1  
 $EndComp
@@ -1229,8 +1213,8 @@ Text Label 4180 4510 0    50   ~ 0
 MUX1
 Text Label 4180 4585 0    50   ~ 0
 MUX2
-Text Notes 1505 5915 0    70   ~ 0
-14-pin Dual Row\nHeader for MSP-FET\nProgram/Debug Interface
+Text Notes 1115 5870 0    70   ~ 0
+Flat Flex Cable Connector for\nMSP-FET Program/Debug Interface
 $Comp
 L CAP_NP C31
 U 1 1 5904F6B3
@@ -1256,10 +1240,10 @@ F 1 "CONN_02X05" H 5835 9090 50  0000 C CNN
 F 2 "footprints_on_Cdrive:header_2x5_idc" H 5835 8190 50  0001 C CNN
 F 3 "" H 5835 8190 50  0000 C CNN
 F 4 "digikey" H 5835 9390 60  0001 C CNN "supplier"
-F 5 " AHK10H-ND" H 5835 9390 60  0001 C CNN "supplier pn"
-F 6 "TE Connectivity" H 5835 9390 60  0001 C CNN "manufacturer"
-F 7 " 5499922-1 " H 5835 9390 60  0001 C CNN "manufacturer pn"
-F 8 "CONN HEADER VERT 10POS .100 15AU " H 5835 9390 60  0001 C CNN "description"
+F 5 " S2012EC-40-ND " H 5835 9390 60  0001 C CNN "supplier pn"
+F 6 "Sullins Connector" H 5835 9390 60  0001 C CNN "manufacturer"
+F 7 " PREC040DAAN-RC " H 5835 9390 60  0001 C CNN "manufacturer pn"
+F 8 "CONN HEADER .100\" DUAL STR 80POS " H 5835 9390 60  0001 C CNN "description"
 	1    5835 9390
 	1    0    0    -1  
 $EndComp
@@ -1698,14 +1682,14 @@ L Res1_1 R12
 U 1 1 59153CC5
 P 10945 5740
 F 0 "R12" H 11050 5680 40  0000 C CNN
-F 1 "18k" H 11065 5755 40  0000 C CNN
+F 1 "24.9k" H 11085 5755 40  0000 C CNN
 F 2 "footprints_on_Cdrive:0603" H 11000 5460 30  0001 C CNN
 F 3 "" H 10945 5740 30  0000 C CNN
-F 4 " RES SMD 18K OHM 1% 1/10W 0603 " H 11295 5370 60  0001 C CNN "description"
+F 4 "RES SMD 24.9K OHM 1% 1/10W 0603 " H 11295 5370 60  0001 C CNN "description"
 F 5 "digikey" H 10735 5255 60  0001 C CNN "supplier"
-F 6 " 311-18.0KHRCT-ND " H 11540 5240 60  0001 C CNN "supplier pn"
+F 6 "311-24.9KHRCT-ND " H 11540 5240 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 10320 5130 60  0001 C CNN "manufacturer"
-F 8 "RC0603FR-0718KL " H 11420 5135 60  0001 C CNN "manufacturer pn"
+F 8 "RC0603FR-0724K9L " H 11420 5135 60  0001 C CNN "manufacturer pn"
 	1    10945 5740
 	-1   0    0    1   
 $EndComp
@@ -1745,14 +1729,14 @@ L Res1_1 R3
 U 1 1 591835DF
 P 9380 1215
 F 0 "R3" H 9440 1105 40  0000 C CNN
-F 1 "?" H 9450 1305 40  0000 C CNN
+F 1 "10k" H 9485 1310 40  0000 C CNN
 F 2 "footprints_on_Cdrive:0603" H 9435 935 30  0001 C CNN
 F 3 "" H 9380 1215 30  0000 C CNN
-F 4 " " H 9730 845 60  0001 C CNN "description"
+F 4 "RES SMD 10K OHM 1% 1/10W 0603 " H 9730 845 60  0001 C CNN "description"
 F 5 "digikey" H 9170 730 60  0001 C CNN "supplier"
-F 6 " " H 9975 715 60  0001 C CNN "supplier pn"
+F 6 "311-10.0KHRCT-ND " H 9975 715 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 8755 605 60  0001 C CNN "manufacturer"
-F 8 " " H 9855 610 60  0001 C CNN "manufacturer pn"
+F 8 "RC0603FR-0710KL " H 9855 610 60  0001 C CNN "manufacturer pn"
 	1    9380 1215
 	-1   0    0    1   
 $EndComp
@@ -1761,14 +1745,14 @@ L Res1_1 R1
 U 1 1 59183961
 P 9630 1210
 F 0 "R1" H 9690 1100 40  0000 C CNN
-F 1 "?" H 9700 1300 40  0000 C CNN
+F 1 "30k" H 9725 1310 40  0000 C CNN
 F 2 "footprints_on_Cdrive:0603" H 9685 930 30  0001 C CNN
 F 3 "" H 9630 1210 30  0000 C CNN
-F 4 " " H 9980 840 60  0001 C CNN "description"
+F 4 "RES SMD 30K OHM 1% 1/10W 0603 " H 9980 840 60  0001 C CNN "description"
 F 5 "digikey" H 9420 725 60  0001 C CNN "supplier"
-F 6 " " H 10225 710 60  0001 C CNN "supplier pn"
+F 6 "311-30.0KHRCT-ND " H 10225 710 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 9005 600 60  0001 C CNN "manufacturer"
-F 8 " " H 10105 605 60  0001 C CNN "manufacturer pn"
+F 8 "RC0603FR-0730KL " H 10105 605 60  0001 C CNN "manufacturer pn"
 	1    9630 1210
 	-1   0    0    1   
 $EndComp
@@ -1777,14 +1761,14 @@ L Res1_1 R2
 U 1 1 59183AB2
 P 9880 1210
 F 0 "R2" H 9940 1100 40  0000 C CNN
-F 1 "?" H 9950 1300 40  0000 C CNN
+F 1 "75k" H 9950 1300 40  0000 C CNN
 F 2 "footprints_on_Cdrive:0603" H 9935 930 30  0001 C CNN
 F 3 "" H 9880 1210 30  0000 C CNN
-F 4 " " H 10230 840 60  0001 C CNN "description"
+F 4 "RES SMD 75K OHM 1% 1/10W 0603 " H 10230 840 60  0001 C CNN "description"
 F 5 "digikey" H 9670 725 60  0001 C CNN "supplier"
-F 6 " " H 10475 710 60  0001 C CNN "supplier pn"
+F 6 "311-75.0KHRCT-ND " H 10475 710 60  0001 C CNN "supplier pn"
 F 7 "Yageo" H 9255 600 60  0001 C CNN "manufacturer"
-F 8 " " H 10355 605 60  0001 C CNN "manufacturer pn"
+F 8 "RC0603FR-0775KL " H 10355 605 60  0001 C CNN "manufacturer pn"
 	1    9880 1210
 	-1   0    0    1   
 $EndComp
@@ -2660,22 +2644,6 @@ F 8 "RC0603FR-071KLL " H 12505 5725 60  0001 C CNN "manufacturer pn"
 	1    12030 6330
 	0    -1   -1   0   
 $EndComp
-$Comp
-L CAP_NP C38
-U 1 1 591216F7
-P 12260 6550
-F 0 "C38" H 12070 6635 40  0000 L CNN
-F 1 "1nF" H 12070 6560 40  0000 L CNN
-F 2 "footprints_on_Cdrive:0603" H 12298 6400 30  0001 C CNN
-F 3 "" H 12260 6550 60  0000 C CNN
-F 4 "CAP CER 1000PF 16V X7R 0603" H 12260 6550 60  0001 C CNN "description"
-F 5 "digikey" H 12260 6550 60  0001 C CNN "supplier"
-F 6 " 399-7835-1-ND " H 12260 6550 60  0001 C CNN "supplier pn"
-F 7 "Kemet" H 12260 6550 60  0001 C CNN "manufacturer"
-F 8 "C0603C102K4RACTU " H 12260 6550 60  0001 C CNN "manufacturer pn"
-	1    12260 6550
-	-1   0    0    -1  
-$EndComp
 Text Label 11415 3875 0    45   ~ 0
 CC
 $Comp
@@ -2754,7 +2722,7 @@ L CONN_01X10 P1
 U 1 1 5910023D
 P 2630 6585
 F 0 "P1" H 2610 7140 50  0000 C CNN
-F 1 "10-Pin Flex Cable" H 2455 6020 50  0000 C CNN
+F 1 "10-Pin Flex Conn" H 2455 6020 50  0000 C CNN
 F 2 "footprints_on_Cdrive:WM6745-FPC" H 2555 5810 60  0001 C CNN
 F 3 "" H 2630 6585 60  0000 C CNN
 F 4 "CONN_FFC_FPC_10POS_0.50MM_R/A" H 2630 5910 50  0001 C CNN "description"
@@ -4058,5 +4026,38 @@ F 2 "footprints_on_Cdrive:TP_SMT.02" H 8415 4885 90  0001 C CNN
 F 3 "" H 8415 4885 90  0000 C CNN
 	1    8415 4885
 	-1   0    0    -1  
+$EndComp
+$Comp
+L CAP_NP C38
+U 1 1 591C409B
+P 12260 6550
+F 0 "C38" H 12070 6600 40  0000 L CNN
+F 1 "1.1nF" H 12070 6525 40  0000 L CNN
+F 2 "footprints_on_Cdrive:0603" H 12298 6400 30  0001 C CNN
+F 3 "" H 12260 6550 60  0000 C CNN
+F 4 " CAP CER 1100PF 50V C0G/NP0 0603 " H 12260 6550 60  0001 C CNN "description"
+F 5 "digikey" H 12260 6550 60  0001 C CNN "supplier"
+F 6 " 490-1452-1-ND " H 12260 6550 60  0001 C CNN "supplier pn"
+F 7 "Murata" H 12260 6550 60  0001 C CNN "manufacturer"
+F 8 "GRM1885C1H112JA01D " H 12260 6550 60  0001 C CNN "manufacturer pn"
+	1    12260 6550
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12410 7110
+$Comp
+L Res1_1 R4
+U 1 1 5916886A
+P 9130 1195
+F 0 "R4" H 9055 1275 40  0000 C CNN
+F 1 "2k" H 9040 1075 40  0000 C CNN
+F 2 "footprints_on_Cdrive:0603" H 9185 915 30  0001 C CNN
+F 3 "" H 9130 1195 30  0000 C CNN
+F 4 " RES SMD 2K OHM 1% 1/10W 0603 " H 9480 825 60  0001 C CNN "description"
+F 5 "digikey" H 8920 710 60  0001 C CNN "supplier"
+F 6 " 311-2.00KHRCT-ND " H 9725 695 60  0001 C CNN "supplier pn"
+F 7 "Yageo" H 8505 585 60  0001 C CNN "manufacturer"
+F 8 " RC0603FR-072KL " H 9605 590 60  0001 C CNN "manufacturer pn"
+	1    9130 1195
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
